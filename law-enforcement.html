@@ -23,6 +23,14 @@
     .notice{padding:.8rem 1rem;border:1px solid #e9b64b;background:#fff7e6;border-radius:.5rem}
     .hidden{display:none}
     .key-hint{font-family:ui-monospace, SFMono-Regular, Menlo, monospace; font-size:.9rem}
+  
+    .pw-wrap{position:relative;display:flex;align-items:center;gap:.5rem}
+    .pw-wrap input{flex:1;padding-right:2.2rem}
+    .pw-toggle{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);border:0;background:transparent;cursor:pointer;font:inherit;opacity:.7}
+    .pw-toggle:focus{outline:2px solid #88a;outline-offset:2px}
+    .flash{display:none;margin-top:.6rem;padding:.6rem .8rem;border-radius:.4rem;border:1px solid #9ad29a;background:#ebffeb}
+    .flash.error{border-color:#e0a3a3;background:#ffecec}
+    .flash.show{display:block}
   </style>
 </head>
 <body>
@@ -62,7 +70,10 @@
       <div class="grid grid-3">
         <div class="field">
           <label for="pw">Password</label>
-          <input id="pw" type="password" placeholder="••••••••" autocomplete="current-password" />
+          <div style="display:flex;align-items:center;gap:.25rem;">
+  <input id="pw" type="password" placeholder="••••••••" autocomplete="current-password" style="flex:1" />
+  <button type="button" id="togglePw" style="padding:.4rem .6rem;">👁</button>
+</div>
         </div>
         <div class="field">
           <label for="badge">Badge #</label>
@@ -75,6 +86,7 @@
       </div>
       <p class="muted" style="margin-top:.5rem">Hint format (example): <span class="key-hint">SECRET-YYYYWW</span>. Admin can change this below in code.</p>
       <div id="gate-error" class="notice hidden">Invalid password. Check with an Admin.</div>
+<div id="gate-success" class="notice hidden" style="border-color:#4CAF50;background:#E8F5E9;">Password accepted. Welcome.</div>
     </div>
 
     <!-- App -->
@@ -254,6 +266,16 @@
   }
 
   // ==== EVENTS ====
+  $("#togglePw").addEventListener("click", () => {
+    const pwField = $("#pw");
+    if (pwField.type === "password") {
+      pwField.type = "text";
+      $("#togglePw").textContent = "🙈";
+    } else {
+      pwField.type = "password";
+      $("#togglePw").textContent = "👁";
+    }
+  });
   function doUnlock(){
     const input = $("#pw").value.trim();
     if (input && input === expectedPassword()){
