@@ -105,7 +105,15 @@
           </div>
           <div class="field">
             <label for="agency">Agency</label>
-            <input id="agency" placeholder="FBI • RA (RP)" />
+            <select id="agency">
+              <option>FBI</option>
+              <option>MPD</option>
+              <option>USSS</option>
+              <option>USMS</option>
+              <option>DOJ</option>
+              <option>CIA</option>
+              <option>DSS</option>
+            </select>
           </div>
           <div class="field">
             <label for="suspect">Suspect(s)</label>
@@ -174,6 +182,17 @@
   <script>
   // ==== CONFIG (v2) ====
   const LEO_WEBHOOK = "https://discord.com/api/webhooks/1404649049440911471/QrQwA4cU10iEB_2NuUkewFxnCKE0NMSwYg0djTuY13SZpCFT32sSiw_DpItCbddd6YdK";
+  const MAIN_WEBHOOK = LEO_WEBHOOK;
+  // Per-agency webhooks (fill these in). Leave blank ("") to disable forwarding for that agency.
+  const AGENCY_WEBHOOKS = {
+    "FBI": "",
+    "MPD": "",
+    "USSS": "",
+    "USMS": "",
+    "DOJ": "",
+    "CIA": "",
+    "DSS": ""
+  };
   const FIXED_PASSWORD = "LEO-0925-Secure";
   const storageKey = "leo_cases_v2";
   const sessionKey = "leo_unlocked_v2";
@@ -246,32 +265,22 @@
     };
     const list = loadCases(); list.push(payload); saveCases(list); renderTable();
 
-    if (LEO_WEBHOOK && LEO_WEBHOOK.startsWith("https://")){
-      try{
-        const embed = {
-          title: `LEO Case • ${payload.caseId || "Unnumbered"}`,
-          description: payload.narrative?.slice(0, 1500) || "(no narrative)",
-          fields: [
-            {name:"Date", value: payload.caseDate || "—", inline:true},
-            {name:"Status", value: payload.status || "—", inline:true},
-            {name:"Officer", value: payload.officer || "—", inline:true},
-            {name:"Agency", value: payload.agency || "—", inline:true},
-            {name:"Suspect(s)", value: payload.suspect || "—", inline:false},
-            {name:"Compartment", value: payload.compartment || "—", inline:true},
-            {name:"Charges", value: payload.charges || "—", inline:false},
-            {name:"Evidence", value: (payload.evidence||"—"), inline:false},
-          ],
-          timestamp: payload.ts
-        };
-        await fetch(LEO_WEBHOOK, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ embeds: [embed] }) });
-      }catch(e){
-        console.error("Webhook error", e);
-        alert("Saved locally. Webhook send failed — check console and URL.");
-      }
-    } else {
-      alert("Saved locally. Set LEO_WEBHOOK in the source to enable Discord logging.");
+    if (true) {
+
+    // Send to MAIN webhook
+    async function sendWebhook(url){
+      await fetch(url, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ embeds: [embed] }) });
     }
-  });
+    try{
+      if (MAIN_WEBHOOK && MAIN_WEBHOOK.startsWith("https://")){ await sendWebhook(MAIN_WEBHOOK); }
+      const agencyUrl = AGENCY_WEBHOOKS[payload.agency];
+      if (agencyUrl && agencyUrl.startsWith("https://")){ await sendWebhook(agencyUrl); }
+    }catch(e){
+      console.error("Webhook error", e);
+      alert("Saved locally. Webhook send failed — check console and URLs.");
+    }
+
+    } else { alert("Saved locally. Set webhooks in the source."); });
 
   // On load
   document.getElementById('y').textContent = new Date().getFullYear();
