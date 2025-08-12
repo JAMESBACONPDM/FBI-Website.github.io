@@ -7,6 +7,7 @@
   <title>Federal Bureau of Investigation — RP (Law Enforcement)</title>
   <link rel="stylesheet" href="common.css" />
   <style>
+    /* v2 CLEAN BUILD */
     .lock-badge{font-size:.8rem;padding:.15rem .4rem;border:1px solid currentColor;border-radius:.35rem;opacity:.8}
     .panel{background:#0b1a2a0d;border:1px solid #0b1a2a22;border-radius:.75rem;padding:1rem}
     .grid{display:grid;gap:1rem}
@@ -14,7 +15,7 @@
     .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
     .field{display:flex;flex-direction:column;gap:.25rem}
     .field label{font-weight:600}
-    .field input,.field textarea, .field select{padding:.6rem .7rem;border:1px solid #d0d4da;border-radius:.5rem;font:inherit}
+    .field input,.field textarea,.field select{padding:.6rem .7rem;border:1px solid #d0d4da;border-radius:.5rem;font:inherit}
     .btn{padding:.7rem 1rem;border:1px solid #0b1a2a;border-radius:.5rem;background:#0b1a2a;color:#fff;cursor:pointer}
     .btn:disabled{opacity:.6;cursor:not-allowed}
     .muted{opacity:.7}
@@ -22,14 +23,10 @@
     .table th,.table td{border-bottom:1px solid #e6e9ee;padding:.6rem .5rem;text-align:left;vertical-align:top}
     .notice{padding:.8rem 1rem;border:1px solid #e9b64b;background:#fff7e6;border-radius:.5rem}
     .hidden{display:none}
-    .key-hint{font-family:ui-monospace, SFMono-Regular, Menlo, monospace; font-size:.9rem}
-  
     .pw-wrap{position:relative;display:flex;align-items:center;gap:.5rem}
     .pw-wrap input{flex:1;padding-right:2.2rem}
     .pw-toggle{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);border:0;background:transparent;cursor:pointer;font:inherit;opacity:.7}
-    .pw-toggle:focus{outline:2px solid #88a;outline-offset:2px}
     .flash{display:none;margin-top:.6rem;padding:.6rem .8rem;border-radius:.4rem;border:1px solid #9ad29a;background:#ebffeb}
-    .flash.error{border-color:#e0a3a3;background:#ffecec}
     .flash.show{display:block}
   </style>
 </head>
@@ -65,15 +62,14 @@
 
     <!-- Gate -->
     <div id="gate" class="panel">
-      <h3>Enter Weekly Password</h3>
-      <p class="muted">Ask your Admin for the current password. It rotates weekly.</p>
+      <h3>Enter Password</h3>
       <div class="grid grid-3">
         <div class="field">
           <label for="pw">Password</label>
-          <div style="display:flex;align-items:center;gap:.25rem;">
-  <input id="pw" type="password" placeholder="••••••••" autocomplete="current-password" style="flex:1" />
-  <button type="button" id="togglePw" style="padding:.4rem .6rem;">👁</button>
-</div>
+          <div class="pw-wrap">
+            <input id="pw" type="password" placeholder="••••••••" autocomplete="current-password" />
+            <button type="button" id="pwToggle" class="pw-toggle" aria-label="Show password" title="Show password">👁️</button>
+          </div>
         </div>
         <div class="field">
           <label for="badge">Badge #</label>
@@ -84,17 +80,14 @@
           <button id="unlock" class="btn">Unlock</button>
         </div>
       </div>
-      <p class="muted" style="margin-top:.5rem">Hint format (example): <span class="key-hint">SECRET-YYYYWW</span>. Admin can change this below in code.</p>
       <div id="gate-error" class="notice hidden">Invalid password. Check with an Admin.</div>
-<div id="gate-success" class="notice hidden" style="border-color:#4CAF50;background:#E8F5E9;">Password accepted. Welcome.</div>
+      <div id="gate-success" class="flash">Access granted. Loading portal…</div>
+      <div id="pw-hint" class="muted hidden" style="margin-top:.25rem;font-size:.9rem"></div>
+      <div class="muted" style="margin-top:.5rem">Build: <code>LEO v2</code></div>
     </div>
 
     <!-- App -->
     <section id="app" class="hidden" style="margin-top:1.5rem">
-      <div class="notice" style="margin-bottom:1rem">
-        Canonical log: Discord channel connected to your private LEO webhook. This page also keeps a <strong>local copy</strong> of submissions on your device for quick reference (RP).
-      </div>
-
       <div class="panel">
         <h3>Create Case File</h3>
         <div class="grid grid-2">
@@ -112,7 +105,7 @@
           </div>
           <div class="field">
             <label for="agency">Agency</label>
-            <input id="agency" placeholder="FBI • Flat Creek RA (RP)" />
+            <input id="agency" placeholder="FBI • RA (RP)" />
           </div>
           <div class="field">
             <label for="suspect">Suspect(s)</label>
@@ -141,7 +134,7 @@
               <option>RSEN</option>
             </select>
           </div>
-<div class="field" style="grid-column:1/-1">
+          <div class="field" style="grid-column:1/-1">
             <label for="charges">Charges</label>
             <textarea id="charges" rows="2" placeholder="List statutes / violations"></textarea>
           </div>
@@ -156,7 +149,7 @@
         </div>
         <div style="margin-top:1rem;display:flex;gap:.5rem;align-items:center">
           <button id="submit" class="btn">Submit to Log</button>
-          <span class="muted">Sends to Discord + saves locally on this device.</span>
+          <span class="muted">Sends to Discord + saves on this device.</span>
         </div>
       </div>
 
@@ -175,71 +168,33 @@
   </main>
 
   <footer>
-    <div class="wrap cols">
-      <div>
-        <h3>Admin</h3>
-        <ul>
-          <li><a href="#" onclick="alert('Ask Admin for weekly password.')">LEO Password Policy</a></li>
-          <li><a href="#" onclick="alert('Use Discord for real contact.')">Contact Staff</a></li>
-        </ul>
-      </div>
-    </div>
     <div class="wrap fine" style="margin-top:1rem">© <span id="y"></span> RP Community. For entertainment and training purposes only.</div>
   </footer>
 
   <script>
-  // ==== CONFIG ====
-  // 1) Set your private LEO webhook URL here (do NOT share publicly)
+  // ==== CONFIG (v2) ====
   const LEO_WEBHOOK = "https://discord.com/api/webhooks/1404649049440911471/QrQwA4cU10iEB_2NuUkewFxnCKE0NMSwYg0djTuY13SZpCFT32sSiw_DpItCbddd6YdK";
-
-  // 2) Weekly password model:
-  //    Admin chooses a secret like "BULLDOG", then the password becomes SECRET-YYYYWW (ISO week).
-  //    Example: BULLDOG-202534 (year 2025, week 34). Change SECRET to anything you want.
-  const WEEKLY_SECRET = "BULLDOG"; // <-- CHANGE THIS
-  // Optionally override with a fixed password (leave as empty string to use weekly model)
-  const FIXED_PASSWORD = "LEO-0925-Secure"; // e.g., "MyTempPass123"
+  const FIXED_PASSWORD = "LEO-0925-Secure";
+  const storageKey = "leo_cases_v2";
+  const sessionKey = "leo_unlocked_v2";
 
   // ==== UTIL ====
   const $ = sel => document.querySelector(sel);
-  const $$ = sel => Array.from(document.querySelectorAll(sel));
-  const storageKey = "leo_cases_v1";
-  const sessionKey = "leo_unlocked";
-
-  function isoWeek(d){
-    const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
-    // Thursday in current week decides the year.
-    date.setUTCDate(date.getUTCDate() + 4 - (date.getUTCDay()||7));
-    const yearStart = new Date(Date.UTC(date.getUTCFullYear(),0,1));
-    const weekNo = Math.ceil((((date - yearStart) / 86400000) + 1)/7);
-    return [date.getUTCFullYear(), weekNo.toString().padStart(2,'0')];
+  function unlocked(){ return sessionStorage.getItem(sessionKey) === "1"; }
+  function setUnlocked(v){ sessionStorage.setItem(sessionKey, v ? "1" : "0"); }
+  function expectedPassword(){ return FIXED_PASSWORD; }
+  function toggleUI(){
+    const show = unlocked();
+    $("#gate").classList.toggle("hidden", show);
+    $("#app").classList.toggle("hidden", !show);
   }
-
-  function expectedPassword(){
-    if (FIXED_PASSWORD) return FIXED_PASSWORD;
-    const [y, w] = isoWeek(new Date());
-    return `${WEEKLY_SECRET}-${y}${w}`;
-  }
-
-  function unlocked(){
-    return sessionStorage.getItem(sessionKey) === "1";
-  }
-
-  function setUnlocked(v){
-    sessionStorage.setItem(sessionKey, v ? "1" : "0");
-  }
-
   function loadCases(){
     try { return JSON.parse(localStorage.getItem(storageKey) || "[]"); }
     catch(e){ return []; }
   }
-
-  function saveCases(list){
-    localStorage.setItem(storageKey, JSON.stringify(list));
-  }
-
+  function saveCases(list){ localStorage.setItem(storageKey, JSON.stringify(list)); }
   function renderTable(){
-    const tbody = $("#table tbody");
-    tbody.innerHTML = "";
+    const tbody = $("#table tbody"); tbody.innerHTML = "";
     for(const c of loadCases().slice().reverse()){
       const tr = document.createElement("tr");
       tr.innerHTML = `
@@ -249,54 +204,31 @@
         <td>${c.suspect||""}</td>
         <td>${c.status||""}</td>
         <td>${c.compartment||""}</td>
-        <td>${(c.charges||"").replaceAll("
-","<br/>")}</td>
-        <td>${(c.narrative||"").replaceAll("
-","<br/>")}</td>
+        <td>${(c.charges||"").replaceAll("\n","<br/>")}</td>
+        <td>${(c.narrative||"").replaceAll("\n","<br/>")}</td>
         <td>${(c.evidence||"").split(",").map(s=>s.trim()).filter(Boolean).map(u=>`<a href="${u}" target="_blank" rel="noopener">link</a>`).join(", ")}</td>
       `;
       tbody.appendChild(tr);
     }
   }
 
-  function toggleUI(){
-    const show = unlocked();
-    $("#gate").classList.toggle("hidden", show);
-    $("#app").classList.toggle("hidden", !show);
-  }
-
   // ==== EVENTS ====
-  $("#togglePw").addEventListener("click", () => {
-    const pwField = $("#pw");
-    if (pwField.type === "password") {
-      pwField.type = "text";
-      $("#togglePw").textContent = "🙈";
-    } else {
-      pwField.type = "password";
-      $("#togglePw").textContent = "👁";
-    }
-  });
   function doUnlock(){
     const input = $("#pw").value.trim();
-    if (input && input === expectedPassword()){
-      setUnlocked(true);
-      $("#gate-error").classList.add("hidden");
-      toggleUI();
-    } else {
-      $("#gate-error").classList.remove("hidden");
-    }
+    const ok = input && input === expectedPassword();
+    $("#gate-error").classList.toggle("hidden", ok);
+    $("#gate-success").classList.toggle("show", ok);
+    if (ok){ setUnlocked(true); toggleUI(); }
   }
-  $("#unlock").addEventListener("click", () => {
-    const input = $("#pw").value.trim();
-    if (input && input === expectedPassword()){
-      setUnlocked(true);
-      $("#gate-error").classList.add("hidden");
-      toggleUI();
-    } else {
-      $("#gate-error").classList.remove("hidden");
-    }
-  });
+  $("#unlock").addEventListener("click", doUnlock);
   $("#pw").addEventListener("keydown", (e)=>{ if(e.key==="Enter") doUnlock();});
+  $("#pwToggle").addEventListener("click", ()=>{
+    const pw = $("#pw");
+    const show = pw.type === "password";
+    pw.type = show ? "text" : "password";
+    $("#pwToggle").setAttribute("aria-label", show ? "Hide password" : "Show password");
+    $("#pwToggle").setAttribute("title", show ? "Hide password" : "Show password");
+  });
 
   $("#submit").addEventListener("click", async () => {
     const payload = {
@@ -307,20 +239,13 @@
       suspect: $("#suspect").value.trim(),
       status: $("#status").value,
       compartment: $("#compartment").value,
-      compartment: $("#compartment").value,
       charges: $("#charges").value.trim(),
       narrative: $("#narrative").value.trim(),
       evidence: $("#evidence").value.trim(),
       ts: new Date().toISOString()
     };
+    const list = loadCases(); list.push(payload); saveCases(list); renderTable();
 
-    // Save local
-    const list = loadCases();
-    list.push(payload);
-    saveCases(list);
-    renderTable();
-
-    // Send to Discord webhook as an embed
     if (LEO_WEBHOOK && LEO_WEBHOOK.startsWith("https://")){
       try{
         const embed = {
@@ -329,37 +254,31 @@
           fields: [
             {name:"Date", value: payload.caseDate || "—", inline:true},
             {name:"Status", value: payload.status || "—", inline:true},
-            {name:"Compartment", value: payload.compartment || "—", inline:true},
             {name:"Officer", value: payload.officer || "—", inline:true},
             {name:"Agency", value: payload.agency || "—", inline:true},
             {name:"Suspect(s)", value: payload.suspect || "—", inline:false},
-            {name:"Classification", value: payload.classification || "—", inline:true},
+            {name:"Compartment", value: payload.compartment || "—", inline:true},
             {name:"Charges", value: payload.charges || "—", inline:false},
             {name:"Evidence", value: (payload.evidence||"—"), inline:false},
           ],
           timestamp: payload.ts
         };
-        await fetch(LEO_WEBHOOK, {
-          method: "POST",
-          headers: {"Content-Type":"application/json"},
-          body: JSON.stringify({ embeds: [embed] })
-        });
+        await fetch(LEO_WEBHOOK, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ embeds: [embed] }) });
       }catch(e){
         console.error("Webhook error", e);
-        alert("Saved locally. Webhook send failed — check console and webhook URL.");
+        alert("Saved locally. Webhook send failed — check console and URL.");
       }
     } else {
-      alert("Saved locally. To log to Discord, set LEO_WEBHOOK in the page source.");
+      alert("Saved locally. Set LEO_WEBHOOK in the source to enable Discord logging.");
     }
-
-    // Clear form (optional keep)
-    // $("#caseId").value = ""; $("#narrative").value = "";
   });
 
-  // init
+  // On load
   document.getElementById('y').textContent = new Date().getFullYear();
-  if (unlocked()) toggleUI();
-  renderTable();
+  const qp = new URLSearchParams(location.search);
+  if (qp.get("debug")==="1"){ const hint = document.getElementById("pw-hint"); if (hint){ hint.textContent = "(debug) Expected password: " + expectedPassword(); hint.classList.remove("hidden"); } }
+  if (qp.get("pass") === expectedPassword()){ setUnlocked(true); }
+  toggleUI(); renderTable();
   </script>
 </body>
 </html>
