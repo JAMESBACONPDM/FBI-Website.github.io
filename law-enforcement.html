@@ -118,16 +118,6 @@
           <div class="field">
             <label for="classification">Classification</label>
             <select id="classification">
-              <option value="">Unclassified</option>
-              <option value="Classified">Classified</option>
-              <option value="Confidential">Confidential</option>
-              <option value="Secret">Secret</option>
-              <option value="Top Secret">Top Secret</option>
-            </select>
-          </div>
-          <div class="field">
-            
-            <select id="classification">
               <option>Unclassified</option>
               <option>FOUO</option>
               <option>Law Enforcement Sensitive</option>
@@ -135,8 +125,9 @@
               <option>Secret</option>
               <option>Top Secret</option>
               <option>SCI</option>
-            </select>
+    </select>
           </div>
+          
 
           <div class="field" style="grid-column:1/-1">
             <label for="charges">Charges</label>
@@ -244,9 +235,13 @@
         <td>${c.caseDate||""}</td>
         <td>${c.officer||""}</td>
         <td>${c.suspect||""}</td>
-        <td>${c.status||""}</td><td>${c.classification||""}</td><td>${c.compartment||""}</td>
-        <td>${(c.charges||"").replaceAll("\n","<br/>")}</td>
-        <td>${(c.narrative||"").replaceAll("\n","<br/>")}</td>
+        <td>${c.status||""}</td>
+        <td>${c.classification||""}</td>
+        <td>${c.compartment||""}</td>
+        <td>${(c.charges||"").replaceAll("
+","<br/>")}</td>
+        <td>${(c.narrative||"").replaceAll("
+","<br/>")}</td>
         <td>${(c.evidence||"").split(",").map(s=>s.trim()).filter(Boolean).map(u=>`<a href="${u}" target="_blank" rel="noopener">link</a>`).join(", ")}</td>
       `;
       tbody.appendChild(tr);
