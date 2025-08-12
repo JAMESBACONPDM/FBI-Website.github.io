@@ -254,6 +254,16 @@
   }
 
   // ==== EVENTS ====
+  function doUnlock(){
+    const input = $("#pw").value.trim();
+    if (input && input === expectedPassword()){
+      setUnlocked(true);
+      $("#gate-error").classList.add("hidden");
+      toggleUI();
+    } else {
+      $("#gate-error").classList.remove("hidden");
+    }
+  }
   $("#unlock").addEventListener("click", () => {
     const input = $("#pw").value.trim();
     if (input && input === expectedPassword()){
@@ -264,6 +274,7 @@
       $("#gate-error").classList.remove("hidden");
     }
   });
+  $("#pw").addEventListener("keydown", (e)=>{ if(e.key==="Enter") doUnlock();});
 
   $("#submit").addEventListener("click", async () => {
     const payload = {
