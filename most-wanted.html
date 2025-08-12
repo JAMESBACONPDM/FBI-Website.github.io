@@ -6,33 +6,22 @@
   <meta name="robots" content="noindex,nofollow" />
   <title>Federal Bureau of Investigation — RP (Most Wanted)</title>
   <link rel="stylesheet" href="common.css" />
-  <style>
-    /* Most Wanted Layout (RP) */
-    .mw-grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:1rem}
-    .mw-card{border:1px solid #e2e6ee;border-radius:.75rem;overflow:hidden;background:#fff;display:flex;flex-direction:column}
-    .mw-photo{aspect-ratio:4/3;object-fit:cover;background:#eef2f7}
-    .mw-body{padding:.75rem .9rem;display:flex;flex-direction:column;gap:.35rem}
-    .mw-body h3{margin:0;font-size:1.05rem}
-    .mw-meta{font-size:.92rem;opacity:.85}
-    .mw-tags{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.25rem}
-    .tag{border:1px solid #cfd6e3;border-radius:.35rem;padding:.1rem .4rem;font-size:.8rem}
-    .mw-note{font-size:.92rem;margin-top:.3rem}
-    .mw-help{margin-top:1rem;padding:.75rem 1rem;border:1px dashed #b8c4d6;border-radius:.5rem;background:#f7fbff}
-    .mw-header{display:flex;justify-content:space-between;align-items:end;gap:1rem;flex-wrap:wrap}
-    .mw-header .actions{display:flex;gap:.5rem;align-items:center}
-    .mw-small{font-size:.92rem;opacity:.75}
-    .mw-empty{padding:1rem;border:1px dashed #d3dae6;border-radius:.6rem;background:#fafcff;text-align:center}
-    .mw-empty code{background:#f0f4f9;padding:.15rem .3rem;border-radius:.3rem}
-  </style>
 </head>
 <body>
+
   <div class="rp-banner">RP • ROBLOX</div>
   <header>
     <div class="wrap top">
       <div class="seal"><span>FBI</span></div>
       <div class="brand">
-        <h1>Federal Bureau of Investigation <small class="muted">RP</small></h1>
-        <p class="muted">For training and entertainment in a roleplay setting • Not affiliated with the real FBI</p>
+        <div class="name">Federal Bureau of Investigation</div>
+        <div class="tag">Roleplay Portal</div>
+      </div>
+      <div class="actions">
+        <form class="search" role="search" onsubmit="event.preventDefault(); alert('(RP) Search coming soon');">
+          <input type="search" placeholder="Search the site" aria-label="Search" />
+          <button type="submit" aria-label="Search">🔎</button>
+        </form>
       </div>
     </div>
     <nav class="nav">
@@ -45,88 +34,68 @@
           <li><a href="services.html">Services</a></li>
           <li><a href="tip.html">Report a Tip</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="law-enforcement.html">Law Enforcement <span class="lock-badge">LOCKED</span></a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <main class="wrap" style="margin-top:1.25rem">
-    <div class="mw-header">
-      <div>
-        <h2>Most Wanted (RP)</h2>
-        <div class="mw-small">Add images in <code>/images/</code> and copy one card block per entry below.</div>
+  <main id="mw" style="background:var(--slate)">
+    <div class="wrap">
+      <h2>Most Wanted (Fictional)</h2>
+      <div class="wanted">
+        <div class="w"><div class="face">A1</div><div class="body"><strong>"Ghost Falcon" — Unknown</strong><br><span class="fine">Cyber intrusion; last seen Vinewood, LS</span></div></div>
+        <div class="w"><div class="face">B2</div><div class="body"><strong>Rosa Delgado</strong><br><span class="fine">Organized theft ring; black Sultan</span></div></div>
+        <div class="w"><div class="face">C3</div><div class="body"><strong>Marcus "Slate" Hargrove</strong><br><span class="fine">Felony elude; armed; Paleto forest</span></div></div>
+        <div class="w"><div class="face">D4</div><div class="body"><strong>Andre Petrov</strong><br><span class="fine">Fraud; counterfeit cards; Del Perro</span></div></div>
       </div>
-      <div class="actions mw-small">
-        <span>Image size tip: 1200×900 works great</span>
-      </div>
-    </div>
-
-    <div class="mw-help">
-      <strong>How to add someone:</strong>
-      <ol style="margin:.4rem 0 .2rem 1.2rem">
-        <li>Drop photo in <code>/images/</code> (e.g., <code>images/mw_john_doe.jpg</code>).</li>
-        <li>Copy the card block below, paste at the end of the grid, and edit the fields.</li>
-        <li>Save and refresh. Done.</li>
-      </ol>
-    </div>
-
-    <section class="mw-grid" id="mw-grid">
-      
-      <!-- ====== COPY THIS CARD FOR NEW ENTRIES ====== -->
-      <article class="mw-card">
-        <!-- Photo file goes here -->
-        <img class="mw-photo" src="images/mw_placeholder.jpg" alt="FULL NAME">
-        <div class="mw-body">
-          <h3>FULL NAME</h3>
-          <div class="mw-meta"><strong>Wanted for:</strong> CHARGE / OFFENSE</div>
-          <div class="mw-tags">
-            <!-- Optional tags: remove or add as needed -->
-            <span class="tag">Armed & Dangerous</span>
-            <span class="tag">Reward Offered</span>
-          </div>
-          <p class="mw-note">Notes: last seen LOCATION on DATE. Vehicle/Clothing/Distinct features. Add Discord contact or Tip page link.</p>
-        </div>
-      </article>
-      <!-- ====== END COPY BLOCK ====== -->
-
-      <!-- Example entries — you can delete these -->
-      <article class="mw-card">
-        <img class="mw-photo" src="images/mw_jane_smith.jpg" alt="Jane Smith">
-        <div class="mw-body">
-          <h3>Jane Smith</h3>
-          <div class="mw-meta"><strong>Wanted for:</strong> Bank Robbery</div>
-          <div class="mw-tags">
-            <span class="tag">Armed & Dangerous</span>
-          </div>
-          <p class="mw-note">Last seen in Vinewood on 08/10/2025. May be traveling with 2 unknown accomplices.</p>
-        </div>
-      </article>
-
-      <article class="mw-card">
-        <img class="mw-photo" src="images/mw_john_doe.jpg" alt="Deepfriedtrout">
-        <div class="mw-body">
-          <h3>Deepfriedtrout</h3>
-          <div class="mw-meta"><strong>Wanted for:</strong>  Order of the Court </div>
-          <div class="mw-tags">
-            <span class="tag">Reward Offered</span>
-          </div>
-          <p class="mw-note">Seen near La Mesa chop shops. Contact your local PD or submit a tip.</p>
-        </div>
-      </article>
-
-    </section>
-
-    <div class="mw-empty mw-small">
-      Don’t have images yet? You can still add entries and come back to swap the <code>src</code> when ready.
+      <p class="fine" style="margin-top:.8rem">These entries are fictional and for RP only.</p>
     </div>
   </main>
 
+
   <footer>
+    <div class="wrap foot">
+      <div>
+        <h3>About This Site</h3>
+        <p class="fine">Roleplay fan site inspired by the public layout of fbi.gov. Original content and graphics; not affiliated with the FBI or U.S. Government.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="most-wanted.html">Most Wanted (RP)</a></li>
+          <li><a href="news.html">Newsroom</a></li>
+          <li><a href="tip.html">Contact / Tip</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Admin</h3>
+        <ul>
+          <li><a href="#" onclick="alert('CMS Coming Soon (RP)')">CMS Login (RP)</a></li>
+          <li><a href="#" onclick="alert('Use Discord for real contact.')">Contact Staff</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="wrap fine" style="margin-top:1rem">© <span id="y"></span> RP Community. For entertainment and training purposes only.</div>
   </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+
+
+
   <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
+    // Robust image path fixer for GitHub Pages (user site vs project site)
+    document.addEventListener('DOMContentLoaded', () => {
+      const parts = window.location.pathname.split('/').filter(Boolean);
+      const basePrefix = (window.location.hostname.endsWith('github.io') && parts.length > 0) ? '/' + parts[0] : '';
+
+      document.querySelectorAll('img.mw-photo').forEach(img => {
+        const raw = img.getAttribute('data-src') || img.getAttribute('src') || '';
+        const cleaned = raw.startsWith('/') ? raw.slice(1) : raw;
+        if (cleaned.startsWith('images/')) {
+          img.setAttribute('src', basePrefix + '/' + cleaned);
+        }
+      });
+    });
   </script>
+
 </body>
 </html>
