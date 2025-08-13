@@ -7,7 +7,7 @@
   <title>Federal Bureau of Investigation — RP (Law Enforcement)</title>
   <link rel="stylesheet" href="common.css" />
   <style>
-    /* v2 CLEAN BUILD */
+    /* LEO v3 — rebuilt clean */
     .lock-badge{font-size:.8rem;padding:.15rem .4rem;border:1px solid currentColor;border-radius:.35rem;opacity:.8}
     .panel{background:#0b1a2a0d;border:1px solid #0b1a2a22;border-radius:.75rem;padding:1rem}
     .grid{display:grid;gap:1rem}
@@ -25,7 +25,7 @@
     .hidden{display:none}
     .pw-wrap{position:relative;display:flex;align-items:center;gap:.5rem}
     .pw-wrap input{flex:1;padding-right:2.2rem}
-    .pw-toggle{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);border:0;background:transparent;cursor:pointer;font:inherit;opacity:.9;z-index:2;pointer-events:auto}
+    .pw-toggle{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);border:0;background:transparent;cursor:pointer;font:inherit;opacity:.95;z-index:2;pointer-events:auto}
     .flash{display:none;margin-top:.6rem;padding:.6rem .8rem;border-radius:.4rem;border:1px solid #9ad29a;background:#ebffeb}
     .flash.show{display:block}
   </style>
@@ -58,7 +58,7 @@
 
   <main class="wrap" style="margin-top:1.5rem">
     <h2>Law Enforcement Portal <span class="lock-badge">Restricted</span></h2>
-    <p class="muted">Authorized LEOs only. All actions are logged to your Discord channel via webhook (RP).</p>
+    <p class="muted">Authorized LEOs only. All actions are logged to Discord via webhook (RP).</p>
 
     <!-- Gate -->
     <div id="gate" class="panel">
@@ -83,7 +83,7 @@
       <div id="gate-error" class="notice hidden">Invalid password. Check with an Admin.</div>
       <div id="gate-success" class="flash">Access granted. Loading portal…</div>
       <div id="pw-hint" class="muted hidden" style="margin-top:.25rem;font-size:.9rem"></div>
-      <div class="muted" style="margin-top:.5rem">Build: <code>LEO v2</code></div>
+      <div class="muted" style="margin-top:.5rem">Build: <code>LEO v3</code></div>
     </div>
 
     <!-- App -->
@@ -157,7 +157,7 @@
         </div>
         <div style="margin-top:1rem;display:flex;gap:.5rem;align-items:center">
           <button id="submit" class="btn">Submit to Log</button>
-          <span class="muted">Sends to Discord + saves on this device.</span>
+          <span class="muted">Sends to Main + Agency webhook and saves on this device.</span>
         </div>
       </div>
 
@@ -166,7 +166,7 @@
         <table class="table" id="table">
           <thead>
             <tr>
-              <th>Case #</th><th>Date</th><th>Officer</th><th>Suspect(s)</th><th>Status</th><th>Compartment</th><th>Charges</th><th>Narrative</th><th>Evidence</th>
+              <th>Case #</th><th>Date</th><th>Officer</th><th>Agency</th><th>Suspect(s)</th><th>Status</th><th>Compartment</th><th>Charges</th><th>Narrative</th><th>Evidence</th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -180,10 +180,12 @@
   </footer>
 
   <script>
-  // ==== CONFIG (v2) ====
-  const LEO_WEBHOOK = "https://discord.com/api/webhooks/1404649049440911471/QrQwA4cU10iEB_2NuUkewFxnCKE0NMSwYg0djTuY13SZpCFT32sSiw_DpItCbddd6YdK";
+  // ==== CONFIG (v3) ====
+  // Main webhook (high-ups only); preserved from your prior file if present.
+  const LEO_WEBHOOK = "YOUR_MAIN_WEBHOOK_URL_HERE";
   const MAIN_WEBHOOK = LEO_WEBHOOK;
-  // Per-agency webhooks (fill these in). Leave blank ("") to disable forwarding for that agency.
+
+  // Per-agency webhooks — fill these in as needed.
   const AGENCY_WEBHOOKS = {
     "FBI": "",
     "MPD": "",
@@ -193,15 +195,31 @@
     "CIA": "",
     "DSS": ""
   };
-  const FIXED_PASSWORD = "LEO-0925-Secure";
-  const storageKey = "leo_cases_v2";
-  const sessionKey = "leo_unlocked_v2";
+
+  // Password settings
+  const FIXED_PASSWORD = "LEO-0925-Secure"; // set a new one anytime
+  // Optional weekly model (kept for later if you want to switch back)
+  const WEEKLY_SECRET = "BULLDOG"; // format SECRET-YYYYWW when enabled
+
+  // Storage/session keys
+  const storageKey = "leo_cases_v3";
+  const sessionKey = "leo_unlocked_v3";
 
   // ==== UTIL ====
   const $ = sel => document.querySelector(sel);
+  function isoWeek(d){
+    const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    date.setUTCDate(date.getUTCDate() + 4 - (date.getUTCDay()||7));
+    const yearStart = new Date(Date.UTC(date.getUTCFullYear(),0,1));
+    const weekNo = Math.ceil((((date - yearStart)/86400000)+1)/7);
+    return [date.getUTCFullYear(), weekNo.toString().padStart(2,'0')];
+  }
+  function expectedPassword(){
+    // Currently using fixed password. To use weekly, return `${WEEKLY_SECRET}-${isoWeek(new Date()).join("")}` instead.
+    return FIXED_PASSWORD;
+  }
   function unlocked(){ return sessionStorage.getItem(sessionKey) === "1"; }
   function setUnlocked(v){ sessionStorage.setItem(sessionKey, v ? "1" : "0"); }
-  function expectedPassword(){ return FIXED_PASSWORD; }
   function toggleUI(){
     const show = unlocked();
     $("#gate").classList.toggle("hidden", show);
@@ -220,6 +238,7 @@
         <td>${c.caseId||""}</td>
         <td>${c.caseDate||""}</td>
         <td>${c.officer||""}</td>
+        <td>${c.agency||""}</td>
         <td>${c.suspect||""}</td>
         <td>${c.status||""}</td>
         <td>${c.compartment||""}</td>
@@ -257,7 +276,7 @@
       caseId: $("#caseId").value.trim(),
       caseDate: $("#caseDate").value,
       officer: $("#officer").value.trim() || $("#badge").value.trim(),
-      agency: $("#agency").value.trim(),
+      agency: $("#agency").value,
       suspect: $("#suspect").value.trim(),
       status: $("#status").value,
       compartment: $("#compartment").value,
@@ -266,24 +285,42 @@
       evidence: $("#evidence").value.trim(),
       ts: new Date().toISOString()
     };
+
+    // Save local copy
     const list = loadCases(); list.push(payload); saveCases(list); renderTable();
 
-    if (true) {
+    // Build embed
+    const embed = {
+      title: `LEO Case • ${payload.caseId || "Unnumbered"}`,
+      description: payload.narrative?.slice(0, 1500) || "(no narrative)",
+      fields: [
+        {name:"Date", value: payload.caseDate || "—", inline:true},
+        {name:"Status", value: payload.status || "—", inline:true},
+        {name:"Officer", value: payload.officer || "—", inline:true},
+        {name:"Agency", value: payload.agency || "—", inline:true},
+        {name:"Suspect(s)", value: payload.suspect || "—", inline:false},
+        {name:"Compartment", value: payload.compartment || "—", inline:true},
+        {name:"Charges", value: payload.charges || "—", inline:false},
+        {name:"Evidence", value: (payload.evidence||"—"), inline:false},
+      ],
+      timestamp: payload.ts
+    };
 
-    // Send to MAIN webhook
     async function sendWebhook(url){
-      await fetch(url, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ embeds: [embed] }) });
+      return fetch(url, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ embeds: [embed] }) });
     }
-    try{
-      if (MAIN_WEBHOOK && MAIN_WEBHOOK.startsWith("https://")){ await sendWebhook(MAIN_WEBHOOK); }
+
+    try {
+      // Always send to Main
+      if (MAIN_WEBHOOK && MAIN_WEBHOOK.startsWith("https://")) { await sendWebhook(MAIN_WEBHOOK); }
+      // Optionally send to Agency
       const agencyUrl = AGENCY_WEBHOOKS[payload.agency];
-      if (agencyUrl && agencyUrl.startsWith("https://")){ await sendWebhook(agencyUrl); }
-    }catch(e){
+      if (agencyUrl && agencyUrl.startsWith("https://")) { await sendWebhook(agencyUrl); }
+    } catch(e) {
       console.error("Webhook error", e);
       alert("Saved locally. Webhook send failed — check console and URLs.");
     }
-
-    } else { alert("Saved locally. Set webhooks in the source."); });
+  });
 
   // On load
   document.getElementById('y').textContent = new Date().getFullYear();
