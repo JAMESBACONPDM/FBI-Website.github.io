@@ -25,7 +25,7 @@
     .hidden{display:none}
     .pw-wrap{position:relative;display:flex;align-items:center;gap:.5rem}
     .pw-wrap input{flex:1;padding-right:2.2rem}
-    .pw-toggle{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);border:0;background:transparent;cursor:pointer;font:inherit;opacity:.7}
+    .pw-toggle{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);border:0;background:transparent;cursor:pointer;font:inherit;opacity:.9;z-index:2;pointer-events:auto}
     .flash{display:none;margin-top:.6rem;padding:.6rem .8rem;border-radius:.4rem;border:1px solid #9ad29a;background:#ebffeb}
     .flash.show{display:block}
   </style>
@@ -185,12 +185,12 @@
   const MAIN_WEBHOOK = LEO_WEBHOOK;
   // Per-agency webhooks (fill these in). Leave blank ("") to disable forwarding for that agency.
   const AGENCY_WEBHOOKS = {
-    "FBI": "https://discord.com/api/webhooks/1404976996701704322/XMqqyGarv6m9QnN9Ye_GA4jLxYLLD5qIh1RkTLMUGXyuWN2V_71SBC5_Mnf8ulb1U1A0",
-    "MPD": "https://discord.com/api/webhooks/1404976937419542568/sVTYK_lJw6jjCO0jahDJuVwo7dCbtkpYo-1BFZzKm-hXC_yVD6wpIp8I_QrexJ6xSzHm",
-    "USSS": "https://discord.com/api/webhooks/1404977112133144716/sMJjuQd6Wz871cM1m2eH2B8PidrqwFL-QVuJ4eAooWrh_nKLICWSDVqR-Bxz30Jg8sN6",
+    "FBI": "",
+    "MPD": "",
+    "USSS": "",
     "USMS": "",
     "DOJ": "",
-    "CIA": "https://discord.com/api/webhooks/1404977045296910517/s7iqLuW42Cnyfh3DB2KOSKw0SPrbIis6cwb-s9SOh_IWCDsPv7-kPEamVR-o--eCD6Rh",
+    "CIA": "",
     "DSS": ""
   };
   const FIXED_PASSWORD = "LEO-0925-Secure";
@@ -243,10 +243,13 @@
   $("#pw").addEventListener("keydown", (e)=>{ if(e.key==="Enter") doUnlock();});
   $("#pwToggle").addEventListener("click", ()=>{
     const pw = $("#pw");
+    const btn = $("#pwToggle");
     const show = pw.type === "password";
     pw.type = show ? "text" : "password";
-    $("#pwToggle").setAttribute("aria-label", show ? "Hide password" : "Show password");
-    $("#pwToggle").setAttribute("title", show ? "Hide password" : "Show password");
+    btn.setAttribute("aria-label", show ? "Hide password" : "Show password");
+    btn.setAttribute("title", show ? "Hide password" : "Show password");
+    btn.setAttribute("aria-pressed", show ? "true" : "false");
+    btn.textContent = show ? "🙈" : "👁️";
   });
 
   $("#submit").addEventListener("click", async () => {
