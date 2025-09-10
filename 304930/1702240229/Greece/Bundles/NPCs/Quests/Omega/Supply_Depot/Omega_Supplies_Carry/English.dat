@@ -1,0 +1,4 @@
+Name Resupply I
+Description <color=epic>Supply Manager Milos</color> needs you to carry in the new supplies from the scavenging party. It can be found in the courtyard.
+
+Condition_0 Carry in Supply Boxes {0}/{1}

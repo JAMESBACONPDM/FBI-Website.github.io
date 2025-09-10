@@ -1,0 +1,307 @@
+GUID 794048e99af747d99072f77bfd7697a7
+Type Dialogue
+ID 3018
+
+Messages 9
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 1
+Message_0_Condition_0_Logic Equal
+
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value 1
+Message_1_Condition_0_Logic Less_Than
+Message_1_Condition_0_Allow_Unset
+
+//Conflict Quest I
+Message_2_Pages 1
+Message_2_Conditions 2
+Message_2_Condition_0_Type Quest
+Message_2_Condition_0_Logic Equal
+Message_2_Condition_0_ID 3085
+Message_2_Condition_0_Status None
+Message_2_Condition_0_Allow_Unset
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3030
+Message_2_Condition_1_Value 4
+Message_2_Condition_1_Logic Greater_Than_Or_Equal_To
+
+//Rank Up Lance Corporal
+Message_3_Pages 1
+Message_3_Conditions 3
+//Done the first Conflict
+Message_3_Condition_0_Type Quest
+Message_3_Condition_0_Logic Equal
+Message_3_Condition_0_ID 3085
+Message_3_Condition_0_Status Completed
+//Completed 5 missions
+Message_3_Condition_1_Type Flag_Short
+Message_3_Condition_1_ID 3030
+Message_3_Condition_1_Value 5
+Message_3_Condition_1_Logic Greater_Than_Or_Equal_To
+//Are a Private
+Message_3_Condition_2_Type Flag_Short
+Message_3_Condition_2_ID 3017
+Message_3_Condition_2_Value 2
+Message_3_Condition_2_Logic Equal
+
+//Rank Up Corporal
+Message_4_Pages 1
+Message_4_Conditions 2
+//Are a Lance Corporal
+Message_4_Condition_0_Type Flag_Short
+Message_4_Condition_0_ID 3017
+Message_4_Condition_0_Value 3
+Message_4_Condition_0_Logic Equal
+//Completed 10 missions
+Message_4_Condition_1_Type Flag_Short
+Message_4_Condition_1_ID 3030
+Message_4_Condition_1_Value 10
+Message_4_Condition_1_Logic Greater_Than_Or_Equal_To
+
+//Rank Up Sergeant
+Message_5_Pages 1
+Message_5_Conditions 2
+//Are a Corporal
+Message_5_Condition_0_Type Flag_Short
+Message_5_Condition_0_ID 3017
+Message_5_Condition_0_Value 4
+Message_5_Condition_0_Logic Equal
+//Completed 15 missions
+Message_5_Condition_1_Type Flag_Short
+Message_5_Condition_1_ID 3030
+Message_5_Condition_1_Value 15
+Message_5_Condition_1_Logic Greater_Than_Or_Equal_To
+
+//Rank Up Sergeant First Class
+Message_6_Pages 1
+Message_6_Conditions 2
+//Are a Sergeant
+Message_6_Condition_0_Type Flag_Short
+Message_6_Condition_0_ID 3017
+Message_6_Condition_0_Value 5
+Message_6_Condition_0_Logic Equal
+//Completed 20 missions
+Message_6_Condition_1_Type Flag_Short
+Message_6_Condition_1_ID 3030
+Message_6_Condition_1_Value 20
+Message_6_Condition_1_Logic Greater_Than_Or_Equal_To
+
+//Rank Up Master Sergeant
+Message_7_Pages 1
+Message_7_Conditions 2
+//Are a Sergeant First Class
+Message_7_Condition_0_Type Flag_Short
+Message_7_Condition_0_ID 3017
+Message_7_Condition_0_Value 6
+Message_7_Condition_0_Logic Equal
+//Completed 25 missions
+Message_7_Condition_1_Type Flag_Short
+Message_7_Condition_1_ID 3030
+Message_7_Condition_1_Value 25
+Message_7_Condition_1_Logic Greater_Than_Or_Equal_To
+
+Message_8_Pages 1
+
+Responses 14
+
+Response_0_Dialogue 3020
+Response_0_Messages 1
+Response_0_Message_0 0
+Response_0_Rewards 1
+Response_0_Reward_0_Type Flag_Short
+Response_0_Reward_0_ID 3017
+Response_0_Reward_0_Value 2
+Response_0_Reward_0_Modification Assign
+
+Response_1_Dialogue 3019
+Response_1_Conditions 1
+Response_1_Condition_0_Type Flag_Bool
+Response_1_Condition_0_ID 3021
+Response_1_Condition_0_Value False
+Response_1_Condition_0_Allow_Unset
+Response_1_Messages 1
+Response_1_Message_0 0
+Response_1_Rewards 2
+Response_1_Reward_0_Type Reputation
+Response_1_Reward_0_Value -1
+Response_1_Reward_1_Type Flag_Bool
+Response_1_Reward_1_ID 3021
+Response_1_Reward_1_Value True
+
+Response_2_Messages 1
+Response_2_Message_0 0
+
+Response_3_Dialogue 3026
+Response_3_Messages 1
+Response_3_Message_0 8
+
+//Conflict Zone I Quest
+Response_4_Dialogue 3091
+Response_4_Quest 3085
+Response_4_Conditions 1
+Response_4_Condition_0_Type Quest
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_0_ID 3085
+Response_4_Condition_0_Status None
+Response_4_Messages 1
+Response_4_Message_0 2
+Response_4_Rewards 4
+Response_4_Reward_0_Type Quest
+Response_4_Reward_0_ID 3085
+Response_4_Reward_1_Type Flag_Bool
+Response_4_Reward_1_ID 3086
+Response_4_Reward_1_Value False
+Response_4_Reward_2_Type Flag_Bool
+Response_4_Reward_2_ID 3087
+Response_4_Reward_2_Value False
+Response_4_Reward_3_Type Flag_Bool
+Response_4_Reward_3_ID 3088
+Response_4_Reward_3_Value False
+
+//Conflict I Quest
+Response_5_Dialogue 3092
+Response_5_Quest 3085
+Response_5_Conditions 1
+Response_5_Condition_0_Type Quest
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_0_ID 3085
+Response_5_Condition_0_Status Ready
+Response_5_Condition_0_Reset
+//Choose Next Mission
+Response_5_Rewards 1
+Response_5_Reward_0_Type Flag_Short_Random
+Response_5_Reward_0_ID 3385
+Response_5_Reward_0_Min_Value 1
+Response_5_Reward_0_Max_Value 3
+Response_5_Reward_0_Modification Assign
+
+
+//Lance Corporal Rank Up
+Response_6_Dialogue 3321
+Response_6_Messages 1
+Response_6_Message_0 3
+Response_6_Rewards 2
+// Top
+Response_6_Reward_0_Type Item
+Response_6_Reward_0_ID 3505
+Response_6_Reward_0_Amount 1
+//Increase Rank
+Response_6_Reward_1_Type Flag_Short
+Response_6_Reward_1_ID 3017
+Response_6_Reward_1_Value 1
+Response_6_Reward_1_Modification Increment
+
+//Corporal Rank Up
+Response_7_Dialogue 3321
+Response_7_Messages 1
+Response_7_Message_0 4
+Response_7_Rewards 3
+// Top
+Response_7_Reward_0_Type Item
+Response_7_Reward_0_ID 3506
+Response_7_Reward_0_Amount 1
+//Increase Rank
+Response_7_Reward_1_Type Flag_Short
+Response_7_Reward_1_ID 3017
+Response_7_Reward_1_Value 1
+Response_7_Reward_1_Modification Increment
+// Boonie
+Response_7_Reward_2_Type Item
+Response_7_Reward_2_ID 3511
+Response_7_Reward_2_Amount 1
+
+//Sergeant Rank Up
+Response_8_Dialogue 3321
+Response_8_Messages 1
+Response_8_Message_0 5
+Response_8_Rewards 3
+// Top
+Response_8_Reward_0_Type Item
+Response_8_Reward_0_ID 3507
+Response_8_Reward_0_Amount 1
+//Increase Rank
+Response_8_Reward_1_Type Flag_Short
+Response_8_Reward_1_ID 3017
+Response_8_Reward_1_Value 1
+Response_8_Reward_1_Modification Increment
+// Beanie
+Response_8_Reward_2_Type Item
+Response_8_Reward_2_ID 3532
+Response_8_Reward_2_Amount 1
+
+//Sergeant First Class Rank Up
+Response_9_Dialogue 3321
+Response_9_Messages 1
+Response_9_Message_0 6
+Response_9_Rewards 3
+// Top
+Response_9_Reward_0_Type Item
+Response_9_Reward_0_ID 3508
+Response_9_Reward_0_Amount 1
+//Increase Rank
+Response_9_Reward_1_Type Flag_Short
+Response_9_Reward_1_ID 3017
+Response_9_Reward_1_Value 1
+Response_9_Reward_1_Modification Increment
+//Enable President Dialogue
+Response_9_Reward_2_Type Flag_Short
+Response_9_Reward_2_ID 3647
+Response_9_Reward_2_Value 1
+Response_9_Reward_2_Modification Assign
+
+//Master Sergeant Rank Up
+Response_10_Dialogue 3321
+Response_10_Messages 1
+Response_10_Message_0 7
+Response_10_Rewards 2
+// Top
+Response_10_Reward_0_Type Item
+Response_10_Reward_0_ID 3509
+Response_10_Reward_0_Amount 1
+//Increase Rank
+Response_10_Reward_1_Type Flag_Short
+Response_10_Reward_1_ID 3017
+Response_10_Reward_1_Value 1
+Response_10_Reward_1_Modification Increment
+
+//Any Field Missions?
+//Conflicts Dialogue Menu
+Response_11_Dialogue 3538
+Response_11_Messages 1
+Response_11_Message_0 8
+Response_11_Conditions 1
+//Are a Lance Corporal
+Response_11_Condition_0_Type Flag_Short
+Response_11_Condition_0_ID 3017
+Response_11_Condition_0_Value 3
+Response_11_Condition_0_Logic Greater_Than_Or_Equal_To
+//Choose Next Mission
+//Response_11_Rewards 1
+//Response_11_Reward_0_Type Flag_Short_Random
+//Response_11_Reward_0_ID 3385
+//Response_11_Reward_0_Min_Value 1
+//Response_11_Reward_0_Max_Value 3
+//Response_11_Reward_0_Modification Assign
+
+//I'd Like to Trade
+Response_12_Messages 1
+Response_12_Message_0 8
+Response_12_Dialogue 3539
+Response_12_Vendor 3543
+
+//Goodbye
+Response_13_Messages 8
+Response_13_Message_0 1
+Response_13_Message_1 2
+Response_13_Message_2 3
+Response_13_Message_3 4
+Response_13_Message_4 5
+Response_13_Message_5 6
+Response_13_Message_6 7
+Response_13_Message_7 8

@@ -1,0 +1,13 @@
+Name <color=legendary>Orthrus Overdrive</color>
+Description Omega Mechanics are working on turning basic vehicles into powerful weapons. Help them build one and you just might get something in return.
+
+Condition_0 Construct Body Frame
+Condition_1 Mount Turret
+Condition_2 Install Engine
+Condition_3 Install Wheel #1
+Condition_4 Install Wheel #2
+Condition_5 Install Wheel #3
+Condition_6 Install Wheel #4
+Condition_7 Add Armor
+Condition_8 Add Spotlights
+Condition_9 Add Plow

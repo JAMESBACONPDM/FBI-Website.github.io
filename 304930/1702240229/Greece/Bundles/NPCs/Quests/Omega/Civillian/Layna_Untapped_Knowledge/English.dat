@@ -1,0 +1,6 @@
+Name Untapped Knowledge
+Description Layna is having a hard time teaching without any textbooks. She left 3 in her apartment in Trikala and would appreciate it if you could fetch them.
+
+Condition_0 Retrieve History Textbook
+Condition_1 Retrieve Science Textbook
+Condition_2 Retrieve Math Textbook

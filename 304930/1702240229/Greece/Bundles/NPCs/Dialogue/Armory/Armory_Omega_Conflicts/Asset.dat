@@ -1,0 +1,270 @@
+GUID c638d1115e3f4f9da916e923795b0a66
+Type Dialogue
+ID 3386
+
+Messages 1
+Message_0_Pages 1
+
+Responses 9
+
+//Farsala Conflict Accepted
+Response_0_Dialogue 3091
+Response_0_Quest 3382
+Response_0_Conditions 2
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Not_Equal
+Response_0_Condition_0_ID 3382
+Response_0_Condition_0_Status Active
+Response_0_Condition_1_Type Flag_Short
+Response_0_Condition_1_Logic Equal
+Response_0_Condition_1_ID 3385
+Response_0_Condition_1_Value 1
+Response_0_Rewards 6
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3382
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 3379
+Response_0_Reward_1_Value False
+Response_0_Reward_2_Type Flag_Bool
+Response_0_Reward_2_ID 3380
+Response_0_Reward_2_Value False
+Response_0_Reward_3_Type Flag_Bool
+Response_0_Reward_3_ID 3381
+Response_0_Reward_3_Value False
+//Randomize Mission
+Response_0_Reward_4_Type Flag_Short_Random
+Response_0_Reward_4_ID 3378
+Response_0_Reward_4_Min_Value 1
+Response_0_Reward_4_Max_Value 3
+Response_0_Reward_4_Modification Assign
+//Set Mission to Active
+Response_0_Reward_5_Type Flag_Short
+Response_0_Reward_5_ID 3385
+Response_0_Reward_5_Value 0
+Response_0_Reward_5_Modification Assign
+
+
+//Larissa Conflict Accepted
+Response_1_Dialogue 3091
+Response_1_Quest 3383
+Response_1_Conditions 2
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Not_Equal
+Response_1_Condition_0_ID 3383
+Response_1_Condition_0_Status Active
+Response_1_Condition_1_Type Flag_Short
+Response_1_Condition_1_Logic Equal
+Response_1_Condition_1_ID 3385
+Response_1_Condition_1_Value 2
+Response_1_Rewards 6
+Response_1_Reward_0_Type Quest
+Response_1_Reward_0_ID 3383
+Response_1_Reward_1_Type Flag_Bool
+Response_1_Reward_1_ID 3379
+Response_1_Reward_1_Value False
+Response_1_Reward_2_Type Flag_Bool
+Response_1_Reward_2_ID 3380
+Response_1_Reward_2_Value False
+Response_1_Reward_3_Type Flag_Bool
+Response_1_Reward_3_ID 3381
+Response_1_Reward_3_Value False
+//Randomize Mission
+Response_1_Reward_4_Type Flag_Short_Random
+Response_1_Reward_4_ID 3378
+Response_1_Reward_4_Min_Value 4
+Response_1_Reward_4_Max_Value 6
+Response_1_Reward_4_Modification Assign
+//Set Mission to Active
+Response_1_Reward_5_Type Flag_Short
+Response_1_Reward_5_ID 3385
+Response_1_Reward_5_Value 0
+Response_1_Reward_5_Modification Assign
+
+//Trikala Conflict Accepted
+Response_2_Dialogue 3091
+Response_2_Quest 3384
+Response_2_Conditions 2
+Response_2_Condition_0_Type Quest
+Response_2_Condition_0_Logic Not_Equal
+Response_2_Condition_0_ID 3384
+Response_2_Condition_0_Status Active
+Response_2_Condition_1_Type Flag_Short
+Response_2_Condition_1_Logic Equal
+Response_2_Condition_1_ID 3385
+Response_2_Condition_1_Value 3
+Response_2_Rewards 6
+Response_2_Reward_0_Type Quest
+Response_2_Reward_0_ID 3384
+Response_2_Reward_1_Type Flag_Bool
+Response_2_Reward_1_ID 3379
+Response_2_Reward_1_Value False
+Response_2_Reward_2_Type Flag_Bool
+Response_2_Reward_2_ID 3380
+Response_2_Reward_2_Value False
+Response_2_Reward_3_Type Flag_Bool
+Response_2_Reward_3_ID 3381
+Response_2_Reward_3_Value False
+//Randomize Mission
+Response_2_Reward_4_Type Flag_Short_Random
+Response_2_Reward_4_ID 3378
+Response_2_Reward_4_Min_Value 7
+Response_2_Reward_4_Max_Value 9
+Response_2_Reward_4_Modification Assign
+//Set Mission to Active
+Response_2_Reward_5_Type Flag_Short
+Response_2_Reward_5_ID 3385
+Response_2_Reward_5_Value 0
+Response_2_Reward_5_Modification Assign
+
+//Farsala Conflict Complete
+Response_3_Dialogue 3092
+Response_3_Quest 3382
+Response_3_Conditions 1
+Response_3_Condition_0_Type Quest
+Response_3_Condition_0_Logic Equal
+Response_3_Condition_0_ID 3382
+Response_3_Condition_0_Status Ready
+Response_3_Condition_0_Reset
+Response_3_Rewards 6
+//Reset Quest
+Response_3_Reward_0_Type Flag_Short
+Response_3_Reward_0_ID 3382
+Response_3_Reward_0_Value 0
+Response_3_Reward_0_Modification Assign
+//Reset Randomization
+Response_3_Reward_1_Type Flag_Short
+Response_3_Reward_1_ID 3378
+Response_3_Reward_1_Value 0
+Response_3_Reward_1_Modification Assign
+//Reset Stashes
+Response_3_Reward_2_Type Flag_Bool
+Response_3_Reward_2_ID 3379
+Response_3_Reward_2_Value False
+Response_3_Reward_3_Type Flag_Bool
+Response_3_Reward_3_ID 3380
+Response_3_Reward_3_Value False
+Response_3_Reward_4_Type Flag_Bool
+Response_3_Reward_4_ID 3381
+Response_3_Reward_4_Value False
+//Choose Next Mission
+Response_3_Reward_5_Type Flag_Short_Random
+Response_3_Reward_5_ID 3385
+Response_3_Reward_5_Min_Value 1
+Response_3_Reward_5_Max_Value 3
+Response_3_Reward_5_Modification Assign
+
+//Larissa Conflict Complete
+Response_4_Dialogue 3092
+Response_4_Quest 3383
+Response_4_Conditions 1
+Response_4_Condition_0_Type Quest
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_0_ID 3383
+Response_4_Condition_0_Status Ready
+Response_4_Condition_0_Reset
+Response_4_Rewards 6
+//Reset Quest
+Response_4_Reward_0_Type Flag_Short
+Response_4_Reward_0_ID 3383
+Response_4_Reward_0_Value 0
+Response_4_Reward_0_Modification Assign
+//Reset Randomization
+Response_4_Reward_1_Type Flag_Short
+Response_4_Reward_1_ID 3378
+Response_4_Reward_1_Value 0
+Response_4_Reward_1_Modification Assign
+//Reset Stashes
+Response_4_Reward_2_Type Flag_Bool
+Response_4_Reward_2_ID 3379
+Response_4_Reward_2_Value False
+Response_4_Reward_3_Type Flag_Bool
+Response_4_Reward_3_ID 3380
+Response_4_Reward_3_Value False
+Response_4_Reward_4_Type Flag_Bool
+Response_4_Reward_4_ID 3381
+Response_4_Reward_4_Value False
+//Choose Next Mission
+Response_4_Reward_5_Type Flag_Short_Random
+Response_4_Reward_5_ID 3385
+Response_4_Reward_5_Min_Value 1
+Response_4_Reward_5_Max_Value 3
+Response_4_Reward_5_Modification Assign
+
+//Trikala Conflict Complete
+Response_5_Dialogue 3092
+Response_5_Quest 3384
+Response_5_Conditions 1
+Response_5_Condition_0_Type Quest
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_0_ID 3384
+Response_5_Condition_0_Status Ready
+Response_5_Condition_0_Reset
+Response_5_Rewards 6
+//Reset Quest
+Response_5_Reward_0_Type Flag_Short
+Response_5_Reward_0_ID 3384
+Response_5_Reward_0_Value 0
+Response_5_Reward_0_Modification Assign
+//Reset Randomization
+Response_5_Reward_1_Type Flag_Short
+Response_5_Reward_1_ID 3378
+Response_5_Reward_1_Value 0
+Response_5_Reward_1_Modification Assign
+//Reset Stashes
+Response_5_Reward_2_Type Flag_Bool
+Response_5_Reward_2_ID 3379
+Response_5_Reward_2_Value False
+Response_5_Reward_3_Type Flag_Bool
+Response_5_Reward_3_ID 3380
+Response_5_Reward_3_Value False
+Response_5_Reward_4_Type Flag_Bool
+Response_5_Reward_4_ID 3381
+Response_5_Reward_4_Value False
+//Choose Next Mission
+Response_5_Reward_5_Type Flag_Short_Random
+Response_5_Reward_5_ID 3385
+Response_5_Reward_5_Min_Value 1
+Response_5_Reward_5_Max_Value 3
+Response_5_Reward_5_Modification Assign
+
+//Got Any Others?
+Response_6_Dialogue 3386
+Response_6_Conditions 1
+Response_6_Condition_0_Type Flag_Short
+Response_6_Condition_0_Logic Not_Equal
+Response_6_Condition_0_ID 3385
+Response_6_Condition_0_Value 0
+Response_6_Rewards 1
+//Choose Next Mission
+Response_6_Reward_0_Type Flag_Short_Random
+Response_6_Reward_0_ID 3385
+Response_6_Reward_0_Min_Value 1
+Response_6_Reward_0_Max_Value 3
+Response_6_Reward_0_Modification Assign
+
+//Mission Failed
+Response_7_Dialogue 3387
+Response_7_Conditions 4
+Response_7_Condition_0_Type Quest
+Response_7_Condition_0_Logic Not_Equal
+Response_7_Condition_0_ID 3382
+Response_7_Condition_0_Status Active
+Response_7_Condition_1_Type Quest
+Response_7_Condition_1_Logic Not_Equal
+Response_7_Condition_1_ID 3383
+Response_7_Condition_1_Status Active
+Response_7_Condition_2_Type Quest
+Response_7_Condition_2_Logic Not_Equal
+Response_7_Condition_2_ID 3384
+Response_7_Condition_2_Status Active
+Response_7_Condition_3_Type Flag_Short
+Response_7_Condition_3_Logic Equal
+Response_7_Condition_3_ID 3385
+Response_7_Condition_3_Value 0
+Response_7_Rewards 1
+//Choose Next Mission
+Response_7_Reward_0_Type Flag_Short_Random
+Response_7_Reward_0_ID 3385
+Response_7_Reward_0_Min_Value 1
+Response_7_Reward_0_Max_Value 3
+Response_7_Reward_0_Modification Assign

@@ -1,0 +1,18 @@
+GUID ce5e2243f2a94708b3e1e044b74e3e3e
+Type Quest
+ID 6220
+
+Conditions 1
+Condition_0_Type Flag_Bool
+Condition_0_ID 6217
+Condition_0_Value True
+Condition_0_Logic Equal
+
+Rewards 2
+Reward_0_Type Experience
+Reward_0_Value 25
+// Military Missions Complete
+Reward_1_Type Flag_Short
+Reward_1_ID 3030
+Reward_1_Value -1
+Reward_1_Modification Increment

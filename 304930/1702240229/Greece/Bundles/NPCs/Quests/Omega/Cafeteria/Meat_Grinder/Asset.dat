@@ -1,0 +1,37 @@
+GUID a8deaf631445466cb2c4d98a878a5e92
+Type Quest
+ID 3422
+
+Conditions 3
+//Deer meat
+Condition_0_Type Item
+Condition_0_ID 514
+Condition_0_Amount 4
+Condition_0_Reset
+
+//Pork
+Condition_1_Type Item
+Condition_1_ID 1117
+Condition_1_Amount 4
+Condition_1_Reset
+
+//Beef
+Condition_2_Type Item
+Condition_2_ID 1120
+Condition_2_Amount 4
+Condition_2_Reset
+
+Rewards 4
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value -2
+Reward_2_Modification Increment
+//Beef Sandwich
+Reward_3_Type Item
+Reward_3_ID 1407
+Reward_3_Amount 1

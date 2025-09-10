@@ -1,0 +1,25 @@
+GUID 95529adf127e4c53868c3056d8d714d5
+Type NPC
+ID 3582
+
+Shirt 232
+Pants 2
+//Vest 722
+Mask 570
+//Hat 240
+//Glasses 568
+
+Face 4
+Hair 21
+Beard 0
+Color_Skin #534736
+Color_Hair #191919
+
+//Primary 3512
+Secondary 136
+//Tertiary 1328
+//Equipped Tertiary
+
+//Pose Crouch
+
+Dialogue 3630

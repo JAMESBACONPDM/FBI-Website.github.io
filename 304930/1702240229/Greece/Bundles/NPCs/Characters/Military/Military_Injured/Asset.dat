@@ -1,0 +1,30 @@
+GUID a1acd390e9304059b24fa7a8f90245c7
+Type NPC
+ID 3938
+
+Conditions 1
+Condition_0_Type Flag_Short
+Condition_0_Logic Not_Equal
+Condition_0_ID 3403
+Condition_0_Value 500
+
+Pants 3504
+//Vest 10
+//Mask 185
+//Hat 240
+//Backpack 247
+//Glasses 568
+
+Face 9
+Hair 19
+Beard 0
+Color_Skin #867F6E
+Color_Hair #372319
+
+//Primary 122
+//Secondary 76
+//Equipped Primary
+
+Pose Asleep
+
+Dialogue 3412

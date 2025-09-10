@@ -1,0 +1,20 @@
+GUID cac0c87234154e50b6074a114a464bf8
+Type Supply
+ID 20011
+
+Size_X 2
+Size_Y 2
+Size_Z 0.25
+
+Blueprints 1
+Blueprint_0_Type Supply
+Blueprint_0_Supplies 2
+Blueprint_0_Supply_0_ID 20009
+Blueprint_0_Supply_0_Amount 1
+Blueprint_0_Supply_1_ID 20011
+Blueprint_0_Supply_1_Amount 2
+Blueprint_0_Product 75
+Blueprint_0_Products 1
+Blueprint_0_Build 27
+Blueprint_0_Skill Craft
+Blueprint_0_Level 2

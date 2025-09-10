@@ -1,0 +1,5 @@
+Name Scouting Party I
+Description A scavenging party is ready to head out. <color=epic>Colonel Nicole</color> needs you to help eliminate the infected along their root.
+
+Condition_0 Eliminate Almiros Farm Infected {0}/{1}
+Condition_1 Eliminate Kala Nera Farm Infected {0}/{1}

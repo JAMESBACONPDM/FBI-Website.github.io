@@ -1,0 +1,27 @@
+GUID c614c80a4c214ea5b4d5b9b68d69c626
+Type NPC
+ID 3951
+
+Conditions 1
+Condition_0_Type Flag_Short
+Condition_0_ID 3571
+Condition_0_Value 1
+Condition_0_Logic Equal
+
+Shirt 3508
+Pants 209
+//Vest 3510
+Mask 434
+Hat 3511
+
+Face 3
+Hair 12
+Beard 6
+Color_Skin #94764B
+Color_Hair #352C22
+
+Primary 1445
+Secondary 3515
+Equipped Primary
+
+Dialogue 3580

@@ -1,0 +1,5 @@
+Name Open Season
+Description <color=legendary>Sergeant First Class Damien</color> needs your help controlling the local bear population. They have been excessively territorial lately, causing lots of problems for our reconnaissance squads and even our convoys.
+
+Condition_0 Kill Bears {0}/{1}
+

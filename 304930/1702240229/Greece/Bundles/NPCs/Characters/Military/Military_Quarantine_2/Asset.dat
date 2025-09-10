@@ -1,0 +1,25 @@
+GUID da99ca2703bd4164b4a8e7fc4979f84a
+Type NPC
+ID 3593
+
+Shirt 1015
+Pants 1016
+//Vest 552
+Mask 1017
+//Hat 431
+//Glasses 727
+
+Face 4
+Hair 16
+Beard 0
+Color_Skin #9D886B
+Color_Hair #473928
+
+//Primary 3512
+Secondary 3515
+//Tertiary 1328
+//Equipped Tertiary
+
+//Pose Sit
+
+Dialogue 3663

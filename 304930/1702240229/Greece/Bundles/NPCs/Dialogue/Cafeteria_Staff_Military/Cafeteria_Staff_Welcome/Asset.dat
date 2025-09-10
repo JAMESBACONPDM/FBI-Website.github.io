@@ -1,0 +1,491 @@
+GUID f466bb209cbf4cf9b90c497c4bba433c
+Type Dialogue
+ID 3031
+
+Messages 2
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Bool
+Message_0_Condition_0_ID 3042
+Message_0_Condition_0_Value False
+Message_0_Condition_0_Logic Equal
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 2
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value 2
+Message_1_Condition_0_Logic Greater_Than_Or_Equal_To
+Message_1_Condition_1_Type Flag_Bool
+Message_1_Condition_1_ID 3042
+Message_1_Condition_1_Value True
+Message_1_Condition_1_Logic Equal
+Message_1_Condition_1_Allow_Unset
+
+
+Responses 10
+
+Response_0_Messages 1
+Response_0_Message_0 0
+Response_0_Dialogue 3041
+Response_0_Conditions 3
+Response_0_Condition_0_Type Flag_Bool
+Response_0_Condition_0_ID 3042
+Response_0_Condition_0_Value False
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_Allow_Unset
+//Are a Chef
+Response_0_Condition_1_Type Flag_Short
+Response_0_Condition_1_ID 3001
+Response_0_Condition_1_Value 8
+Response_0_Condition_1_Logic Equal
+//High enough clearance
+Response_0_Condition_2_Type Flag_Short
+Response_0_Condition_2_ID 3017
+Response_0_Condition_2_Value 2
+Response_0_Condition_2_Logic Greater_Than_Or_Equal_To
+Response_0_Rewards 1
+Response_0_Reward_0_Type Flag_Bool
+Response_0_Reward_0_ID 3042
+Response_0_Reward_0_Value True
+
+
+//Give resupplier 1 Quest
+Response_1_Messages 1
+Response_1_Message_0 1
+Response_1_Dialogue 3043
+Response_1_Quest 3032
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 3032
+Response_1_Condition_0_Status None
+Response_1_Condition_0_Allow_Unset
+Response_1_Rewards 2
+Response_1_Reward_0_Type Quest
+Response_1_Reward_0_ID 3032
+Response_1_Reward_1_Type Flag_Short
+Response_1_Reward_1_ID 3050
+Response_1_Reward_1_Value 1
+Response_1_Reward_1_Modification Assign
+
+Response_2_Messages 1
+Response_2_Message_0 1
+Response_2_Dialogue 3044
+Response_2_Quest 3032
+Response_2_Conditions 1
+//Resupplier 1 Quest Complete
+Response_2_Condition_0_Type Quest
+Response_2_Condition_0_Logic Equal
+Response_2_Condition_0_ID 3032
+Response_2_Condition_0_Status Ready
+Response_2_Condition_0_Reset
+
+Response_3_Messages 1
+Response_3_Message_0 0
+
+Response_4_Messages 1
+Response_4_Message_0 1
+Response_4_Dialogue 3046
+Response_4_Quest 3045
+Response_4_Conditions 2
+Response_4_Condition_0_Type Quest
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_0_ID 3032
+Response_4_Condition_0_Status Completed
+Response_4_Condition_0_Allow_Unset
+Response_4_Condition_1_Type Quest
+Response_4_Condition_1_Logic Equal
+Response_4_Condition_1_ID 3045
+Response_4_Condition_1_Status None
+Response_4_Condition_1_Allow_Unset
+Response_4_Rewards 1
+Response_4_Reward_0_Type Quest
+Response_4_Reward_0_ID 3045
+
+Response_5_Messages 1
+Response_5_Message_0 1
+Response_5_Dialogue 3047
+Response_5_Quest 3045
+Response_5_Conditions 1
+//Resupplier 2 Quest Complete
+Response_5_Condition_0_Type Quest
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_0_ID 3045
+Response_5_Condition_0_Status Ready
+Response_5_Condition_0_Reset
+
+Response_6_Messages 1
+Response_6_Message_0 1
+Response_6_Quest 3471
+Response_6_Dialogue 3473
+Response_6_Conditions 2
+Response_6_Condition_0_Type Quest
+Response_6_Condition_0_Logic Equal
+Response_6_Condition_0_ID 3045
+Response_6_Condition_0_Status Completed
+Response_6_Condition_0_Allow_Unset
+Response_6_Condition_1_Type Quest
+Response_6_Condition_1_Logic Equal
+Response_6_Condition_1_ID 3471
+Response_6_Condition_1_Status None
+Response_6_Condition_1_Allow_Unset
+Response_6_Rewards 31
+Response_6_Reward_0_Type Quest
+Response_6_Reward_0_ID 3471
+//Reset In case of Abandoned Quest
+Response_6_Reward_1_Type Flag_Short
+Response_6_Reward_1_ID 3430
+Response_6_Reward_1_Value 0
+Response_6_Reward_1_Modification Assign
+Response_6_Reward_2_Type Flag_Short
+Response_6_Reward_2_ID 3431
+Response_6_Reward_2_Value 0
+Response_6_Reward_2_Modification Assign
+Response_6_Reward_3_Type Flag_Short
+Response_6_Reward_3_ID 3432
+Response_6_Reward_3_Value 0
+Response_6_Reward_3_Modification Assign
+Response_6_Reward_4_Type Flag_Short
+Response_6_Reward_4_ID 3433
+Response_6_Reward_4_Value 1
+Response_6_Reward_4_Modification Assign
+Response_6_Reward_5_Type Flag_Short
+Response_6_Reward_5_ID 3434
+Response_6_Reward_5_Value 2
+Response_6_Reward_5_Modification Assign
+Response_6_Reward_6_Type Flag_Short
+Response_6_Reward_6_ID 3435
+Response_6_Reward_6_Value 3
+Response_6_Reward_6_Modification Assign
+//Randomize Option Values
+//Option #1
+//Materials
+Response_6_Reward_7_Type Flag_Short_Random
+Response_6_Reward_7_ID 3436
+Response_6_Reward_7_Min_Value 10
+Response_6_Reward_7_Max_Value 25
+Response_6_Reward_7_Modification Assign
+//Nutrients
+Response_6_Reward_8_Type Flag_Short_Random
+Response_6_Reward_8_ID 3437
+Response_6_Reward_8_Min_Value 10
+Response_6_Reward_8_Max_Value 20
+Response_6_Reward_8_Modification Assign
+//Morale
+Response_6_Reward_9_Type Flag_Short_Random
+Response_6_Reward_9_ID 3438
+Response_6_Reward_9_Min_Value 0
+Response_6_Reward_9_Max_Value 5
+Response_6_Reward_9_Modification Assign
+//Option #2
+//Materials
+Response_6_Reward_10_Type Flag_Short_Random
+Response_6_Reward_10_ID 3439
+Response_6_Reward_10_Min_Value 15
+Response_6_Reward_10_Max_Value 25
+Response_6_Reward_10_Modification Assign
+//Nutrients
+Response_6_Reward_11_Type Flag_Short_Random
+Response_6_Reward_11_ID 3440
+Response_6_Reward_11_Min_Value 20
+Response_6_Reward_11_Max_Value 30
+Response_6_Reward_11_Modification Assign
+//Morale
+Response_6_Reward_12_Type Flag_Short_Random
+Response_6_Reward_12_ID 3441
+Response_6_Reward_12_Min_Value 1
+Response_6_Reward_12_Max_Value 10
+Response_6_Reward_12_Modification Assign
+//Option #3
+//Materials
+Response_6_Reward_13_Type Flag_Short_Random
+Response_6_Reward_13_ID 3442
+Response_6_Reward_13_Min_Value 15
+Response_6_Reward_13_Max_Value 30
+Response_6_Reward_13_Modification Assign
+//Nutrients
+Response_6_Reward_14_Type Flag_Short_Random
+Response_6_Reward_14_ID 3443
+Response_6_Reward_14_Min_Value 20
+Response_6_Reward_14_Max_Value 25
+Response_6_Reward_14_Modification Assign
+//Morale
+Response_6_Reward_15_Type Flag_Short_Random
+Response_6_Reward_15_ID 3444
+Response_6_Reward_15_Min_Value 5
+Response_6_Reward_15_Max_Value 10
+Response_6_Reward_15_Modification Assign
+//Option #4
+//Materials
+Response_6_Reward_16_Type Flag_Short_Random
+Response_6_Reward_16_ID 3445
+Response_6_Reward_16_Min_Value 20
+Response_6_Reward_16_Max_Value 35
+Response_6_Reward_16_Modification Assign
+//Nutrients
+Response_6_Reward_17_Type Flag_Short_Random
+Response_6_Reward_17_ID 3446
+Response_6_Reward_17_Min_Value 20
+Response_6_Reward_17_Max_Value 40
+Response_6_Reward_17_Modification Assign
+//Morale
+Response_6_Reward_18_Type Flag_Short_Random
+Response_6_Reward_18_ID 3447
+Response_6_Reward_18_Min_Value 10
+Response_6_Reward_18_Max_Value 15
+Response_6_Reward_18_Modification Assign
+//Option #5
+//Materials
+Response_6_Reward_19_Type Flag_Short_Random
+Response_6_Reward_19_ID 3448
+Response_6_Reward_19_Min_Value 15
+Response_6_Reward_19_Max_Value 30
+Response_6_Reward_19_Modification Assign
+//Nutrients
+Response_6_Reward_20_Type Flag_Short_Random
+Response_6_Reward_20_ID 3449
+Response_6_Reward_20_Min_Value 15
+Response_6_Reward_20_Max_Value 28
+Response_6_Reward_20_Modification Assign
+//Morale
+Response_6_Reward_21_Type Flag_Short_Random
+Response_6_Reward_21_ID 3450
+Response_6_Reward_21_Min_Value 1
+Response_6_Reward_21_Max_Value 10
+Response_6_Reward_21_Modification Assign
+
+//Calculate Totals
+//Total Consumed Supplies
+//Add Supplies x3
+Response_6_Reward_22_Type Flag_Math
+Response_6_Reward_22_A_ID 3430
+Response_6_Reward_22_B_ID 3436
+Response_6_Reward_22_Operation Addition
+Response_6_Reward_23_Type Flag_Math
+Response_6_Reward_23_A_ID 3430
+Response_6_Reward_23_B_ID 3439
+Response_6_Reward_23_Operation Addition
+Response_6_Reward_24_Type Flag_Math
+Response_6_Reward_24_A_ID 3430
+Response_6_Reward_24_B_ID 3442
+Response_6_Reward_24_Operation Addition
+//Total Nutrients Value
+//Add Nutrients x3
+Response_6_Reward_25_Type Flag_Math
+Response_6_Reward_25_A_ID 3431
+Response_6_Reward_25_B_ID 3437
+Response_6_Reward_25_Operation Addition
+Response_6_Reward_26_Type Flag_Math
+Response_6_Reward_26_A_ID 3431
+Response_6_Reward_26_B_ID 3440
+Response_6_Reward_26_Operation Addition
+Response_6_Reward_27_Type Flag_Math
+Response_6_Reward_27_A_ID 3431
+Response_6_Reward_27_B_ID 3443
+Response_6_Reward_27_Operation Addition
+//Total Morale Value
+//Add Morale Boost x3
+Response_6_Reward_28_Type Flag_Math
+Response_6_Reward_28_A_ID 3432
+Response_6_Reward_28_B_ID 3438
+Response_6_Reward_28_Operation Addition
+Response_6_Reward_29_Type Flag_Math
+Response_6_Reward_29_A_ID 3432
+Response_6_Reward_29_B_ID 3441
+Response_6_Reward_29_Operation Addition
+Response_6_Reward_30_Type Flag_Math
+Response_6_Reward_30_A_ID 3432
+Response_6_Reward_30_B_ID 3444
+Response_6_Reward_30_Operation Addition
+
+Response_7_Messages 1
+Response_7_Message_0 1
+Response_7_Dialogue 3474
+Response_7_Quest 3471
+Response_7_Conditions 1
+Response_7_Condition_0_Type Quest
+Response_7_Condition_0_Logic Equal
+Response_7_Condition_0_ID 3471
+Response_7_Condition_0_Status Ready
+Response_7_Condition_0_Reset
+
+Response_8_Messages 1
+Response_8_Message_0 1
+Response_8_Dialogue 3451
+Response_8_Conditions 1
+Response_8_Condition_0_Type Quest
+Response_8_Condition_0_Logic Equal
+Response_8_Condition_0_ID 3471
+Response_8_Condition_0_Status Active
+Response_8_Rewards 30
+Response_8_Reward_0_Type Flag_Math
+Response_8_Reward_0_A_ID 3432
+Response_8_Reward_0_B_ID 3444
+Response_8_Reward_0_Operation Addition
+//Reset In case of Abandoned Quest
+Response_8_Reward_1_Type Flag_Short
+Response_8_Reward_1_ID 3430
+Response_8_Reward_1_Value 0
+Response_8_Reward_1_Modification Assign
+Response_8_Reward_2_Type Flag_Short
+Response_8_Reward_2_ID 3431
+Response_8_Reward_2_Value 0
+Response_8_Reward_2_Modification Assign
+Response_8_Reward_3_Type Flag_Short
+Response_8_Reward_3_ID 3432
+Response_8_Reward_3_Value 0
+Response_8_Reward_3_Modification Assign
+Response_8_Reward_4_Type Flag_Short
+Response_8_Reward_4_ID 3433
+Response_8_Reward_4_Value 1
+Response_8_Reward_4_Modification Assign
+Response_8_Reward_5_Type Flag_Short
+Response_8_Reward_5_ID 3434
+Response_8_Reward_5_Value 2
+Response_8_Reward_5_Modification Assign
+Response_8_Reward_6_Type Flag_Short
+Response_8_Reward_6_ID 3435
+Response_8_Reward_6_Value 3
+Response_8_Reward_6_Modification Assign
+//Randomize Option Values
+//Option #1
+//Materials
+Response_8_Reward_7_Type Flag_Short_Random
+Response_8_Reward_7_ID 3436
+Response_8_Reward_7_Min_Value 10
+Response_8_Reward_7_Max_Value 25
+Response_8_Reward_7_Modification Assign
+//Nutrients
+Response_8_Reward_8_Type Flag_Short_Random
+Response_8_Reward_8_ID 3437
+Response_8_Reward_8_Min_Value 10
+Response_8_Reward_8_Max_Value 20
+Response_8_Reward_8_Modification Assign
+//Morale
+Response_8_Reward_9_Type Flag_Short_Random
+Response_8_Reward_9_ID 3438
+Response_8_Reward_9_Min_Value 0
+Response_8_Reward_9_Max_Value 5
+Response_8_Reward_9_Modification Assign
+//Option #2
+//Materials
+Response_8_Reward_10_Type Flag_Short_Random
+Response_8_Reward_10_ID 3439
+Response_8_Reward_10_Min_Value 15
+Response_8_Reward_10_Max_Value 25
+Response_8_Reward_10_Modification Assign
+//Nutrients
+Response_8_Reward_11_Type Flag_Short_Random
+Response_8_Reward_11_ID 3440
+Response_8_Reward_11_Min_Value 20
+Response_8_Reward_11_Max_Value 30
+Response_8_Reward_11_Modification Assign
+//Morale
+Response_8_Reward_12_Type Flag_Short_Random
+Response_8_Reward_12_ID 3441
+Response_8_Reward_12_Min_Value 1
+Response_8_Reward_12_Max_Value 10
+Response_8_Reward_12_Modification Assign
+//Option #3
+//Materials
+Response_8_Reward_13_Type Flag_Short_Random
+Response_8_Reward_13_ID 3442
+Response_8_Reward_13_Min_Value 15
+Response_8_Reward_13_Max_Value 30
+Response_8_Reward_13_Modification Assign
+//Nutrients
+Response_8_Reward_14_Type Flag_Short_Random
+Response_8_Reward_14_ID 3443
+Response_8_Reward_14_Min_Value 20
+Response_8_Reward_14_Max_Value 25
+Response_8_Reward_14_Modification Assign
+//Morale
+Response_8_Reward_15_Type Flag_Short_Random
+Response_8_Reward_15_ID 3444
+Response_8_Reward_15_Min_Value 5
+Response_8_Reward_15_Max_Value 10
+Response_8_Reward_15_Modification Assign
+//Option #4
+//Materials
+Response_8_Reward_16_Type Flag_Short_Random
+Response_8_Reward_16_ID 3445
+Response_8_Reward_16_Min_Value 20
+Response_8_Reward_16_Max_Value 35
+Response_8_Reward_16_Modification Assign
+//Nutrients
+Response_8_Reward_17_Type Flag_Short_Random
+Response_8_Reward_17_ID 3446
+Response_8_Reward_17_Min_Value 20
+Response_8_Reward_17_Max_Value 40
+Response_8_Reward_17_Modification Assign
+//Morale
+Response_8_Reward_18_Type Flag_Short_Random
+Response_8_Reward_18_ID 3447
+Response_8_Reward_18_Min_Value 10
+Response_8_Reward_18_Max_Value 15
+Response_8_Reward_18_Modification Assign
+//Option #5
+//Materials
+Response_8_Reward_19_Type Flag_Short_Random
+Response_8_Reward_19_ID 3448
+Response_8_Reward_19_Min_Value 15
+Response_8_Reward_19_Max_Value 30
+Response_8_Reward_19_Modification Assign
+//Nutrients
+Response_8_Reward_20_Type Flag_Short_Random
+Response_8_Reward_20_ID 3449
+Response_8_Reward_20_Min_Value 15
+Response_8_Reward_20_Max_Value 28
+Response_8_Reward_20_Modification Assign
+//Morale
+Response_8_Reward_21_Type Flag_Short_Random
+Response_8_Reward_21_ID 3450
+Response_8_Reward_21_Min_Value 1
+Response_8_Reward_21_Max_Value 10
+Response_8_Reward_21_Modification Assign
+
+//Calculate Totals
+//Total Consumed Supplies
+//Add Supplies x3
+Response_8_Reward_22_Type Flag_Math
+Response_8_Reward_22_A_ID 3430
+Response_8_Reward_22_B_ID 3436
+Response_8_Reward_22_Operation Addition
+Response_8_Reward_23_Type Flag_Math
+Response_8_Reward_23_A_ID 3430
+Response_8_Reward_23_B_ID 3439
+Response_8_Reward_23_Operation Addition
+Response_8_Reward_24_Type Flag_Math
+Response_8_Reward_24_A_ID 3430
+Response_8_Reward_24_B_ID 3442
+Response_8_Reward_24_Operation Addition
+//Total Nutrients Value
+//Add Nutrients x3
+Response_8_Reward_25_Type Flag_Math
+Response_8_Reward_25_A_ID 3431
+Response_8_Reward_25_B_ID 3437
+Response_8_Reward_25_Operation Addition
+Response_8_Reward_26_Type Flag_Math
+Response_8_Reward_26_A_ID 3431
+Response_8_Reward_26_B_ID 3440
+Response_8_Reward_26_Operation Addition
+Response_8_Reward_27_Type Flag_Math
+Response_8_Reward_27_A_ID 3431
+Response_8_Reward_27_B_ID 3443
+Response_8_Reward_27_Operation Addition
+//Total Morale Value
+//Add Morale Boost x3
+Response_8_Reward_28_Type Flag_Math
+Response_8_Reward_28_A_ID 3432
+Response_8_Reward_28_B_ID 3438
+Response_8_Reward_28_Operation Addition
+Response_8_Reward_29_Type Flag_Math
+Response_8_Reward_29_A_ID 3432
+Response_8_Reward_29_B_ID 3441
+Response_8_Reward_29_Operation Addition
+
+Response_9_Messages 1
+Response_9_Message_0 1
+

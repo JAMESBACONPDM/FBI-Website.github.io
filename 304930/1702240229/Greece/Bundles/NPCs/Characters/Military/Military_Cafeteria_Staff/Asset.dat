@@ -1,0 +1,25 @@
+GUID 6c69994d014247e7bdecb182333901d1
+Type NPC
+ID 3569
+
+Shirt 230
+Pants 231
+//Vest 722
+//Mask 570
+//Hat 3532
+//Glasses 568
+
+Face 6
+Hair 12
+Beard 0
+Color_Skin #BEA582
+Color_Hair #CDC08C
+
+//Primary 3512
+//Secondary 3515
+//Tertiary 239
+//Equipped Tertiary
+
+Backward
+
+Dialogue 3031

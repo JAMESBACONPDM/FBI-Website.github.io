@@ -1,0 +1,4 @@
+Name Radio Rush
+Description <color=rare>Obelius the Janitor</color> has a different kind of cleanup job for you to do. <color=legendary>Master Sergeant Tennyson's</color> squad had to do a hasty retreat and accidently left behind some important communication equipment in Trikala. You'll need to retrieve the equipment before it falls into the wrong hands.
+
+Condition_0 Retrieve Radio Equipment {0}/{1}

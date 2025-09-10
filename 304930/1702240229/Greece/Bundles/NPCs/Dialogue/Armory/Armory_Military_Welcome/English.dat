@@ -1,0 +1,25 @@
+Message_0_Page_0 You must be new! Welcome, fill out these papers please.
+Message_1_Page_0 You better have a good reason to be in here.
+Message_2_Page_0 <color=mythical>High Command</color> has an urgent mission for you!
+Message_3_Page_0 You must be a hard worker, Private. There already has been a promotion put in for you, and are now the rank of <color=uncommon>Lance Corporal</color>. Here is your new outfit.
+Message_4_Page_0 Looks like you've been put up for another promotion, I'm impressed. Here is your <color=uncommon>Corporal</color> uniform.
+Message_5_Page_0 How does the rank of <color=epic>Sergeant</color> sound? You've been promoted, <name_char>. Let me know if these are too tight.
+Message_6_Page_0 <color=mythical>President Estevao</color> has heard about your feats and has requested your presence in the Situation Room. Oh, and he also got you promoted to a <color=epic>Sergeant First Class</color>. 
+Message_7_Page_0 Well look who it is! <name_char>, with perfect timing as usual. The rank of <color=legendary>master Sergeant</color> is yours. Not many get this far, you should feel honored. 
+Message_8_Page_0 What can I do for you?
+
+
+Response_0 <i>*Fill out papers*</i>
+Response_1 <i>*Fill out papers incorrectly*</i>
+Response_2 Oops, I lost my pen.
+Response_3 How do the ranks work?
+Response_4 What is it?
+Response_5 Mission Complete.
+Response_6 It is an honor.
+Response_7 Thank you, It is an honor.
+Response_8 It is an honor.
+Response_9 I'm honored.
+Response_10 I tried my hardest.
+Response_11 Any Field Missions?
+Response_12 I'd like to check out some items from the Armory.
+Response_13 Goodbye!

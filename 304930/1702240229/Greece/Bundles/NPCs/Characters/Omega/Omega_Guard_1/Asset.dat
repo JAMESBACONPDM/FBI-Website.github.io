@@ -1,0 +1,25 @@
+GUID 606b794435234c7bb3155e66792653a4
+Type NPC
+ID 3554
+
+Shirt 3527
+Pants 209
+//Vest 3510
+Mask 185
+//Hat 1426
+Backpack 247
+Glasses 409
+
+Face 11
+Hair 6
+Beard 9
+Color_Skin #94764B
+Color_Hair #261919
+
+Pose Crouch
+
+Primary 3517
+Secondary 3515
+Equipped Secondary
+
+Dialogue 3006

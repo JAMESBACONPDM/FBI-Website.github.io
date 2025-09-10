@@ -1,0 +1,7 @@
+Name Material Mission
+Description <color=epic>Workshop Manager Hyperion</color> needs some more materials for the workshop.
+
+Condition_0 Gather Birch Logs {0}/{1}
+Condition_1 Gather Maple Logs {0}/{1}
+Condition_2 Gather Pine Logs {0}/{1}
+Condition_3 Gather Scrap Metal {0}/{1}

@@ -1,0 +1,6 @@
+Name Fresh Meat
+Description <color=epic>Head Chef Daria</color> can't stand working with all the canned ham and other assorted meats. She needs some actual fresh ingredients to make proper meals.
+
+Condition_0 Get Raw Venison {0}/{1}
+Condition_1 Get Raw Pork {0}/{1}
+Condition_2 Get Raw Beef {0}/{1}

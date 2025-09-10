@@ -1,0 +1,17 @@
+GUID ae356f030d3d459995ddd701a7b40639
+Type Dialogue
+ID 3616
+
+Messages 1
+Message_0_Pages 1
+
+Responses 1
+// Cost of Knowledge Quest Completed
+Response_0_Dialogue 3614
+Response_0_Quest 3612
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 3612
+Response_0_Condition_0_Status Ready
+Response_0_Condition_0_Reset

@@ -1,0 +1,71 @@
+GUID f8816ba562ab41bb86aa28687cd32876
+Type Dialogue
+ID 6200
+
+Messages 3
+Message_0_Pages 3
+Message_0_Conditions 2
+Message_0_Condition_0_Type Flag_Bool
+Message_0_Condition_0_ID 6204
+Message_0_Condition_0_Value False
+Message_0_Condition_0_Logic Equal
+Message_0_Condition_0_Allow_Unset
+Message_0_Condition_1_Type Flag_Short
+Message_0_Condition_1_ID 3017
+Message_0_Condition_1_Value 2
+Message_0_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Flag_Bool
+Message_1_Condition_0_ID 6204
+Message_1_Condition_0_Value True
+Message_1_Condition_0_Logic Equal
+Message_2_Pages 1
+Message_2_Conditions 1
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value 2
+Message_2_Condition_0_Logic Less_Than
+Message_2_Condition_0_Allow_Unset
+
+Responses 4
+
+// anything I can do?
+// Repairs_Accepted
+Response_0_Dialogue 6201
+Response_0_Quest 6202
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 6202
+Response_0_Condition_0_Status None
+Response_0_Rewards 2
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 6202
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 6204
+Response_0_Reward_1_Value True
+Response_0_Messages 1
+Response_0_Message_0 0
+
+// I found those tools you needed!
+// Repairs_Completed
+Response_1_Dialogue 6203
+Response_1_Quest 6202
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 6202
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+Response_1_Messages 2
+Response_1_Message_0 0
+Response_1_Message_1 1
+
+Response_2_Messages 2
+Response_2_Message_0 0
+Response_2_Message_1 1
+
+
+Response_3_Messages 1
+Response_3_Message_0 3

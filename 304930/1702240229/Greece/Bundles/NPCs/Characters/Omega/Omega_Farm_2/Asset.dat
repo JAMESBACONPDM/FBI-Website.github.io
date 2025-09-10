@@ -1,0 +1,25 @@
+GUID 94e35900baa04319965e24f402203003
+Type NPC
+ID 3609
+
+Shirt 510
+Pants 511
+//Vest 10
+//Mask 185
+Hat 509
+//Backpack 247
+//Glasses 568
+
+Face 24
+Hair 14
+Beard 0
+Color_Skin #94764B
+Color_Hair #352C22
+
+//Primary 3512
+Secondary 1031
+//Equipped Primary
+
+//Pose Sit
+
+Dialogue 3221

@@ -1,0 +1,23 @@
+GUID 177e06193a164e1caec13ac4e896a22a
+Type NPC
+ID 3548
+
+Shirt 3505
+Pants 3504
+Vest 3510
+Mask 570
+//Hat 1426
+
+Face 25
+Hair 16
+Beard 0
+Color_Skin #7F5E40
+Color_Hair #665037
+
+Primary 3512
+Secondary 3515
+Equipped Primary
+
+Backward
+
+Dialogue 3003

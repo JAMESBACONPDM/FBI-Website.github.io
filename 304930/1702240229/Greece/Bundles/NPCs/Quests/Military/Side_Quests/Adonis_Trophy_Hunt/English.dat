@@ -1,0 +1,4 @@
+Name Trophy Hunt
+Description Adonis has seen a bunch of statues around the base. Can you find them all?
+
+Condition_0 Find Trophies {0}/{1}

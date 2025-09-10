@@ -1,0 +1,4 @@
+Name Supply Raid I
+Description A scouting party located some supply stashes in Farsala. You're being sent in to retrieve these stashes before the enemy.
+
+Condition_0 Retrieve Stashes {0}/{1}

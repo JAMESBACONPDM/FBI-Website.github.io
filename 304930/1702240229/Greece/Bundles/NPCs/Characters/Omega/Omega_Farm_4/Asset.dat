@@ -1,0 +1,19 @@
+GUID 128a362257a540479276b8606e366eb2
+Type NPC
+ID 3312
+
+Shirt 687
+Pants 208
+
+
+Face 24
+Hair 15
+Color_Skin #9D886B
+Color_Hair #D1B26F
+
+Primary 346
+Tertiary 333
+
+Pose Crouch
+
+Dialogue 6218

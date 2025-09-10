@@ -1,0 +1,11 @@
+Message_0_Page_0 <name_npc> is looking rather well for having been shot. The wound doesn't look infected and is not causing any excess pain or affecting motor coordinations
+Message_1_Page_0 <name_npc> is in pain. The wound could be infected, but the bullet itself is not causing much discomfort.
+Message_2_Page_0 <name_npc>'s arm is looking pretty bad. The wound is likely infected, hopefully he won't lose his arm.
+Message_3_Page_0 <name_npc> is in bad pain. The wound doesn't look infected but the bullet has caused severe damage to his left shoulder and may get worse.
+Message_4_Page_0 <name_npc> is in agony. The wound could be infected and the bullet is going to cause some problems with that joint.
+Message_5_Page_0 <name_npc> is looking very grim. The wound is likely infected, it is swelling horribly, and the bullet has shattered most of the bones in that region.
+Message_6_Page_0 <name_npc> is looking rather... dead.
+Message_7_Page_0 <name_npc> is all bandaged up, hopefully he makes a full recovery.
+
+Response_0 Hang in there, buddy.
+Response_1 <i>*Sigh*</i>... Crap.

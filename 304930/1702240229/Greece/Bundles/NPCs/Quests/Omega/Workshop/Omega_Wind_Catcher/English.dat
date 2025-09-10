@@ -1,0 +1,5 @@
+Name Wind Catcher
+Description <color=rare>Head Engineer Heitor</color> has given you the responsibility of designing a windmill. He has sent <color=uncommon>Hoplite Belen</color> to help you if needed. You will find the construction area in the exterior courtyard.
+
+Condition_0 Must be Structurally Sound {0}/{1}
+Condition_1 Must cost less than {0}/{1}

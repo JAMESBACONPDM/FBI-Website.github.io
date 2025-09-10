@@ -1,0 +1,76 @@
+GUID 2b2a1537ace94f30ba7f02bbda16b8ac
+Type Vendor
+ID 3458
+
+Selling 9
+
+//PANTS
+
+// Grasslands_Military_Bottom
+Selling_0_ID 3504
+Selling_0_Cost 15
+
+//SHIRTS
+
+// Military_Top
+Selling_1_ID 3503
+Selling_1_Cost 15
+// Military_Top_Lance_Corporal
+Selling_2_ID 3505
+Selling_2_Cost 25
+Selling_2_Conditions 1
+Selling_2_Condition_0_Type Flag_Short
+Selling_2_Condition_0_ID 3017
+Selling_2_Condition_0_Value 2
+Selling_2_Condition_0_Logic Greater_Than
+// Military_Top_Corporal
+Selling_3_ID 3506
+Selling_3_Cost 25
+Selling_3_Conditions 1
+Selling_3_Condition_0_Type Flag_Short
+Selling_3_Condition_0_ID 3017
+Selling_3_Condition_0_Value 3
+Selling_3_Condition_0_Logic Greater_Than
+// Military_Top_Sergeant
+Selling_4_ID 3507
+Selling_4_Cost 25
+Selling_4_Conditions 1
+Selling_4_Condition_0_Type Flag_Short
+Selling_4_Condition_0_ID 3017
+Selling_4_Condition_0_Value 4
+Selling_4_Condition_0_Logic Greater_Than
+// Military_Top_Sergeant_First
+Selling_5_ID 3508
+Selling_5_Cost 25
+Selling_5_Conditions 1
+Selling_5_Condition_0_Type Flag_Short
+Selling_5_Condition_0_ID 3017
+Selling_5_Condition_0_Value 5
+Selling_5_Condition_0_Logic Greater_Than
+// Military_Top_Master_Sergeant
+Selling_6_ID 3509
+Selling_6_Cost 25
+Selling_6_Conditions 1
+Selling_6_Condition_0_Type Flag_Short
+Selling_6_Condition_0_ID 3017
+Selling_6_Condition_0_Value 6
+Selling_6_Condition_0_Logic Greater_Than
+
+//HATS
+
+// Military_Cap_Boonie
+Selling_7_ID 3511
+Selling_7_Cost 25
+Selling_7_Conditions 1
+Selling_7_Condition_0_Type Flag_Short
+Selling_7_Condition_0_ID 3017
+Selling_7_Condition_0_Value 3
+Selling_7_Condition_0_Logic Greater_Than
+// Military_Cap_Beanie
+Selling_8_ID 3532
+Selling_8_Cost 25
+Selling_8_Conditions 1
+Selling_8_Condition_0_Type Flag_Short
+Selling_8_Condition_0_ID 3017
+Selling_8_Condition_0_Value 4
+Selling_8_Condition_0_Logic Greater_Than

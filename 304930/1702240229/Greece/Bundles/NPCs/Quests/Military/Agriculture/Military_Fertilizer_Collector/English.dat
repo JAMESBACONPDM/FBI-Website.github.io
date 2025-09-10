@@ -1,0 +1,4 @@
+Name Resupply I
+Description <color=epic>Lead Botanist Daphne</color> needs help carrying the large bags of fertilizer in from the green cargo container.
+
+Condition_0 Carry in Fertilizer {0}/{1}

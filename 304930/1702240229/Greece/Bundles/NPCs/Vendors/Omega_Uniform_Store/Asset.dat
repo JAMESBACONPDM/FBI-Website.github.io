@@ -1,0 +1,68 @@
+GUID c179e93de6c5405d9b353c6218061c83
+Type Vendor
+ID 3313
+
+Selling 8
+
+//PANTS
+
+// Omega_Bottom
+Selling_0_ID 3525
+Selling_0_Cost 15
+
+//SHIRTS
+
+// Omega_Top_Cadet
+Selling_1_ID 3533
+Selling_1_Cost 15
+// Omega_Top_Hoplite
+Selling_2_ID 3526
+Selling_2_Cost 25
+Selling_2_Conditions 1
+Selling_2_Condition_0_Type Flag_Short
+Selling_2_Condition_0_ID 3017
+Selling_2_Condition_0_Value -2
+Selling_2_Condition_0_Logic Less_Than
+// Omega_Top_Captain
+Selling_3_ID 3527
+Selling_3_Cost 25
+Selling_3_Conditions 1
+Selling_3_Condition_0_Type Flag_Short
+Selling_3_Condition_0_ID 3017
+Selling_3_Condition_0_Value -3
+Selling_3_Condition_0_Logic Less_Than
+// Omega_Top_BattalionLeader
+Selling_4_ID 3528
+Selling_4_Cost 25
+Selling_4_Conditions 1
+Selling_4_Condition_0_Type Flag_Short
+Selling_4_Condition_0_ID 3017
+Selling_4_Condition_0_Value -4
+Selling_4_Condition_0_Logic Less_Than
+// Omega_Top_Colonel
+Selling_5_ID 3529
+Selling_5_Cost 25
+Selling_5_Conditions 1
+Selling_5_Condition_0_Type Flag_Short
+Selling_5_Condition_0_ID 3017
+Selling_5_Condition_0_Value -5
+Selling_5_Condition_0_Logic Less_Than
+// Omega_Top_Brigadier
+Selling_6_ID 3530
+Selling_6_Cost 25
+Selling_6_Conditions 1
+Selling_6_Condition_0_Type Flag_Short
+Selling_6_Condition_0_ID 3017
+Selling_6_Condition_0_Value -6
+Selling_6_Condition_0_Logic Less_Than
+
+//HATS
+
+// Omega_Cap_Beanie
+Selling_7_ID 3531
+Selling_7_Cost 25
+Selling_7_Conditions 1
+Selling_7_Condition_0_Type Flag_Short
+Selling_7_Condition_0_ID 3017
+Selling_7_Condition_0_Value -3
+Selling_7_Condition_0_Logic Less_Than

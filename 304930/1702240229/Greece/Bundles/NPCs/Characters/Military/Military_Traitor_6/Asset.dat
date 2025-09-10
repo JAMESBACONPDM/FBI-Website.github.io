@@ -1,0 +1,27 @@
+GUID b17cab482cb94085b201e9555eb7087b
+Type NPC
+ID 3953
+
+Conditions 1
+Condition_0_Type Flag_Short
+Condition_0_ID 3571
+Condition_0_Value 6
+Condition_0_Logic Equal
+
+Shirt 3508
+Pants 209
+//Vest 3510
+Mask 434
+Hat 3511
+
+Face 22
+Hair 12
+Beard 6
+Color_Skin #94764B
+Color_Hair #352C22
+
+Pose UNDER_ARREST
+
+Secondary 3515
+
+Dialogue 3580

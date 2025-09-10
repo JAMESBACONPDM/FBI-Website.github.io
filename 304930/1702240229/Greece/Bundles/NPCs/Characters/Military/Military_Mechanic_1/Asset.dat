@@ -1,0 +1,25 @@
+GUID c46a56195c62440d867ea0a21f79ab4e
+Type NPC
+ID 3596
+
+Shirt 405
+Pants 406
+//Vest 552
+Mask 1446
+//Hat 431
+Glasses 568
+
+Face 29
+Hair 18
+Beard 0
+Color_Skin #94764B
+Color_Hair #191919
+
+//Primary 3512
+Secondary 76
+//Tertiary 1328
+Equipped Secondary
+
+Pose Crouch
+
+Dialogue 6200

@@ -1,0 +1,5 @@
+Name Tool Tips
+Description The engineering department is lacking a few important pieces of equipment. Find a jackhammer and crowbar, your best bet is the nearby Karpenissi mine.
+
+Condition_0 Get Jackhammer {0}/{1}
+Condition_1 Get Crowbar {0}/{1}

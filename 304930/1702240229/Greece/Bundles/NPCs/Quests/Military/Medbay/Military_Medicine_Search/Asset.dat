@@ -1,0 +1,24 @@
+GUID 0b1e21da2b8141fb85ae8462e13b97b2
+Type Quest
+ID 3124
+
+Conditions 2
+Condition_0_Type Flag_Short
+Condition_0_ID 3136
+Condition_0_Value 4
+Condition_0_Logic Greater_Than_Or_Equal_To
+Condition_1_Type Item
+Condition_1_ID 95
+Condition_1_Amount 3
+Condition_1_Reset
+
+Rewards 3
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value 2
+Reward_2_Modification Increment

@@ -1,0 +1,6 @@
+Name Farsala Supply Recovery
+Description Our retrieval team had to leave behind a bunch of supplies in Farsala. You're being sent in to recover these caches before the enemy.
+
+Condition_0 Retrieve First Cache
+Condition_1 Retrieve Second Cache
+Condition_2 Retrieve Third Cache

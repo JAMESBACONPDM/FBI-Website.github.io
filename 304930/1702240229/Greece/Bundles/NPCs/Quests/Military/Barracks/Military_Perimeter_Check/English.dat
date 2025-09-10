@@ -1,0 +1,7 @@
+Name Perimeter Patrol
+Description <color=legendary>Sergeant First Class Damien</color> has sent you out on a quick patrol. Go to all four proximity radios around base and call in before returning.
+
+Condition_0 Call in from N Radio
+Condition_1 Call in from E Radio
+Condition_2 Call in from S Radio
+Condition_3 Call in from W Radio

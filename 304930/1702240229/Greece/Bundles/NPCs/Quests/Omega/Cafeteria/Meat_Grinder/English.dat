@@ -1,0 +1,6 @@
+Name Meat Grinder
+Description <color=epic>Head Chef Pekka</color> is tired of working with and eating old canned meat. He needs you to go out and get some fresh flesh.
+
+Condition_0 Get Raw Venison {0}/{1}
+Condition_1 Get Raw Pork {0}/{1}
+Condition_2 Get Raw Beef {0}/{1}

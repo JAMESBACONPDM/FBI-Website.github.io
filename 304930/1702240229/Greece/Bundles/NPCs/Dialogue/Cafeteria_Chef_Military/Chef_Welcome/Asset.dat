@@ -1,0 +1,128 @@
+GUID 61292a1070a54365ba285b172c715cdf
+Type Dialogue
+ID 3475
+
+Messages 3
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 2
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 3
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value 2
+Message_1_Condition_0_Logic Greater_Than_Or_Equal_To
+//Are a Chef
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3001
+Message_1_Condition_1_Value 8
+Message_1_Condition_1_Logic Equal
+Message_1_Condition_2_Type Flag_Bool
+Message_1_Condition_2_ID 3066
+Message_1_Condition_2_Value False
+Message_1_Condition_2_Logic Equal
+Message_1_Condition_2_Allow_Unset
+
+Message_2_Pages 1
+Message_2_Conditions 2
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value 2
+Message_2_Condition_0_Logic Greater_Than_Or_Equal_To
+//Aren't a Chef
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3001
+Message_2_Condition_1_Value 8
+Message_2_Condition_1_Logic Not_Equal
+
+Responses 9
+
+Response_0_Messages 1
+Response_0_Message_0 1
+Response_0_Dialogue 3476
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 3032
+Response_0_Condition_0_Status None
+Response_0_Condition_0_Allow_Unset
+
+Response_1_Messages 1
+Response_1_Message_0 1
+Response_1_Quest 3470
+Response_1_Dialogue 3477
+Response_1_Conditions 2
+Response_1_Condition_1_Type Quest
+Response_1_Condition_1_Logic Equal
+Response_1_Condition_1_ID 3470
+Response_1_Condition_1_Status None
+Response_1_Condition_1_Allow_Unset
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 3471
+Response_1_Condition_0_Status Completed
+Response_1_Rewards 1
+Response_1_Reward_0_Type Quest
+Response_1_Reward_0_ID 3470
+
+Response_2_Messages 1
+Response_2_Message_0 1
+Response_2_Dialogue 3478
+Response_2_Quest 3470
+Response_2_Conditions 1
+Response_2_Condition_0_Type Quest
+Response_2_Condition_0_Logic Equal
+Response_2_Condition_0_ID 3470
+Response_2_Condition_0_Status Ready
+Response_2_Condition_0_Reset
+
+//Grub And Gruel
+Response_3_Messages 1
+Response_3_Message_0 1
+Response_3_Quest 3472
+Response_3_Dialogue 3479
+Response_3_Conditions 2
+Response_3_Condition_0_Type Quest
+Response_3_Condition_0_Logic Equal
+Response_3_Condition_0_ID 3470
+Response_3_Condition_0_Status Completed
+Response_3_Condition_0_Allow_Unset
+Response_3_Condition_1_Type Quest
+Response_3_Condition_1_Logic Equal
+Response_3_Condition_1_ID 3472
+Response_3_Condition_1_Status None
+Response_3_Condition_1_Allow_Unset
+Response_3_Rewards 1
+Response_3_Reward_0_Type Quest
+Response_3_Reward_0_ID 3472
+
+Response_4_Messages 1
+Response_4_Message_0 1
+Response_4_Dialogue 3480
+Response_4_Quest 3472
+Response_4_Conditions 1
+Response_4_Condition_0_Type Quest
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_0_ID 3472
+Response_4_Condition_0_Status Ready
+Response_4_Condition_0_Reset
+
+Response_5_Messages 2
+Response_5_Message_0 1
+Response_5_Message_1 2
+Response_5_Dialogue 3481
+Response_5_Vendor 3482
+
+Response_6_Messages 1
+Response_6_Message_0 0
+
+Response_7_Messages 1
+Response_7_Message_0 2
+
+Response_8_Messages 1
+Response_8_Message_0 1

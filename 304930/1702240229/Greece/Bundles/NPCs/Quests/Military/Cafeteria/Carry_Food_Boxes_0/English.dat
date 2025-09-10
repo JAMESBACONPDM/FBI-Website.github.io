@@ -1,0 +1,4 @@
+Name Resupplier I
+Description <color=uncommon>Chef Julian</color> needs you to carry in the fresh supplies from the hangar.
+
+Condition_0 Retrieve Boxes {0}/{1}

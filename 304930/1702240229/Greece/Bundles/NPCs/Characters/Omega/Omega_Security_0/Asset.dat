@@ -1,0 +1,23 @@
+GUID ae3cb7e468cf4fbf9631019ce1523f83
+Type NPC
+ID 3603
+
+Shirt 3533
+Pants 224
+Vest 10
+//Mask 185
+Hat 225
+//Backpack 247
+//Glasses 409
+
+Face 0
+Hair 12
+Beard 11
+Color_Skin #94764B
+Color_Hair #352C22
+
+//Primary 3512
+Secondary 99
+//Equipped Primary
+
+Dialogue 3343

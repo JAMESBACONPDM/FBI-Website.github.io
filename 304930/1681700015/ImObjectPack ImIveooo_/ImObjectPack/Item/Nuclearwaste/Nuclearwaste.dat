@@ -1,0 +1,18 @@
+GUID 597bf8f822ed4bfd8c747acbfb7a1f24
+Type Food
+Rarity Legendary
+Useable Consumeable
+ID 20005
+
+Size_X 2
+Size_Y 1
+Size_Z 0.5
+
+Food 2
+Water 3
+Virus 99
+Vision 1000
+
+Player_Damage 100
+Range 0
+Explosion 95

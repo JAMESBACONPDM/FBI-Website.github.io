@@ -1,0 +1,69 @@
+GUID 411c489c03e54676a964b162af90fa05
+Type Dialogue
+ID 3526
+
+Messages 6
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 2
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+//Lifeline
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Quest
+Message_1_Condition_0_ID 3529
+Message_1_Condition_0_Status Ready
+Message_1_Condition_0_Logic Equal
+
+Message_2_Pages 1
+Message_2_Conditions 1
+Message_2_Condition_0_Type Quest
+Message_2_Condition_0_ID 3529
+Message_2_Condition_0_Status Active
+Message_2_Condition_0_Logic Equal
+
+//Emergency
+Message_3_Pages 1
+Message_3_Conditions 1
+Message_3_Condition_0_Type Quest
+Message_3_Condition_0_ID 3528
+Message_3_Condition_0_Status Ready
+Message_3_Condition_0_Logic Equal
+
+Message_4_Pages 1
+Message_4_Conditions 1
+Message_4_Condition_0_Type Quest
+Message_4_Condition_0_ID 3528
+Message_4_Condition_0_Status Active
+Message_4_Condition_0_Logic Equal
+
+Message_5_Pages 1
+Message_5_Conditions 1
+Message_5_Condition_0_Type Flag_Short
+Message_5_Condition_0_ID 3017
+Message_5_Condition_0_Value 2
+Message_5_Condition_0_Logic Greater_Than_Or_Equal_To
+
+Responses 6
+
+Response_0_Messages 1
+Response_0_Message_0 1
+
+Response_1_Messages 1
+Response_1_Message_0 2
+
+Response_2_Messages 1
+Response_2_Message_0 3
+
+Response_3_Messages 1
+Response_3_Message_0 4
+
+Response_4_Messages 1
+Response_4_Message_0 5
+
+Response_5_Messages 1
+Response_5_Message_0 0

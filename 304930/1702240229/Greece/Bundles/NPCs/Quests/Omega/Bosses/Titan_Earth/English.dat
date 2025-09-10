@@ -1,0 +1,4 @@
+Name <color=mythical>Wrath of the Titans I</color>
+Description <color=uncommon>Cadet Nestor</color> is telling tales of a mythical creature; a Titan that lives in Farsala's very own Tartarus. The damage such a creature could cause if left alive is too threatening, so you'll need to slay it once and for all.
+
+Condition_0 Defeat {0}/{1} <color=mythical>Earth Titan</color>

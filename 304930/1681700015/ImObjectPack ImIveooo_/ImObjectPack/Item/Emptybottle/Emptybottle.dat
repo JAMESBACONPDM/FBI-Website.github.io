@@ -1,0 +1,29 @@
+GUID d59a9d3d73814475a202282e370c67b1
+Type Supply
+ID 20009
+
+Size_X 1
+Size_Y 1
+Size_Z 0.75
+
+Blueprints 2
+Blueprint_0_Type Gear
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 20008
+Blueprint_0_Supply_0_Amount 2
+Blueprint_0_Products 1
+Blueprint_0_Build 27
+Blueprint_0_Skill Cook
+Blueprint_0_Level 2
+
+Blueprint_1_Type Supply
+Blueprint_1_Supplies 2
+Blueprint_1_Supply_0_ID 20009
+Blueprint_1_Supply_0_Amount 1
+Blueprint_1_Supply_1_ID 20010
+Blueprint_1_Supply_1_Amount 2
+Blueprint_1_Product 14
+Blueprint_1_Products 1
+Blueprint_1_Build 27
+Blueprint_1_Skill Craft
+Blueprint_1_Level 1

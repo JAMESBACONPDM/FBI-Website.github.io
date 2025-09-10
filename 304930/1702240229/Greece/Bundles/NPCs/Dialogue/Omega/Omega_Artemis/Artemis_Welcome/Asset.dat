@@ -1,0 +1,93 @@
+GUID 1a6c723576e14af295c43cdca51b53cf
+Type Dialogue
+ID 6218
+
+Messages 4
+Message_0_Pages 2
+Message_0_Conditions 3
+Message_0_Condition_0_Type Flag_Bool
+Message_0_Condition_0_ID 6222
+Message_0_Condition_0_Value False
+Message_0_Condition_0_Logic Equal
+Message_0_Condition_0_Allow_Unset
+Message_0_Condition_1_Type Flag_Bool
+Message_0_Condition_1_ID 6223
+Message_0_Condition_1_Value False
+Message_0_Condition_1_Logic Equal
+Message_0_Condition_1_Allow_Unset
+Message_0_Condition_2_Type Flag_Short
+Message_0_Condition_2_ID 3017
+Message_0_Condition_2_Value -2
+Message_0_Condition_2_Logic Less_Than_Or_Equal_To
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Flag_Bool
+Message_1_Condition_0_ID 6222
+Message_1_Condition_0_Value True
+Message_1_Condition_0_Logic Equal
+Message_2_Pages 1
+Message_2_Conditions 1
+Message_2_Condition_0_Type Flag_Bool
+Message_2_Condition_0_ID 6223
+Message_2_Condition_0_Value True
+Message_2_Condition_0_Logic Equal
+Message_3_Pages 1
+Message_3_Conditions 1
+Message_3_Condition_0_Type Flag_Short
+Message_3_Condition_0_ID 3017
+Message_3_Condition_0_Value -2
+Message_3_Condition_0_Logic Greater_Than
+Message_3_Condition_0_Allow_Unset
+
+Responses 4
+
+// What can I do to help?
+// Lyre_Accepted
+Response_0_Dialogue 6219
+Response_0_Quest 6220
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 6220
+Response_0_Condition_0_Status None
+Response_0_Rewards 3
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 6220
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 6222
+Response_0_Reward_1_Value True
+Response_0_Reward_2_Type Flag_Bool
+Response_0_Reward_2_ID 6217
+Response_0_Reward_2_Value False
+Response_0_Messages 2
+Response_0_Message_0 0
+Response_0_Message_1 2
+
+// I brought your Lyre!
+// Lyre_Completed
+Response_1_Dialogue 6221
+Response_1_Quest 6220
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 6220
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+Response_1_Rewards 2
+Response_1_Reward_0_Type Flag_Bool
+Response_1_Reward_0_ID 6223
+Response_1_Reward_0_Value True
+Response_1_Reward_1_Type Flag_Bool
+Response_1_Reward_1_ID 6222
+Response_1_Reward_1_Value False
+Response_1_Messages 2
+Response_1_Message_0 1
+Response_1_Message_1 2
+
+Response_2_Messages 3
+Response_2_Message_0 0
+Response_2_Message_1 1
+Response_2_Message_2 2
+
+Response_3_Messages 1
+Response_3_Message_0 3

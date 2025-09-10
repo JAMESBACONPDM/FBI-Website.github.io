@@ -1,0 +1,25 @@
+GUID 066f29e626b84f8e8015bb6c0bc67718
+Type NPC
+ID 3633
+
+Shirt 183
+Pants 551
+Vest 1138
+//Mask 185
+//Hat 240
+//Backpack 247
+//Glasses 568
+
+Face 24
+Hair 8
+Beard 0
+Color_Skin #9D886B
+Color_Hair #57452F
+
+//Primary 122
+//Secondary 76
+//Equipped Primary
+
+//Pose Rest
+
+Dialogue 3354

@@ -1,0 +1,106 @@
+GUID b1f15e3a95a94ddbad22be77ee8b8b5a
+Type Dialogue
+ID 3333
+
+Messages 3
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value -2
+Message_0_Condition_0_Logic Greater_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 2
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value -2
+Message_1_Condition_0_Logic Less_Than_Or_Equal_To
+//Haven't completed the trophy quest.
+Message_1_Condition_1_Type Quest
+Message_1_Condition_1_ID 3336
+Message_1_Condition_1_Status Completed
+Message_1_Condition_1_Logic Not_Equal
+
+Message_2_Pages 1
+Message_2_Conditions 2
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value -2
+Message_2_Condition_0_Logic Less_Than_Or_Equal_To
+//Have completed the trophy quest.
+Message_2_Condition_1_Type Quest
+Message_2_Condition_1_ID 3336
+Message_2_Condition_1_Status Completed
+Message_2_Condition_1_Logic Equal
+
+Responses 5
+
+// Need Any Help?
+// Trophies_Accepted
+Response_0_Dialogue 3334
+Response_0_Quest 3336
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 3336
+Response_0_Condition_0_Status None
+Response_0_Rewards 11
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3336
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 3322
+Response_0_Reward_1_Value False
+Response_0_Reward_2_Type Flag_Bool
+Response_0_Reward_2_ID 3323
+Response_0_Reward_2_Value False
+Response_0_Reward_3_Type Flag_Bool
+Response_0_Reward_3_ID 3324
+Response_0_Reward_3_Value False
+Response_0_Reward_4_Type Flag_Bool
+Response_0_Reward_4_ID 3325
+Response_0_Reward_4_Value False
+Response_0_Reward_5_Type Flag_Bool
+Response_0_Reward_5_ID 3326
+Response_0_Reward_5_Value False
+Response_0_Reward_6_Type Flag_Bool
+Response_0_Reward_6_ID 3327
+Response_0_Reward_6_Value False
+Response_0_Reward_7_Type Flag_Bool
+Response_0_Reward_7_ID 3328
+Response_0_Reward_7_Value False
+Response_0_Reward_8_Type Flag_Bool
+Response_0_Reward_8_ID 3329
+Response_0_Reward_8_Value False
+Response_0_Reward_9_Type Flag_Bool
+Response_0_Reward_9_ID 3330
+Response_0_Reward_9_Value False
+Response_0_Reward_10_Type Flag_Bool
+Response_0_Reward_10_ID 3331
+Response_0_Reward_10_Value False
+Response_0_Messages 1
+Response_0_Message_0 1
+
+
+// I found those trophies!
+// Trophies_Completed
+Response_1_Dialogue 3335
+Response_1_Quest 3336
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 3336
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+Response_1_Messages 1
+Response_1_Message_0 1
+
+Response_2_Messages 1
+Response_2_Message_0 1
+
+Response_3_Messages 1
+Response_3_Message_0 2
+
+Response_4_Messages 1
+Response_4_Message_0 0

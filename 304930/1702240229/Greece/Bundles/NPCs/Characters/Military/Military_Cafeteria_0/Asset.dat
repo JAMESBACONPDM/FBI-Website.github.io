@@ -1,0 +1,27 @@
+GUID 49fbec49abb246fbbd08eacb2a8adb9b
+Type NPC
+ID 3566
+
+Shirt 3503
+Pants 3504
+//Vest 3510
+//Mask 570
+//Hat 3532
+//Glasses 568
+
+Face 8
+Hair 18
+Beard 0
+Color_Skin #9D886B
+Color_Hair #Ac6A39
+
+//Primary 3512
+//Secondary 3515
+Tertiary 472
+Equipped Tertiary
+
+//Backward
+
+Pose Sit
+
+Dialogue 3585

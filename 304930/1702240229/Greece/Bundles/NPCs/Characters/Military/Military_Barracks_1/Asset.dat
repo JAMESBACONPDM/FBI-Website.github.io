@@ -1,0 +1,23 @@
+GUID e66b8533ff7343f68c97f2012c9c5835
+Type NPC
+ID 3563
+
+Shirt 180
+Pants 3504
+//Vest 3510
+//Mask 570
+//Hat 3532
+//Glasses 568
+
+Face 9
+Hair 8
+Beard 0
+Color_Skin #9D886B
+Color_Hair #191919
+
+//Primary 3512
+//Secondary 3515
+
+Dialogue 6212
+
+Pose Asleep

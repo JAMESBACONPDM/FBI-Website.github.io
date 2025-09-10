@@ -1,0 +1,24 @@
+"Metadata"
+{
+	"GUID" "08f8b599a1764d98ac142fa40ada5af3"
+	"Type" "SDG.Unturned.MaterialPaletteAsset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
+"Asset"
+{
+	"ID" "9"
+	"Materials"
+	[
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Signs/Signs.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Signs/Signs 1.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Signs/Signs 2.mat"
+		}
+	]
+}

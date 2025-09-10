@@ -1,0 +1,6 @@
+Name Farsala Supply Recovery
+Description Our scavengers had to leave behind a bunch of supplies in Farsala. You're being sent in to retrieve these stashes before the enemy.
+
+Condition_0 Retrieve First Stash
+Condition_1 Retrieve Second Stash
+Condition_2 Retrieve Third Stash

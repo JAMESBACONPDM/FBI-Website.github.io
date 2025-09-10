@@ -1,0 +1,4 @@
+Name Scavenging Hunt
+Description <color=epic>Supply Manager Milos</color> is trying to restock the ammunition stores so he's having you grab some.
+
+Condition_0 Get Ammunition {0}/{1}

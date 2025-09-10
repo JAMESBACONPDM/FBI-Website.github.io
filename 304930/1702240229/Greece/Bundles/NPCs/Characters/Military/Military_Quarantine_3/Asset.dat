@@ -1,0 +1,23 @@
+GUID f1e8da71cf77494b892a5142f0f1984e
+Type NPC
+ID 3594
+
+Shirt 0
+Pants 3504
+//Vest 552
+//Mask 1017
+//Hat 431
+//Glasses 727
+
+Face 19
+Hair 3
+Beard 0
+Color_Skin #858871
+Color_Hair #989893
+
+//Primary 3512
+//Secondary 3515
+//Tertiary 1328
+//Equipped Tertiary
+
+Pose Asleep

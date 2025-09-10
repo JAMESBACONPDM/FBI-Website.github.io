@@ -1,0 +1,35 @@
+GUID 44bf9903448b4bb287e1158773982904
+Type NPC
+ID 3764
+
+Conditions 2
+Condition_0_Type Flag_Short
+Condition_0_ID 3000
+Condition_0_Value 1
+Condition_0_Logic Equal
+Condition_1_Type Quest
+Condition_1_ID 3242
+Condition_1_Status Active
+Condition_1_Logic Equal
+
+Shirt 3507
+Pants 3504
+Vest 3510
+//Mask 185
+//Hat 3511
+//Glasses 568
+Backpack 1170
+
+Face 26
+Hair 2
+Beard 0
+Color_Skin #9D886B
+Color_Hair #57452F
+
+Primary 3515
+Secondary 276
+Equipped Primary
+
+Pose Crouch
+
+Dialogue 3239

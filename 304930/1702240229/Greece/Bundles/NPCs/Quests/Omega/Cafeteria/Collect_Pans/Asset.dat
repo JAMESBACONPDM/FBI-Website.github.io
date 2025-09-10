@@ -1,0 +1,35 @@
+GUID 9b6699160a14481ea1c81b4fcd8e04bb
+Type Quest
+ID 3065
+
+Conditions 3
+Condition_0_Type Flag_Bool
+Condition_0_ID 3068
+Condition_0_Value True
+Condition_0_Logic Equal
+
+Condition_1_Type Flag_Bool
+Condition_1_ID 3069
+Condition_1_Value True
+Condition_1_Logic Equal
+
+Condition_2_Type Flag_Bool
+Condition_2_ID 3070
+Condition_2_Value True
+Condition_2_Logic Equal
+//Condition_3_Allow_Unset
+
+Rewards 3
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value 2
+Reward_2_Modification Increment
+//Canned Beans for your hard work
+Reward_3_Type Item
+Reward_3_ID 13
+Reward_3_Amount 1

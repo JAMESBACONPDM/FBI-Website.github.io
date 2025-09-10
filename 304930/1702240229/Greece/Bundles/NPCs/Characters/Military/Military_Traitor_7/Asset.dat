@@ -1,0 +1,22 @@
+GUID a5c8311271234540a1c72dc4b12892e4
+Type NPC
+ID 3954
+
+Conditions 1
+Condition_0_Type Flag_Short
+Condition_0_ID 3571
+Condition_0_Value 7
+Condition_0_Logic Equal
+
+Shirt 303
+Pants 304
+
+Face 25
+Hair 12
+Beard 6
+Color_Skin #94764B
+Color_Hair #352C22
+
+Pose Rest
+
+Dialogue 3580

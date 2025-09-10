@@ -1,0 +1,193 @@
+GUID 2f3d40e51f0545be98ecb99d75955f36
+Type Dialogue
+ID 3412
+
+Messages 8
+
+//Regular Arm
+Message_0_Pages 1
+Message_0_Conditions 4
+//Not Dead
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_Logic Greater_Than
+Message_0_Condition_0_ID 3403
+Message_0_Condition_0_Value 70
+//Not Bandaged
+Message_0_Condition_1_Type Flag_Short
+Message_0_Condition_1_Logic Less_Than
+Message_0_Condition_1_ID 3411
+Message_0_Condition_1_Value 5
+//Severity LV 1
+Message_0_Condition_2_Type Flag_Short
+Message_0_Condition_2_Logic Equal
+Message_0_Condition_2_ID 3402
+Message_0_Condition_2_Value 1
+//Arm Injury
+Message_0_Condition_3_Type Flag_Short
+Message_0_Condition_3_Logic Equal
+Message_0_Condition_3_ID 3406
+Message_0_Condition_3_Value 1
+
+//Infected Arm
+Message_1_Pages 1
+Message_1_Conditions 4
+//Not Dead
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_Logic Greater_Than
+Message_1_Condition_0_ID 3403
+Message_1_Condition_0_Value 70
+//Not Bandaged
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_Logic Less_Than
+Message_1_Condition_1_ID 3411
+Message_1_Condition_1_Value 5
+//Severity LV 2
+Message_1_Condition_2_Type Flag_Short
+Message_1_Condition_2_Logic Equal
+Message_1_Condition_2_ID 3402
+Message_1_Condition_2_Value 2
+//Arm Injury
+Message_1_Condition_3_Type Flag_Short
+Message_1_Condition_3_Logic Equal
+Message_1_Condition_3_ID 3406
+Message_1_Condition_3_Value 1
+
+//Deadly Arm
+Message_2_Pages 1
+Message_2_Conditions 4
+//Not Dead
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_Logic Greater_Than
+Message_2_Condition_0_ID 3403
+Message_2_Condition_0_Value 70
+//Not Bandaged
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_Logic Less_Than
+Message_2_Condition_1_ID 3411
+Message_2_Condition_1_Value 5
+//Severity LV 3
+Message_2_Condition_2_Type Flag_Short
+Message_2_Condition_2_Logic Equal
+Message_2_Condition_2_ID 3402
+Message_2_Condition_2_Value 3
+//Arm Injury
+Message_2_Condition_3_Type Flag_Short
+Message_2_Condition_3_Logic Equal
+Message_2_Condition_3_ID 3406
+Message_2_Condition_3_Value 1
+
+//Regular Shoulder
+Message_3_Pages 1
+Message_3_Conditions 4
+//Not Dead
+Message_3_Condition_0_Type Flag_Short
+Message_3_Condition_0_Logic Greater_Than
+Message_3_Condition_0_ID 3403
+Message_3_Condition_0_Value 70
+//Not Bandaged
+Message_3_Condition_1_Type Flag_Short
+Message_3_Condition_1_Logic Less_Than
+Message_3_Condition_1_ID 3411
+Message_3_Condition_1_Value 5
+//Severity LV 1
+Message_3_Condition_2_Type Flag_Short
+Message_3_Condition_2_Logic Equal
+Message_3_Condition_2_ID 3402
+Message_3_Condition_2_Value 1
+//Shoulder Injury
+Message_3_Condition_3_Type Flag_Short
+Message_3_Condition_3_Logic Greater_Than
+Message_3_Condition_3_ID 3406
+Message_3_Condition_3_Value 1
+
+//Infected Shoulder
+Message_4_Pages 1
+Message_4_Conditions 4
+//Not Dead
+Message_4_Condition_0_Type Flag_Short
+Message_4_Condition_0_Logic Greater_Than
+Message_4_Condition_0_ID 3403
+Message_4_Condition_0_Value 70
+//Not Bandaged
+Message_4_Condition_1_Type Flag_Short
+Message_4_Condition_1_Logic Less_Than
+Message_4_Condition_1_ID 3411
+Message_4_Condition_1_Value 5
+//Severity LV 2
+Message_4_Condition_2_Type Flag_Short
+Message_4_Condition_2_Logic Equal
+Message_4_Condition_2_ID 3402
+Message_4_Condition_2_Value 2
+//Shoulder Injury
+Message_4_Condition_3_Type Flag_Short
+Message_4_Condition_3_Logic Greater_Than
+Message_4_Condition_3_ID 3406
+Message_4_Condition_3_Value 1
+
+//Deadly Shoulder
+Message_5_Pages 1
+Message_5_Conditions 4
+//Not Dead
+Message_5_Condition_0_Type Flag_Short
+Message_5_Condition_0_Logic Greater_Than
+Message_5_Condition_0_ID 3403
+Message_5_Condition_0_Value 70
+//Not Bandaged
+Message_5_Condition_1_Type Flag_Short
+Message_5_Condition_1_Logic Less_Than
+Message_5_Condition_1_ID 3411
+Message_5_Condition_1_Value 5
+//Severity LV 3
+Message_5_Condition_2_Type Flag_Short
+Message_5_Condition_2_Logic Equal
+Message_5_Condition_2_ID 3402
+Message_5_Condition_2_Value 3
+//Shoulder Injury
+Message_5_Condition_3_Type Flag_Short
+Message_5_Condition_3_Logic Greater_Than
+Message_5_Condition_3_ID 3406
+Message_5_Condition_3_Value 1
+
+//Is dead
+Message_6_Pages 1
+Message_6_Conditions 2
+//Lost too much blood = Dead
+Message_6_Condition_0_Type Flag_Short
+Message_6_Condition_0_Logic Less_Than_Or_Equal_To
+Message_6_Condition_0_ID 3403
+Message_6_Condition_0_Value 70
+//But not negative value
+Message_6_Condition_1_Type Flag_Short
+Message_6_Condition_1_Logic Greater_Than
+Message_6_Condition_1_ID 3403
+Message_6_Condition_1_Value -1
+
+//Operation Complete
+Message_7_Pages 1
+Message_7_Conditions 2
+//Not Dead but negative
+Message_7_Condition_0_Type Flag_Short
+Message_7_Condition_0_Logic Less_Than
+Message_7_Condition_0_ID 3403
+Message_7_Condition_0_Value 0
+//Bandaged
+Message_7_Condition_1_Type Flag_Short
+Message_7_Condition_1_Logic Equal
+Message_7_Condition_1_ID 3411
+Message_7_Condition_1_Value 5
+
+Responses 2
+
+//NOT dead
+Response_0_Messages 7
+Response_0_Message_0 0
+Response_0_Message_1 1
+Response_0_Message_2 2
+Response_0_Message_3 3
+Response_0_Message_4 4
+Response_0_Message_5 5
+Response_0_Message_6 7
+
+//Is dead
+Response_1_Messages 1
+Response_1_Message_0 6

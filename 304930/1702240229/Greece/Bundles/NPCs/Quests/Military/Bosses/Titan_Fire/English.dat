@@ -1,0 +1,4 @@
+Name <color=mythical>Wrath of the Titans II</color>
+Description <color=rare>Corporal Ondrej</color> tells tales of another titanic zombie, one that stands as tall as a titan. Gifted with the rage of Hades, it can breath an inferno on demand. Such a creature must be hunted down before it can cause any more trouble, it too was last seen in the Farsala Sewers.
+
+Condition_0 Defeat {0}/{1} <color=mythical>Fire Breathing Titan</color>

@@ -1,0 +1,5 @@
+Name Cost of Knowledge
+Description <color=epic>Doctor Andrina</color> is willing to share some of her research with you if you'll allow her to do some live experimentation; you will probably be fine.
+
+Condition_0 Get <color=uncommon>Infected</color>
+Condition_1 Let <color=epic>Andrina</color> perform some tests

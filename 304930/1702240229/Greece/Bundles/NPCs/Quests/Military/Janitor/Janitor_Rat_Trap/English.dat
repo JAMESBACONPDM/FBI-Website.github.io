@@ -1,0 +1,5 @@
+Name Rat Trap
+Description <color=rare>Obelius the Janitor</color> has gotten a lead on the traitor. He needs you to go talk to <color=rare>Officer Argus</color> before going out to catch the crook.
+
+Condition_0 Talk to <color=rare>Officer Argus</color>
+Condition_1 Catch the traitor

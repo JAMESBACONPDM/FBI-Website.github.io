@@ -1,0 +1,28 @@
+"Metadata"
+{
+	"GUID" "8acb4b496d07408d9627c9acf7d6e0f6"
+	"Type" "SDG.Unturned.MaterialPaletteAsset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
+"Asset"
+{
+	"ID" "6"
+	"Materials"
+	[
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Pumps/Pump_0.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Pumps/Pump_1.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Pumps/Pump_2.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Pumps/Pump_3.mat"
+		}
+	]
+}

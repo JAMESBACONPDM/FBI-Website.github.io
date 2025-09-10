@@ -1,0 +1,23 @@
+GUID a48b9fb0fd1c494eba4c1f008e8e2f48
+Type NPC
+ID 3616
+
+Shirt 3533
+Pants 3525
+//Vest 10
+//Mask 765
+//Hat 425
+//Backpack 247
+//Glasses 568
+
+Face 20
+Hair 3
+Beard 9
+Color_Skin #534736
+Color_Hair #473928
+Backward
+
+
+Pose Rest
+
+Dialogue 3315

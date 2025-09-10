@@ -1,0 +1,132 @@
+GUID c60648e87b32433da6e8b57e0131ae2a
+Type Dialogue
+ID 3282
+
+Messages 3
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value -2
+Message_0_Condition_0_Logic Greater_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 3
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value -2
+Message_1_Condition_0_Logic Less_Than_Or_Equal_To
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3285
+Message_1_Condition_1_Value 2
+Message_1_Condition_1_Logic Less_Than_Or_Equal_To
+Message_1_Condition_2_Type Flag_Short
+Message_1_Condition_2_ID 3285
+Message_1_Condition_2_Value 1
+Message_1_Condition_2_Logic Greater_Than_Or_Equal_To
+
+Message_2_Pages 1
+Message_2_Conditions 3
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value -2
+Message_2_Condition_0_Logic Less_Than_Or_Equal_To
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3285
+Message_2_Condition_1_Value 1
+Message_2_Condition_1_Logic Not_Equal
+Message_2_Condition_1_Allow_Unset
+Message_2_Condition_2_Type Flag_Short
+Message_2_Condition_2_ID 3285
+Message_2_Condition_2_Value 2
+Message_2_Condition_2_Logic Not_Equal
+Message_2_Condition_2_Allow_Unset
+
+Responses 5
+
+Response_0_Messages 1
+Response_0_Message_0 1
+Response_0_Dialogue 3281
+Response_0_Quest 3279
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 3279
+Response_0_Condition_0_Status Ready
+Response_0_Condition_0_Reset
+
+Response_1_Messages 1
+Response_1_Message_0 1
+Response_1_Dialogue 3283
+
+Response_2_Messages 1
+Response_2_Message_0 1
+Response_2_Dialogue 3284
+Response_2_Rewards 18
+//Reset Parts
+Response_2_Reward_0_Type Flag_Short
+Response_2_Reward_0_ID 3261
+Response_2_Reward_0_Value 0
+Response_2_Reward_0_Modification Assign
+Response_2_Reward_1_Type Flag_Bool
+Response_2_Reward_1_ID 3265
+Response_2_Reward_1_Value False
+Response_2_Reward_2_Type Flag_Bool
+Response_2_Reward_2_ID 3266
+Response_2_Reward_2_Value False
+Response_2_Reward_3_Type Flag_Bool
+Response_2_Reward_3_ID 3267
+Response_2_Reward_3_Value False
+Response_2_Reward_4_Type Flag_Bool
+Response_2_Reward_4_ID 3268
+Response_2_Reward_4_Value False
+Response_2_Reward_5_Type Flag_Bool
+Response_2_Reward_5_ID 3269
+Response_2_Reward_5_Value False
+Response_2_Reward_6_Type Flag_Bool
+Response_2_Reward_6_ID 3270
+Response_2_Reward_6_Value False
+Response_2_Reward_7_Type Flag_Bool
+Response_2_Reward_7_ID 3271
+Response_2_Reward_7_Value False
+Response_2_Reward_8_Type Flag_Bool
+Response_2_Reward_8_ID 3272
+Response_2_Reward_8_Value False
+Response_2_Reward_9_Type Flag_Bool
+Response_2_Reward_9_ID 3273
+Response_2_Reward_9_Value False
+Response_2_Reward_10_Type Flag_Bool
+Response_2_Reward_10_ID 3274
+Response_2_Reward_10_Value False
+Response_2_Reward_11_Type Flag_Bool
+Response_2_Reward_11_ID 3275
+Response_2_Reward_11_Value False
+Response_2_Reward_12_Type Flag_Bool
+Response_2_Reward_12_ID 3276
+Response_2_Reward_12_Value False
+Response_2_Reward_13_Type Flag_Bool
+Response_2_Reward_13_ID 3277
+Response_2_Reward_13_Value False
+Response_2_Reward_14_Type Flag_Bool
+Response_2_Reward_14_ID 3278
+Response_2_Reward_14_Value False
+Response_2_Reward_15_Type Flag_Short
+Response_2_Reward_15_ID 3262
+Response_2_Reward_15_Value 0
+Response_2_Reward_15_Modification Assign
+Response_2_Reward_16_Type Flag_Short
+Response_2_Reward_16_ID 3263
+Response_2_Reward_16_Value 0
+Response_2_Reward_16_Modification Assign
+Response_2_Reward_17_Type Flag_Short
+Response_2_Reward_17_ID 3264
+Response_2_Reward_17_Value 0
+Response_2_Reward_17_Modification Assign
+
+Response_3_Messages 1
+Response_3_Message_0 1
+
+Response_4_Messages 2
+Response_4_Message_0 0
+Response_4_Message_1 3

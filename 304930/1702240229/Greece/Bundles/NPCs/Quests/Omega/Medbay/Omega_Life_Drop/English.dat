@@ -1,0 +1,5 @@
+Name Life Drop
+Description <color=legendary>Battalion Leader Aleksy</color> has lost a lot of blood and will likely need a transfusion. Unfortunately, <color=rare>Doctor Saunders</color> doesn't have any blood bags. You'll need to go find some out in the wasteland.
+
+Condition_0 Collect Blood Bags {0}/{1}
+

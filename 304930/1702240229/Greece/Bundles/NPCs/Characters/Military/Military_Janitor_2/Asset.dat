@@ -1,0 +1,32 @@
+GUID 02b32a1a3ce0418b90c74b60a80b425a
+Type NPC
+ID 3577
+
+Shirt 405
+Pants 406
+//Vest 722
+Mask 570
+Hat 1426
+//Glasses 491
+
+Face 5
+Hair 20
+Beard 0
+Color_Skin #A3886B
+Color_Hair #191919
+
+//Primary 3512
+//Secondary 3515
+//Tertiary 1328
+//Equipped Tertiary
+
+Pose Crouch
+
+Dialogue 3198
+
+//Just in Case
+Conditions 1
+Condition_0_Type Flag_Short
+Condition_0_ID 3002
+Condition_0_Value 2
+Condition_0_Logic Greater_Than_Or_Equal_To

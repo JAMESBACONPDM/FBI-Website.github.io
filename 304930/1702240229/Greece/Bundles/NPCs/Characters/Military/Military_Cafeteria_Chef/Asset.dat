@@ -1,0 +1,23 @@
+GUID f490e33a1d9b41d48b377c229edc9135
+Type NPC
+ID 3570
+
+Shirt 230
+Pants 231
+//Vest 722
+//Mask 570
+Hat 239
+//Glasses 568
+
+Face 24
+Hair 8
+Beard 0
+Color_Skin #94764B
+Color_Hair #C1C1C1
+
+//Primary 3512
+//Secondary 3515
+//Tertiary 239
+//Equipped Tertiary
+
+Dialogue 3475

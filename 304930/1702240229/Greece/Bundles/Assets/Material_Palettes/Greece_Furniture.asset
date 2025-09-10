@@ -1,0 +1,13 @@
+"Metadata"
+{
+	"GUID" "e29d98d00f8f494ba4958e05e71b3b6e"
+	"Type" "SDG.Unturned.MaterialPaletteAsset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
+"Asset"
+{
+	"ID" "0"
+	// 2021-04-20: interestingly (albeit annoyingly) it seems these materials were never included in the greece.content
+	// asset bundle, nor in the Unity project source files. Anything using this material palette was getting a null
+	// material and ignoring it. Now that there is a warning for null materials this asset will be disabled, but kept
+	// around to avoid other unexpected behaviour.
+}

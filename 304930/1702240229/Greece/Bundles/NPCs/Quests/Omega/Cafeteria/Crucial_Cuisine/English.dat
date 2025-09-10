@@ -1,0 +1,6 @@
+Name Crucial Cuisine
+Description It's your turn to cook up the food for today. It's a long list for a lot of hungry people, so get started.
+
+Condition_0 Make Grilled Cheeses {0}/{1}
+Condition_1 Make Pizzas {0}/{1}
+Condition_2 Cook Salmon {0}/{1}

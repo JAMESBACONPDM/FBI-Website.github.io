@@ -1,0 +1,7 @@
+Name Seed Search
+Description <color=epic>Lead Botanist Daphne</color> would appreciate it if you could find some more seeds for the Green Room from the local farms.
+
+Condition_0 Find Wheat Seeds {0}/{1}
+Condition_1 Find Potato Seeds{0}/{1}
+Condition_2 Find Corn Seeds {0}/{1}
+Condition_3 Find Tomato Seeds {0}/{1}

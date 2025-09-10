@@ -1,0 +1,6 @@
+Name <color=epic>Ideal Form</color>
+Description <color=epic>Doctor Pluto</color> is sending you to the Meteora Military Base to gather data samples of some of the special forms of zombies.
+
+Condition_0 Kill Burner {0}/{1}
+Condition_1 Kill Acid Spitter {0}/{1}
+Condition_2 Kill Flanker {0}/{1}

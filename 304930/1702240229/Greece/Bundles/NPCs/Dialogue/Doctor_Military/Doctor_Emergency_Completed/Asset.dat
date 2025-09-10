@@ -1,0 +1,22 @@
+GUID 59bd4e6595df4d1bb407c26a37516c9e
+Type Dialogue
+ID 3534
+
+Messages 2
+//NOT dead
+Message_0_Pages 1
+Message_0_Conditions 1
+//Lost too much blood = Dead
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_Logic Less_Than_Or_Equal_To
+Message_0_Condition_0_ID 3403
+Message_0_Condition_0_Value -70
+
+//Is dead
+Message_1_Pages 1
+Message_1_Conditions 1
+//Lost too much blood = Dead
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_Logic Greater_Than
+Message_1_Condition_0_ID 3403
+Message_1_Condition_0_Value -70

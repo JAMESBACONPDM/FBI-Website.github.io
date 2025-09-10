@@ -1,0 +1,15 @@
+GUID 7a589c38fdbf40bfadd4fb8416685605
+Type Dialogue
+ID 3007
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+Response_0_Dialogue 3009
+Response_0_Rewards 1
+Response_0_Reward_0_Type Flag_Short
+Response_0_Reward_0_ID 3004
+Response_0_Reward_0_Value 0
+Response_0_Reward_0_Modification Assign

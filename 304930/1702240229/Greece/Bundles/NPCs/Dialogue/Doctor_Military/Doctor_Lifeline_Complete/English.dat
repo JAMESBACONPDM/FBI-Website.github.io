@@ -1,0 +1,14 @@
+//Was already Dead
+Message_0_Page_0 Yeah, these will do. Hopefully we can avoid a tragedy next time.
+//Died due to infection
+Message_1_Page_0 Seems you overlooked something because while you were gone, <color=legendary>Tennyson</color> subdued to symptoms of an infection.
+//Survived with infection, losing arm
+Message_2_Page_0 While you were out, <color=rare>Nurse Nelda</color> had a look at his wound. It is most definitely infected and has developed gangrene; we're most likely going to have to remove his arm so he can survive.
+//Wound reopened, bled out
+Message_3_Page_0 A little late.<pause> While you were lollygagging-around out there, the wound reopened and <color=legendary>Tennyson</color> bled out.
+//Wound reopened, Survived
+Message_4_Page_0 We need those blood bags immidiately! While you were out, the wound reopened and <color=legendary>Tennyson</color> almost bled out!
+//Bullet wasn't removed from the shoulder.
+Message_5_Page_0 We'll get him hooked up asap. Looks like he'll be recovering, although I can't say the same for his arm.
+//Is NOT Dead
+Message_6_Page_0 Good, you're back. With this and a little luck he just might make a full recovery.

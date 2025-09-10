@@ -1,0 +1,22 @@
+GUID ce10924d8ca4461cae8dadcd6d838dec
+Type Dialogue
+ID 3005
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+Response_0_Dialogue 3008
+Response_0_Conditions 1
+//Neutral Faction
+Response_0_Condition_0_Type Flag_Short
+Response_0_Condition_0_ID 3000
+Response_0_Condition_0_Value 0
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_Allow_Unset
+Response_0_Rewards 1
+Response_0_Reward_0_Type Flag_Short
+Response_0_Reward_0_ID 3004
+Response_0_Reward_0_Value 0
+Response_0_Reward_0_Modification Assign

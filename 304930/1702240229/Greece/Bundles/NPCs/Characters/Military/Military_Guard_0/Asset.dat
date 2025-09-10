@@ -1,0 +1,21 @@
+GUID 4c34e8064f344fccbdc5ef1e28731239
+Type NPC
+ID 3547
+
+Shirt 3507
+Pants 3504
+Vest 3510
+Mask 1446
+//Hat 1426
+
+Face 9
+Hair 7
+Beard 0
+Color_Skin #94764B
+Color_Hair #4D3737
+
+Primary 3520
+Secondary 3515
+Equipped Primary
+
+Dialogue 3003

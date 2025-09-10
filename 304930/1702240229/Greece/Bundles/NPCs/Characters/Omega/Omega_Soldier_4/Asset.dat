@@ -1,0 +1,35 @@
+GUID a8563f6e9d664a7ab761cb662ff9bbfc
+Type NPC
+ID 3868
+
+Conditions 2
+Condition_0_Type Flag_Short
+Condition_0_ID 3389
+Condition_0_Value 0
+Condition_0_Logic Greater_Than
+Condition_1_Type Flag_Short
+Condition_1_ID 3389
+Condition_1_Value 3
+Condition_1_Logic Less_Than
+
+Shirt 3526
+Pants 3525
+//Vest 10
+//Mask 765
+//Hat 241
+Backpack 200
+Glasses 1199
+
+Face 11
+Hair 8
+Beard 0
+Color_Skin #C4AA8C
+Color_Hair #352C22
+
+Primary 1041
+Secondary 254
+Equipped Primary
+
+Pose Crouch
+
+Dialogue 3390

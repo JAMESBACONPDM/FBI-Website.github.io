@@ -1,0 +1,6 @@
+Name Georgette's Secret
+Description <color=uncommon>Georgette</color> is trying to bake her father a Jade pie for a special occasion, but she doesn't have all the needed supplies.
+
+Condition_0 Find Milk {0}/{1}
+Condition_1 Find Eggs {0}/{1}
+Condition_2 Find Chocolate Bar {0}/{1}

@@ -1,0 +1,170 @@
+GUID 741923cd08454d6fbafe256bc5c07e4e
+Type Dialogue
+ID 3544
+
+Messages 8
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 2
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+//First Earth Hunt Not Accepted
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Quest
+Message_1_Condition_0_ID 3545
+Message_1_Condition_0_Status None
+Message_1_Condition_0_Logic Equal
+Message_1_Condition_0_Allow_Unset
+
+//First Earth Hunt Ongoing
+Message_2_Pages 1
+Message_2_Conditions 2
+Message_2_Condition_0_Type Quest
+Message_2_Condition_0_ID 3545
+Message_2_Condition_0_Status None
+Message_2_Condition_0_Logic Not_Equal
+Message_2_Condition_1_Type Quest
+Message_2_Condition_1_ID 3545
+Message_2_Condition_1_Status Completed
+Message_2_Condition_1_Logic Not_Equal
+
+//Second Fire Hunt Not Accepted
+Message_3_Pages 1
+Message_3_Conditions 2
+Message_3_Condition_0_Type Quest
+Message_3_Condition_0_ID 3546
+Message_3_Condition_0_Status None
+Message_3_Condition_0_Logic Equal
+Message_3_Condition_0_Allow_Unset
+Message_3_Condition_1_Type Quest
+Message_3_Condition_1_ID 3545
+Message_3_Condition_1_Status Completed
+Message_3_Condition_1_Logic Equal
+
+//Second Fire Hunt Ongoing
+Message_4_Pages 1
+Message_4_Conditions 2
+Message_4_Condition_0_Type Quest
+Message_4_Condition_0_ID 3546
+Message_4_Condition_0_Status None
+Message_4_Condition_0_Logic Not_Equal
+Message_4_Condition_1_Type Quest
+Message_4_Condition_1_ID 3546
+Message_4_Condition_1_Status Completed
+Message_4_Condition_1_Logic Not_Equal
+
+//Third Electric Hunt Not Accepted
+Message_5_Pages 1
+Message_5_Conditions 2
+Message_5_Condition_0_Type Quest
+Message_5_Condition_0_ID 3547
+Message_5_Condition_0_Status None
+Message_5_Condition_0_Logic Equal
+Message_5_Condition_0_Allow_Unset
+Message_5_Condition_1_Type Quest
+Message_5_Condition_1_ID 3546
+Message_5_Condition_1_Status Completed
+Message_5_Condition_1_Logic Equal
+
+//Third Electric Hunt Ongoing
+Message_6_Pages 1
+Message_6_Conditions 2
+Message_6_Condition_0_Type Quest
+Message_6_Condition_0_ID 3547
+Message_6_Condition_0_Status None
+Message_6_Condition_0_Logic Not_Equal
+Message_6_Condition_1_Type Quest
+Message_6_Condition_1_ID 3547
+Message_6_Condition_1_Status Completed
+Message_6_Condition_1_Logic Not_Equal
+
+//All boss fights completed
+Message_7_Pages 1
+Message_7_Conditions 1
+Message_7_Condition_0_Type Flag_Short
+Message_7_Condition_0_ID 3017
+Message_7_Condition_0_Value 2
+Message_7_Condition_0_Logic Greater_Than_Or_Equal_To
+
+Responses 10
+
+Response_0_Messages 1
+Response_0_Message_0 1
+Response_0_Quest 3545
+Response_0_Dialogue 3548
+Response_0_Rewards 2
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3545
+Response_0_Reward_1_Type Flag_Short
+Response_0_Reward_1_ID 3370
+Response_0_Reward_1_Value 0
+Response_0_Reward_1_Modification Assign
+
+Response_1_Messages 1
+Response_1_Message_0 2
+Response_1_Dialogue 3549
+Response_1_Quest 3545
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 3545
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+
+Response_2_Messages 1
+Response_2_Message_0 3
+Response_2_Quest 3546
+Response_2_Dialogue 3548
+Response_2_Rewards 1
+Response_2_Reward_0_Type Quest
+Response_2_Reward_0_ID 3546
+
+Response_3_Messages 1
+Response_3_Message_0 4
+Response_3_Dialogue 3549
+Response_3_Quest 3546
+Response_3_Conditions 1
+Response_3_Condition_0_Type Quest
+Response_3_Condition_0_Logic Equal
+Response_3_Condition_0_ID 3546
+Response_3_Condition_0_Status Ready
+Response_3_Condition_0_Reset
+
+Response_4_Messages 1
+Response_4_Message_0 5
+Response_4_Quest 3547
+Response_4_Dialogue 3548
+Response_4_Rewards 1
+Response_4_Reward_0_Type Quest
+Response_4_Reward_0_ID 3547
+
+Response_5_Messages 1
+Response_5_Message_0 6
+Response_5_Dialogue 3549
+Response_5_Quest 3547
+Response_5_Conditions 1
+Response_5_Condition_0_Type Quest
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_0_ID 3547
+Response_5_Condition_0_Status Ready
+Response_5_Condition_0_Reset
+
+Response_6_Messages 1
+Response_6_Message_0 7
+
+Response_7_Messages 3
+Response_7_Message_0 1
+Response_7_Message_1 3
+Response_7_Message_2 5
+
+Response_8_Messages 3
+Response_8_Message_0 2
+Response_8_Message_1 4
+Response_8_Message_2 6
+
+Response_9_Messages 1
+Response_9_Message_0 0

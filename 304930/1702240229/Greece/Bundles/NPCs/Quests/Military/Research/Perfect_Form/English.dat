@@ -1,0 +1,6 @@
+Name <color=legendary>Perfect Form</color>
+Description <color=epic>Doctor Pluto</color> needs samples of some more special zombies found at the Trinity Monastary to complete his research.
+
+Condition_0 Kill Ghost Zombie {0}/{1}
+Condition_1 Kill Mega Zombie {0}/{1}
+Condition_2 Kill Titan Zombie {0}/{1}

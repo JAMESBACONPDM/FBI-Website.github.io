@@ -1,0 +1,25 @@
+GUID 35101b81966843a59b534f064c471951
+Type NPC
+ID 3632
+
+Shirt 158
+Pants 207
+//Vest 10
+//Mask 185
+//Hat 240
+//Backpack 247
+//Glasses 568
+
+Face 24
+Hair 7
+Beard 0
+Color_Skin #BEA582
+Color_Hair #57452F
+
+//Primary 122
+//Secondary 76
+//Equipped Primary
+
+//Pose Rest
+
+Dialogue 3672

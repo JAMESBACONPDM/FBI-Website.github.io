@@ -1,0 +1,28 @@
+"Metadata"
+{
+	"GUID" "d5b6e29cfddd4859abb5761ee7477fef"
+	"Type" "SDG.Unturned.MaterialPaletteAsset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
+"Asset"
+{
+	"ID" "1"
+	"Materials"
+	[
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/GreeceHouses_0/House_0.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/GreeceHouses_0/House_1.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/GreeceHouses_0/House_2.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/GreeceHouses_0/House_3.mat"
+		}
+	]
+}

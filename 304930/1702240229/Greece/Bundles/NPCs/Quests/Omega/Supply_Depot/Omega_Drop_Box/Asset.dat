@@ -1,0 +1,43 @@
+GUID 1ff4cc0d93ef41739869b13c9f6c5662
+Type Quest
+ID 3394
+
+Conditions 4
+//Canteen
+Condition_0_Type Item
+Condition_0_ID 337
+Condition_0_Amount 3
+Condition_0_Reset
+//MRE
+Condition_1_Type Item
+Condition_1_ID 81
+Condition_1_Amount 12
+Condition_1_Reset
+//Chart
+Condition_2_Type Item
+Condition_2_ID 1175
+Condition_2_Amount 3
+Condition_2_Reset
+//Filter
+Condition_3_Type Item
+Condition_3_ID 1271
+Condition_3_Amount 6
+Condition_3_Reset
+
+
+
+
+Rewards 4
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value -2
+Reward_2_Modification Increment
+//Spec Ops Pack
+Reward_3_Type Item
+Reward_3_ID 1170
+Reward_3_Amount 1

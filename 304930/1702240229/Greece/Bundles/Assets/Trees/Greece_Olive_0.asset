@@ -1,0 +1,18 @@
+"Metadata"
+{
+	"GUID" "b39da4f7e5b8409fae0aa7d8a82ebb5e"
+	"Type" "SDG.Framework.Foliage.FoliageResourceInfoAsset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
+"Asset"
+{
+	"Density" "4000"
+	"Min_Weight" "0.5"
+	"Max_Weight" "1"
+	"Min_Angle" "0"
+	"Max_Angle" "60"
+	"Resource"
+	{
+		"GUID" "9ade83f63fd746b68007a48a3a0c9b80"
+	}
+	"Obstruction_Radius" "4"
+}

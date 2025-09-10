@@ -1,0 +1,28 @@
+"Metadata"
+{
+	"GUID" "5c1dc54d076b4282a12fa854d9f7994d"
+	"Type" "SDG.Unturned.MaterialPaletteAsset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
+"Asset"
+{
+	"ID" "0"
+	"Materials"
+	[
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Bridge/GreeceBridge_0.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Bridge/GreeceBridge_1.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Bridge/GreeceBridge_2.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Bridge/GreeceBridge_3.mat"
+		}
+	]
+}

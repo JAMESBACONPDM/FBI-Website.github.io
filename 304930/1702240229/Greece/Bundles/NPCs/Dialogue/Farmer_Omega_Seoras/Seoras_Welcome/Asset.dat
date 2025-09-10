@@ -1,0 +1,106 @@
+GUID 441b1400095e45f3a4f22acde4b92f2c
+Type Dialogue
+ID 3226
+
+Messages 4
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value -2
+Message_0_Condition_0_Logic Greater_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 3
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value -2
+Message_1_Condition_0_Logic Less_Than_Or_Equal_To
+//Aren't a Farmer
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3001
+Message_1_Condition_1_Value 4
+Message_1_Condition_1_Logic Not_Equal
+//Aren't a Fisher
+Message_1_Condition_2_Type Flag_Short
+Message_1_Condition_2_ID 3001
+Message_1_Condition_2_Value 5
+Message_1_Condition_2_Logic Not_Equal
+
+//Expansion Message
+Message_2_Pages 1
+Message_2_Conditions 2
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value -2
+Message_2_Condition_0_Logic Less_Than_Or_Equal_To
+Message_2_Condition_1_Type Flag_Bool
+Message_2_Condition_1_ID 3229
+Message_2_Condition_1_Value True
+Message_2_Condition_1_Logic Equal
+
+Message_3_Pages 1
+Message_3_Conditions 4
+Message_3_Condition_0_Type Flag_Short
+Message_3_Condition_0_ID 3017
+Message_3_Condition_0_Value -2
+Message_3_Condition_0_Logic Less_Than_Or_Equal_To
+//Are a Farmer
+Message_3_Condition_1_Type Flag_Short
+Message_3_Condition_1_ID 3001
+Message_3_Condition_1_Value 4
+Message_3_Condition_1_Logic Greater_Than_Or_Equal_To
+//Are a Fisher
+Message_3_Condition_2_Type Flag_Short
+Message_3_Condition_2_ID 3001
+Message_3_Condition_2_Value 5
+Message_3_Condition_2_Logic Less_Than_Or_Equal_To
+//Expansion Message not active
+Message_3_Condition_3_Type Flag_Bool
+Message_3_Condition_3_ID 3229
+Message_3_Condition_3_Value False
+Message_3_Condition_3_Logic Equal
+Message_3_Condition_3_Allow_Unset
+
+
+
+
+
+Responses 6
+
+Response_0_Messages 1
+Response_0_Message_0 2
+Response_0_Dialogue 3227
+Response_0_Quest 3224
+Response_0_Rewards 2
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3224
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 3229
+Response_0_Reward_1_Value False
+
+Response_1_Messages 1
+Response_1_Message_0 2
+
+Response_2_Messages 1
+Response_2_Message_0 3
+Response_2_Dialogue 3228
+Response_2_Quest 3224
+Response_2_Conditions 1
+Response_2_Condition_0_Type Quest
+Response_2_Condition_0_Logic Equal
+Response_2_Condition_0_ID 3224
+Response_2_Condition_0_Status Ready
+Response_2_Condition_0_Reset
+
+Response_3_Messages 1
+Response_3_Message_0 3
+
+Response_4_Messages 1
+Response_4_Message_0 1
+
+Response_5_Messages 1
+Response_5_Message_0 0
+
+

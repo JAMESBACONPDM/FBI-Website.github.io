@@ -1,0 +1,28 @@
+"Metadata"
+{
+	"GUID" "7a563917fc864422a11b8e1e7ea6c3ac"
+	"Type" "SDG.Unturned.MaterialPaletteAsset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
+"Asset"
+{
+	"ID" "3"
+	"Materials"
+	[
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Fences/GreeceFence_0.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Fences/GreeceFence_1.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Fences/GreeceFence_2.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Fences/GreeceFence_3.mat"
+		}
+	]
+}

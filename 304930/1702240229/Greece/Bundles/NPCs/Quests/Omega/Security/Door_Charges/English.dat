@@ -1,0 +1,4 @@
+Name Remaining Door Uses
+Description This is an informative run down of how many door uses you have left.
+
+Condition_0 You have {0} door uses remaining.

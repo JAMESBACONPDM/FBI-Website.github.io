@@ -1,0 +1,25 @@
+GUID ddc27f98aa434ecca2e076c644118ed2
+Type NPC
+ID 3601
+
+Shirt 230
+Pants 231
+Vest 534
+//Mask 185
+//Hat 239
+//Backpack 247
+//Glasses 409
+
+Face 4
+Hair 9
+Beard 0
+Color_Skin #BEA582
+Color_Hair #665037
+
+//Primary 3512
+//Secondary 1030
+//Equipped Primary
+
+Pose Sit
+
+Dialogue 3420

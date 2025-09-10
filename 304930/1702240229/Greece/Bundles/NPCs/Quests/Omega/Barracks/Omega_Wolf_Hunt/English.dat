@@ -1,0 +1,5 @@
+Name Wolf Hunt
+Description <color=epic>Colonel Nicole</color> needs your help controlling the predatory wildlife. Wolf population has been increasing drastically, as well as them getting bolder for their food so much so that our scavenging parties are no longer safe.
+
+Condition_0 Kill Wolves {0}/{1}
+

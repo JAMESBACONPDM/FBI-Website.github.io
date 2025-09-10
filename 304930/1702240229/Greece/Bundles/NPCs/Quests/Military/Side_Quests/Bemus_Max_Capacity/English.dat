@@ -1,0 +1,5 @@
+Name Max Capacity
+Description The engineering department is running low on places to store resources. <color=rare>Engineer Bemus</color> would appreciate it if you could craft some storage bins.
+
+Condition_0 Craft Metal Wardrobe {0}/{1}
+Condition_1 Craft Pine Crate {0}/{1}

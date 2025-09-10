@@ -1,0 +1,270 @@
+ManifestFileVersion: 0
+CRC: 188544547
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 396b0e5658c0cdbdba81a2b137b21dc4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4b8826ecf89ded2f84b7583f40bc3883
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Orange/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Green/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Orange/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Black/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory1/Slots.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Black/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Red/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Black/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Grey/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Brown/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/GreyOil/Resource.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Blue/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory0/Red/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Garage1/Object.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Green/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Black/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Blue/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Grey/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Grey/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/White/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Brown/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Beige/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory1/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory2Brown/Object.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Blue/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Black/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Grey/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Garage0/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Red/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory0/Blue/Object.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Shop0/Object.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Red/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Green/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory0/Red/Slots.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Red/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Orange/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Orange/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Blue/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Red/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Red/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Nuclearwaste/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Grey/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Orange/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/OrangeNuclear/Resource_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Red/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/White/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Black/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Beige/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/White/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Orange/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Green/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Red/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/GreenChemicals/Resource.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Grey/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Red/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/White/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Green/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Brown/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Shop0/Slots.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Black/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Shop0/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Orange/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/White/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Beige/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Grey/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Orange/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/White/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Brown/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/BlueWater/Resource.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory1/Object.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Grey/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory2Black/Object.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Shop0/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Chemicalproduct/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Nuclearwaste/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Garage1/Slots.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Green/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Garage1/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/White/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Green/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Red/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Beige/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/RedFuel/Resource_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/GreenChemicals/Stump_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/OrangeNuclear/Stump_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/BlueWater/Stump_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/White/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/White/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory2Black/Slots.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/BlueWater/Resource_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Black/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/White/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Grey/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Brown/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Grey/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Blue/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Garage1/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Black/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory0/Blue/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Black/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Blue/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Blue/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory0/Blue/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Green/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory2Black/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Red/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Orange/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Blue/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Orange/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Beige/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Fuel/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Black/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Brown/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Blue/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Green/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Blue/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory2Brown/Slots.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Nuclearwaste/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/OrangeNuclear/Resource.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/White/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Blue/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/GreyOil/Resource_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Beige/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Blue/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Brown/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory2Brown/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Blue/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory0/Red/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Grey/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/GreenChemicals/Resource_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Black/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Emptybottle/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Beige/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Brown/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Brown/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Red/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Black/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/RedFuel/Stump.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Red/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory1/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/White/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Brown/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Beige/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Black/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Green/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Garage0/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Brown/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Brown/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Beige/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Grey/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Green/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory0/Red/Object.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Blue/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Orange/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Orange/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Blue/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Black/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Beige/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/BlueWater/Stump.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/OrangeNuclear/Stump.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Beige/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Brown/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Orange/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Red/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Orange/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/GreyOil/Stump_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/White/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Garage0/Object.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Brown/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Red/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Grey/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Black/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/GreenChemicals/Stump.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Black/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Blue/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Brown/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Green/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Orange/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Beige/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/White/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Orange/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Black/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Green/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Red/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Green/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/RedFuel/Resource.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory0/Blue/Slots.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Green/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/White/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory2Black/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Grey/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Beige/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Red/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Orange/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/White/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Beige/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Beige/Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Water/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Beige/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/White/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Beige/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Grey/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/RedFuel/Stump_Clip.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Beige/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Orange/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Grey/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Blue/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Factory2Brown/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Brown/Barricade.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Oil/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/Blue/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Brown/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Green/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Green/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Grey/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Object/Large/Garage0/Slots.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Green/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Resource/Barrel/GreyOil/Stump.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Red/Nav.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Plastic/Item.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Container/Grey/Use.mp3
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/ContainerRenforced/White/Animations.prefab
+- Assets/ImObjectPackMasterBundle/ImObjectPack/Item/Barrel/Brown/Animations.prefab
+Dependencies: []

@@ -1,0 +1,37 @@
+GUID 9d05fb9d3f154f79ba4e535f1cc57e69
+Type Quest
+ID 3472
+
+Conditions 3
+//Salmon Sandwich
+Condition_0_Type Item
+Condition_0_ID 1399
+Condition_0_Amount 10
+Condition_0_Reset
+
+//Pizza
+Condition_1_Type Item
+Condition_1_ID 1164
+Condition_1_Amount 2
+Condition_1_Reset
+
+//Bread
+Condition_2_Type Item
+Condition_2_ID 460
+Condition_2_Amount 12
+Condition_2_Reset
+
+Rewards 4
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value -2
+Reward_2_Modification Increment
+//Pumpkin Pie
+Reward_3_Type Item
+Reward_3_ID 1076
+Reward_3_Amount 2

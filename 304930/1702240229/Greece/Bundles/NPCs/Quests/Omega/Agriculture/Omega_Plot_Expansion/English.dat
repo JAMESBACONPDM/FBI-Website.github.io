@@ -1,0 +1,5 @@
+Name Plot Expansion
+Description <color=uncommon>Farmer Pan</color> and <color=uncommon>Landscaper Seoras</color> are trying to expand the Greenhouse and could use your help to gather the needed accessories.
+
+Condition_0 Craft Planters {0}/{1}
+Condition_1 Craft Farming Plot {0}/{1}

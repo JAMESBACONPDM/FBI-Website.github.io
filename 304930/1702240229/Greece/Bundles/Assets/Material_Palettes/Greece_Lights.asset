@@ -1,0 +1,28 @@
+"Metadata"
+{
+	"GUID" "d8a7bd5c7d814afa870f5be010542671"
+	"Type" "SDG.Unturned.MaterialPaletteAsset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
+"Asset"
+{
+	"ID" "5"
+	"Materials"
+	[
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Lights/Streetlight_0.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Lights/Streetlight_1.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Lights/Streetlight_2.mat"
+		}
+		{
+			"Name" "greece.masterbundle"
+			"Path" "Objects/Material_Palettes/Greece_Lights/Streetlight_3.mat"
+		}
+	]
+}

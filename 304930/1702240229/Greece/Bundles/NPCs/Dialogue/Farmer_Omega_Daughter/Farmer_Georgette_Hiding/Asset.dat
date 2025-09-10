@@ -1,0 +1,19 @@
+GUID 291fe35576264ba4827600834d499d09
+Type Dialogue
+ID 3209
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+//Why should I not tell him?
+Response_1_Dialogue 3210
+Response_1_Quest 3212
+Response_1_Rewards 2
+Response_1_Reward_0_Type Flag_Short
+Response_1_Reward_0_ID 3207
+Response_1_Reward_0_Value 2
+Response_1_Reward_0_Modification Assign
+Response_1_Reward_1_Type Quest
+Response_1_Reward_1_ID 3212

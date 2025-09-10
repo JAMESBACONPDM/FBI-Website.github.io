@@ -1,0 +1,6 @@
+Name Sentry Assembly
+Description <color=rare>Head Engineer Heitor</color> needs you to make some working prototypes of reliable automated turrets.
+
+Condition_0 Craft Neutral Sentry {0}/{1}
+Condition_1 Craft Hostile Sentry {0}/{1}
+Condition_2 Craft Friendly Sentry {0}/{1}

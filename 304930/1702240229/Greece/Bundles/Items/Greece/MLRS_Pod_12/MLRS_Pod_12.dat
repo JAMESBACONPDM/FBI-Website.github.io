@@ -1,0 +1,21 @@
+GUID b6bfc410b246441cb2c1cfff107dc5c1
+Type Magazine
+Rarity Legendary
+ID 3501
+
+Size_X 5
+Size_Y 3
+Size_Z 0.8
+
+Amount 12
+Count_Min 1
+Count_Max 6
+
+Calibers 1
+Caliber_0 250
+
+Blueprints 1
+Blueprint_0_Type Ammo
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 3502
+Blueprint_0_Build 30

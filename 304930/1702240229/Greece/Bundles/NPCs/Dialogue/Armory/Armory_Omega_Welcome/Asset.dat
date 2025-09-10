@@ -1,0 +1,308 @@
+GUID 0179e55c10cd4b9f85e3890ebe066873
+Type Dialogue
+ID 3023
+
+Messages 9
+
+//Welcome
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value -1
+Message_0_Condition_0_Logic Equal
+Message_0_Condition_0_Allow_Unset
+
+
+//You can't be in here
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value -1
+Message_1_Condition_0_Logic Greater_Than
+Message_1_Condition_0_Allow_Unset
+
+//Conflict 1 Quest
+Message_2_Pages 1
+Message_2_Conditions 2
+Message_2_Condition_0_Type Quest
+Message_2_Condition_0_Logic Equal
+Message_2_Condition_0_ID 3090
+Message_2_Condition_0_Status None
+Message_2_Condition_0_Allow_Unset
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3030
+Message_2_Condition_1_Value -4
+Message_2_Condition_1_Logic Less_Than_Or_Equal_To
+
+//Rank Up Hoplite
+Message_3_Pages 1
+Message_3_Conditions 3
+//Done the first Conflict
+Message_3_Condition_0_Type Quest
+Message_3_Condition_0_Logic Equal
+Message_3_Condition_0_ID 3090
+Message_3_Condition_0_Status Completed
+//Completed 5 missions
+Message_3_Condition_1_Type Flag_Short
+Message_3_Condition_1_ID 3030
+Message_3_Condition_1_Value -5
+Message_3_Condition_1_Logic Less_Than_Or_Equal_To
+//Are a Cadet
+Message_3_Condition_2_Type Flag_Short
+Message_3_Condition_2_ID 3017
+Message_3_Condition_2_Value -2
+Message_3_Condition_2_Logic Equal
+
+//Rank Up Captain
+Message_4_Pages 1
+Message_4_Conditions 2
+//Are a Hoplite
+Message_4_Condition_0_Type Flag_Short
+Message_4_Condition_0_ID 3017
+Message_4_Condition_0_Value -3
+Message_4_Condition_0_Logic Equal
+//Completed 10 missions
+Message_4_Condition_1_Type Flag_Short
+Message_4_Condition_1_ID 3030
+Message_4_Condition_1_Value -10
+Message_4_Condition_1_Logic Less_Than_Or_Equal_To
+
+//Rank Up Battalion Leader
+Message_5_Pages 1
+Message_5_Conditions 2
+//Are a Hoplite
+Message_5_Condition_0_Type Flag_Short
+Message_5_Condition_0_ID 3017
+Message_5_Condition_0_Value -4
+Message_5_Condition_0_Logic Equal
+//Completed 15 missions
+Message_5_Condition_1_Type Flag_Short
+Message_5_Condition_1_ID 3030
+Message_5_Condition_1_Value -15
+Message_5_Condition_1_Logic Less_Than_Or_Equal_To
+
+//Rank Up Colonel
+Message_6_Pages 1
+Message_6_Conditions 2
+//Are a Hoplite
+Message_6_Condition_0_Type Flag_Short
+Message_6_Condition_0_ID 3017
+Message_6_Condition_0_Value -5
+Message_6_Condition_0_Logic Equal
+//Completed 20 missions
+Message_6_Condition_1_Type Flag_Short
+Message_6_Condition_1_ID 3030
+Message_6_Condition_1_Value -20
+Message_6_Condition_1_Logic Less_Than_Or_Equal_To
+
+//Rank Up Brigadier
+Message_7_Pages 1
+Message_7_Conditions 2
+//Are a Hoplite
+Message_7_Condition_0_Type Flag_Short
+Message_7_Condition_0_ID 3017
+Message_7_Condition_0_Value -6
+Message_7_Condition_0_Logic Equal
+//Completed 25 missions
+Message_7_Condition_1_Type Flag_Short
+Message_7_Condition_1_ID 3030
+Message_7_Condition_1_Value -25
+Message_7_Condition_1_Logic Less_Than_Or_Equal_To
+
+Message_8_Pages 1
+
+Responses 14
+
+//FIll out papers
+Response_0_Dialogue 3025
+Response_0_Messages 1
+Response_0_Message_0 0
+Response_0_Rewards 1
+Response_0_Reward_0_Type Flag_Short
+Response_0_Reward_0_ID 3017
+Response_0_Reward_0_Value -2
+Response_0_Reward_0_Modification Assign
+
+//Fill out incorrectly
+Response_1_Dialogue 3024
+Response_1_Conditions 1
+Response_1_Condition_0_Type Flag_Bool
+Response_1_Condition_0_ID 3021
+Response_1_Condition_0_Value False
+Response_1_Condition_0_Allow_Unset
+Response_1_Messages 1
+Response_1_Message_0 0
+Response_1_Rewards 2
+Response_1_Reward_0_Type Reputation
+Response_1_Reward_0_Value -1
+Response_1_Reward_1_Type Flag_Bool
+Response_1_Reward_1_ID 3021
+Response_1_Reward_1_Value True
+
+//Lost my pen
+Response_2_Messages 1
+Response_2_Message_0 0
+
+//How do Ranks work?
+Response_3_Dialogue 3027
+Response_3_Messages 1
+Response_3_Message_0 8
+
+//Conflict Zone I Quest
+Response_4_Dialogue 3091
+Response_4_Quest 3090
+Response_4_Conditions 1
+Response_4_Condition_0_Type Quest
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_0_ID 3090
+Response_4_Condition_0_Status None
+Response_4_Messages 1
+Response_4_Message_0 2
+Response_4_Rewards 4
+Response_4_Reward_0_Type Quest
+Response_4_Reward_0_ID 3090
+Response_4_Reward_1_Type Flag_Bool
+Response_4_Reward_1_ID 3086
+Response_4_Reward_1_Value False
+Response_4_Reward_2_Type Flag_Bool
+Response_4_Reward_2_ID 3087
+Response_4_Reward_2_Value False
+Response_4_Reward_3_Type Flag_Bool
+Response_4_Reward_3_ID 3088
+Response_4_Reward_3_Value False
+
+//Complete Conflict I Quest
+Response_5_Dialogue 3092
+Response_5_Quest 3090
+Response_5_Conditions 1
+Response_5_Condition_0_Type Quest
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_0_ID 3090
+Response_5_Condition_0_Status Ready
+Response_5_Condition_0_Reset
+//Choose Next Mission
+Response_5_Rewards 1
+Response_5_Reward_0_Type Flag_Short_Random
+Response_5_Reward_0_ID 3385
+Response_5_Reward_0_Min_Value 1
+Response_5_Reward_0_Max_Value 3
+Response_5_Reward_0_Modification Assign
+
+//Hoplite Rank Up
+Response_6_Dialogue 3321
+Response_6_Messages 1
+Response_6_Message_0 3
+Response_6_Rewards 3
+// Top
+Response_6_Reward_0_Type Item
+Response_6_Reward_0_ID 3526
+Response_6_Reward_0_Amount 1
+// Beanie
+Response_6_Reward_1_Type Item
+Response_6_Reward_1_ID 3531
+Response_6_Reward_1_Amount 1
+//Increase Rank
+Response_6_Reward_2_Type Flag_Short
+Response_6_Reward_2_ID 3017
+Response_6_Reward_2_Value -1
+Response_6_Reward_2_Modification Increment
+
+//Captain Rank Up
+Response_7_Dialogue 3321
+Response_7_Messages 1
+Response_7_Message_0 4
+Response_7_Rewards 2
+// Top
+Response_7_Reward_0_Type Item
+Response_7_Reward_0_ID 3527
+Response_7_Reward_0_Amount 1
+//Increase Rank
+Response_7_Reward_1_Type Flag_Short
+Response_7_Reward_1_ID 3017
+Response_7_Reward_1_Value -1
+Response_7_Reward_1_Modification Increment
+
+//Battalion Leader Rank Up
+Response_8_Dialogue 3321
+Response_8_Messages 1
+Response_8_Message_0 5
+Response_8_Rewards 2
+// Top
+Response_8_Reward_0_Type Item
+Response_8_Reward_0_ID 3528
+Response_8_Reward_0_Amount 1
+//Increase Rank
+Response_8_Reward_1_Type Flag_Short
+Response_8_Reward_1_ID 3017
+Response_8_Reward_1_Value -1
+Response_8_Reward_1_Modification Increment
+
+
+//Colonel Rank Up
+Response_9_Dialogue 3321
+Response_9_Messages 1
+Response_9_Message_0 6
+Response_9_Rewards 2
+// Top
+Response_9_Reward_0_Type Item
+Response_9_Reward_0_ID 3529
+Response_9_Reward_0_Amount 1
+//Increase Rank
+Response_9_Reward_1_Type Flag_Short
+Response_9_Reward_1_ID 3017
+Response_9_Reward_1_Value -1
+Response_9_Reward_1_Modification Increment
+
+
+//Brigadier Rank Up
+Response_10_Dialogue 3321
+Response_10_Messages 1
+Response_10_Message_0 7
+Response_10_Rewards 2
+// Top
+Response_10_Reward_0_Type Item
+Response_10_Reward_0_ID 3530
+Response_10_Reward_0_Amount 1
+//Increase Rank
+Response_10_Reward_1_Type Flag_Short
+Response_10_Reward_1_ID 3017
+Response_10_Reward_1_Value -1
+Response_10_Reward_1_Modification Increment
+
+//Any Special Missions?
+//Conflicts Dialogue Menu
+Response_11_Dialogue 3386
+Response_11_Messages 1
+Response_11_Message_0 8
+Response_11_Conditions 1
+//Are a Hoplite
+Response_11_Condition_0_Type Flag_Short
+Response_11_Condition_0_ID 3017
+Response_11_Condition_0_Value -3
+Response_11_Condition_0_Logic Less_Than_Or_Equal_To
+//Choose Next Mission
+//Response_11_Rewards 1
+//Response_11_Reward_0_Type Flag_Short_Random
+//Response_11_Reward_0_ID 3385
+//Response_11_Reward_0_Min_Value 1
+//Response_11_Reward_0_Max_Value 3
+//Response_11_Reward_0_Modification Assign
+
+//I'd Like to Trade
+Response_12_Messages 1
+Response_12_Message_0 8
+Response_12_Dialogue 3453
+Response_12_Vendor 3452
+
+//Goodbye
+Response_13_Messages 8
+Response_13_Message_0 1
+Response_13_Message_1 2
+Response_13_Message_2 3
+Response_13_Message_3 4
+Response_13_Message_4 5
+Response_13_Message_5 6
+Response_13_Message_6 7
+Response_13_Message_7 8

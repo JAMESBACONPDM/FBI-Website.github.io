@@ -1,0 +1,1101 @@
+GUID 72c3decd7b3343f6ac071c59113b38d4
+Type Dialogue
+ID 3003
+
+Messages 29
+
+//Neutral Hello Set 0 Response 0
+Message_0_Pages 1
+Message_0_Conditions 3
+//Text Response Set 0
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3002
+Message_0_Condition_0_Value 0
+Message_0_Condition_0_Logic Less_Than_Or_Equal_To
+Message_0_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_0_Condition_1_Type Flag_Short
+Message_0_Condition_1_ID 3004
+Message_0_Condition_1_Value 3
+Message_0_Condition_1_Logic Less_Than_Or_Equal_To
+Message_0_Condition_1_Allow_Unset
+//Neutral Faction
+Message_0_Condition_2_Type Flag_Short
+Message_0_Condition_2_ID 3000
+Message_0_Condition_2_Value 0
+Message_0_Condition_2_Logic Equal
+Message_0_Condition_2_Allow_Unset
+Message_0_Rewards 2
+//Randomize Text Responses
+Message_0_Reward_0_Type Flag_Short_Random
+Message_0_Reward_0_ID 3002
+Message_0_Reward_0_Min_Value 0
+Message_0_Reward_0_Max_Value 2
+Message_0_Reward_0_Modification Assign
+//Increase Responses
+Message_0_Reward_1_Type Flag_Short
+Message_0_Reward_1_ID 3004
+Message_0_Reward_1_Value 1
+Message_0_Reward_1_Modification Increment
+
+//Neutral Hello Set 0 Response 1
+Message_1_Pages 1
+Message_1_Conditions 3
+//Text Set 1
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3002
+Message_1_Condition_0_Value 1
+Message_1_Condition_0_Logic Equal
+Message_1_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3004
+Message_1_Condition_1_Value 3
+Message_1_Condition_1_Logic Less_Than_Or_Equal_To
+Message_1_Condition_1_Allow_Unset
+//Neutral Faction
+Message_1_Condition_2_Type Flag_Short
+Message_1_Condition_2_ID 3000
+Message_1_Condition_2_Value 0
+Message_1_Condition_2_Logic Equal
+Message_1_Condition_2_Allow_Unset
+Message_1_Rewards 2
+//Randomize Text Responses
+Message_1_Reward_0_Type Flag_Short_Random
+Message_1_Reward_0_ID 3002
+Message_1_Reward_0_Min_Value 0
+Message_1_Reward_0_Max_Value 2
+Message_1_Reward_0_Modification Assign
+//Increase Responses
+Message_1_Reward_1_Type Flag_Short
+Message_1_Reward_1_ID 3004
+Message_1_Reward_1_Value 1
+Message_1_Reward_1_Modification Increment
+
+//Neutral Hello Set 0 Response 2
+Message_2_Pages 1
+Message_2_Conditions 3
+//Text Set 2
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3002
+Message_2_Condition_0_Value 2
+Message_2_Condition_0_Logic Equal
+Message_2_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3004
+Message_2_Condition_1_Value 3
+Message_2_Condition_1_Logic Less_Than_Or_Equal_To
+Message_2_Condition_1_Allow_Unset
+//Neutral Faction
+Message_2_Condition_2_Type Flag_Short
+Message_2_Condition_2_ID 3000
+Message_2_Condition_2_Value 0
+Message_2_Condition_2_Logic Equal
+Message_2_Condition_2_Allow_Unset
+Message_2_Rewards 2
+//Randomize Text Responses
+Message_2_Reward_0_Type Flag_Short_Random
+Message_2_Reward_0_ID 3002
+Message_2_Reward_0_Min_Value 0
+Message_2_Reward_0_Max_Value 2
+Message_2_Reward_0_Modification Assign
+//Increase Responses
+Message_2_Reward_1_Type Flag_Short
+Message_2_Reward_1_ID 3004
+Message_2_Reward_1_Value 1
+Message_2_Reward_1_Modification Increment
+
+//Neutral Hello Set 1 Response 0
+Message_3_Pages 1
+Message_3_Conditions 4
+//Text Set 0
+Message_3_Condition_0_Type Flag_Short
+Message_3_Condition_0_ID 3002
+Message_3_Condition_0_Value 0
+Message_3_Condition_0_Logic Equal
+Message_3_Condition_0_Allow_Unset
+//Text Responses <=6
+Message_3_Condition_1_Type Flag_Short
+Message_3_Condition_1_ID 3004
+Message_3_Condition_1_Value 6
+Message_3_Condition_1_Logic Less_Than_Or_Equal_To
+Message_3_Condition_1_Allow_Unset
+//Neutral Faction
+Message_3_Condition_2_Type Flag_Short
+Message_3_Condition_2_ID 3000
+Message_3_Condition_2_Value 0
+Message_3_Condition_2_Logic Equal
+Message_3_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_3_Condition_3_Type Flag_Short
+Message_3_Condition_3_ID 3004
+Message_3_Condition_3_Value 4
+Message_3_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_3_Condition_3_Allow_Unset
+Message_3_Rewards 2
+//Randomize Text Responses
+Message_3_Reward_0_Type Flag_Short_Random
+Message_3_Reward_0_ID 3002
+Message_3_Reward_0_Min_Value 0
+Message_3_Reward_0_Max_Value 2
+Message_3_Reward_0_Modification Assign
+//Increase Responses
+Message_3_Reward_1_Type Flag_Short
+Message_3_Reward_1_ID 3004
+Message_3_Reward_1_Value 1
+Message_3_Reward_1_Modification Increment
+
+//Neutral Hello Set 1 Response 1
+Message_4_Pages 1
+Message_4_Conditions 4
+//Text Set 1
+Message_4_Condition_0_Type Flag_Short
+Message_4_Condition_0_ID 3002
+Message_4_Condition_0_Value 1
+Message_4_Condition_0_Logic Equal
+Message_4_Condition_0_Allow_Unset
+//Text Responses <=6
+Message_4_Condition_1_Type Flag_Short
+Message_4_Condition_1_ID 3004
+Message_4_Condition_1_Value 6
+Message_4_Condition_1_Logic Less_Than_Or_Equal_To
+Message_4_Condition_1_Allow_Unset
+//Neutral Faction
+Message_4_Condition_2_Type Flag_Short
+Message_4_Condition_2_ID 3000
+Message_4_Condition_2_Value 0
+Message_4_Condition_2_Logic Equal
+Message_4_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_4_Condition_3_Type Flag_Short
+Message_4_Condition_3_ID 3004
+Message_4_Condition_3_Value 4
+Message_4_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_4_Condition_3_Allow_Unset
+Message_4_Rewards 2
+//Randomize Text Responses
+Message_4_Reward_0_Type Flag_Short_Random
+Message_4_Reward_0_ID 3002
+Message_4_Reward_0_Min_Value 0
+Message_4_Reward_0_Max_Value 2
+Message_4_Reward_0_Modification Assign
+//Increase Responses
+Message_4_Reward_1_Type Flag_Short
+Message_4_Reward_1_ID 3004
+Message_4_Reward_1_Value 1
+Message_4_Reward_1_Modification Increment
+
+//Neutral Hello Set 1 Response 2
+Message_5_Pages 1
+Message_5_Conditions 4
+//Text Set 2
+Message_5_Condition_0_Type Flag_Short
+Message_5_Condition_0_ID 3002
+Message_5_Condition_0_Value 2
+Message_5_Condition_0_Logic Equal
+Message_5_Condition_0_Allow_Unset
+//Text Responses <=6
+Message_5_Condition_1_Type Flag_Short
+Message_5_Condition_1_ID 3004
+Message_5_Condition_1_Value 6
+Message_5_Condition_1_Logic Less_Than_Or_Equal_To
+Message_5_Condition_1_Allow_Unset
+//Neutral Faction
+Message_5_Condition_2_Type Flag_Short
+Message_5_Condition_2_ID 3000
+Message_5_Condition_2_Value 0
+Message_5_Condition_2_Logic Equal
+Message_5_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_5_Condition_3_Type Flag_Short
+Message_5_Condition_3_ID 3004
+Message_5_Condition_3_Value 4
+Message_5_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_5_Condition_3_Allow_Unset
+Message_5_Rewards 2
+//Randomize Text Responses
+Message_5_Reward_0_Type Flag_Short_Random
+Message_5_Reward_0_ID 3002
+Message_5_Reward_0_Min_Value 0
+Message_5_Reward_0_Max_Value 2
+Message_5_Reward_0_Modification Assign
+//Increase Responses
+Message_5_Reward_1_Type Flag_Short
+Message_5_Reward_1_ID 3004
+Message_5_Reward_1_Value 1
+Message_5_Reward_1_Modification Increment
+
+//Neutral Hello Set 2 Response 0
+Message_6_Pages 1
+Message_6_Conditions 4
+//Text Set 0
+Message_6_Condition_0_Type Flag_Short
+Message_6_Condition_0_ID 3002
+Message_6_Condition_0_Value 0
+Message_6_Condition_0_Logic Equal
+Message_6_Condition_0_Allow_Unset
+//Text Responses <=9
+Message_6_Condition_1_Type Flag_Short
+Message_6_Condition_1_ID 3004
+Message_6_Condition_1_Value 9
+Message_6_Condition_1_Logic Less_Than_Or_Equal_To
+Message_6_Condition_1_Allow_Unset
+//Neutral Faction
+Message_6_Condition_2_Type Flag_Short
+Message_6_Condition_2_ID 3000
+Message_6_Condition_2_Value 0
+Message_6_Condition_2_Logic Equal
+Message_6_Condition_2_Allow_Unset
+//Text Responses >=7
+Message_6_Condition_3_Type Flag_Short
+Message_6_Condition_3_ID 3004
+Message_6_Condition_3_Value 7
+Message_6_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_6_Condition_3_Allow_Unset
+Message_6_Rewards 2
+//Randomize Text Responses
+Message_6_Reward_0_Type Flag_Short_Random
+Message_6_Reward_0_ID 3002
+Message_6_Reward_0_Min_Value 0
+Message_6_Reward_0_Max_Value 2
+Message_6_Reward_0_Modification Assign
+//Increase Responses
+Message_6_Reward_1_Type Flag_Short
+Message_6_Reward_1_ID 3004
+Message_6_Reward_1_Value 1
+Message_6_Reward_1_Modification Increment
+
+//Neutral Hello Set 2 Response 1
+Message_7_Pages 1
+Message_7_Conditions 4
+//Text Set 1
+Message_7_Condition_0_Type Flag_Short
+Message_7_Condition_0_ID 3002
+Message_7_Condition_0_Value 1
+Message_7_Condition_0_Logic Equal
+Message_7_Condition_0_Allow_Unset
+//Text Responses <=9
+Message_7_Condition_1_Type Flag_Short
+Message_7_Condition_1_ID 3004
+Message_7_Condition_1_Value 9
+Message_7_Condition_1_Logic Less_Than_Or_Equal_To
+Message_7_Condition_1_Allow_Unset
+//Neutral Faction
+Message_7_Condition_2_Type Flag_Short
+Message_7_Condition_2_ID 3000
+Message_7_Condition_2_Value 0
+Message_7_Condition_2_Logic Equal
+Message_7_Condition_2_Allow_Unset
+//Text Responses >=7
+Message_7_Condition_3_Type Flag_Short
+Message_7_Condition_3_ID 3004
+Message_7_Condition_3_Value 7
+Message_7_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_7_Condition_3_Allow_Unset
+Message_7_Rewards 2
+//Randomize Text Responses
+Message_7_Reward_0_Type Flag_Short_Random
+Message_7_Reward_0_ID 3002
+Message_7_Reward_0_Min_Value 0
+Message_7_Reward_0_Max_Value 2
+Message_7_Reward_0_Modification Assign
+//Increase Responses
+Message_7_Reward_1_Type Flag_Short
+Message_7_Reward_1_ID 3004
+Message_7_Reward_1_Value 1
+Message_7_Reward_1_Modification Increment
+
+//Neutral Hello Set 2 Response 2
+Message_8_Pages 1
+Message_8_Conditions 4
+//Text Set 2
+Message_8_Condition_0_Type Flag_Short
+Message_8_Condition_0_ID 3002
+Message_8_Condition_0_Value 2
+Message_8_Condition_0_Logic Equal
+Message_8_Condition_0_Allow_Unset
+//Text Responses <=9
+Message_8_Condition_1_Type Flag_Short
+Message_8_Condition_1_ID 3004
+Message_8_Condition_1_Value 9
+Message_8_Condition_1_Logic Less_Than_Or_Equal_To
+Message_8_Condition_1_Allow_Unset
+//Neutral Faction
+Message_8_Condition_2_Type Flag_Short
+Message_8_Condition_2_ID 3000
+Message_8_Condition_2_Value 0
+Message_8_Condition_2_Logic Equal
+Message_8_Condition_2_Allow_Unset
+//Text Responses >=7
+Message_8_Condition_3_Type Flag_Short
+Message_8_Condition_3_ID 3004
+Message_8_Condition_3_Value 7
+Message_8_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_8_Condition_3_Allow_Unset
+Message_8_Rewards 2
+//Randomize Text Responses
+Message_8_Reward_0_Type Flag_Short_Random
+Message_8_Reward_0_ID 3002
+Message_8_Reward_0_Min_Value 0
+Message_8_Reward_0_Max_Value 2
+Message_8_Reward_0_Modification Assign
+//Increase Responses
+Message_8_Reward_1_Type Flag_Short
+Message_8_Reward_1_ID 3004
+Message_8_Reward_1_Value 1
+Message_8_Reward_1_Modification Increment
+
+//Neutral Hello Set 3 Response 0
+Message_9_Pages 1
+Message_9_Conditions 3
+//Text Set 2
+Message_9_Condition_0_Type Flag_Short
+Message_9_Condition_0_ID 3002
+Message_9_Condition_0_Value 1
+Message_9_Condition_0_Logic Less_Than_Or_Equal_To
+Message_9_Condition_0_Allow_Unset
+//Text Responses >=10
+Message_9_Condition_1_Type Flag_Short
+Message_9_Condition_1_ID 3004
+Message_9_Condition_1_Value 10
+Message_9_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_9_Condition_1_Allow_Unset
+//Neutral Faction
+Message_9_Condition_2_Type Flag_Short
+Message_9_Condition_2_ID 3000
+Message_9_Condition_2_Value 0
+Message_9_Condition_2_Logic Equal
+Message_9_Condition_2_Allow_Unset
+Message_9_Rewards 1
+//Randomize Text Responses
+Message_9_Reward_0_Type Flag_Short_Random
+Message_9_Reward_0_ID 3002
+Message_9_Reward_0_Min_Value 0
+Message_9_Reward_0_Max_Value 2
+Message_9_Reward_0_Modification Assign
+
+//Neutral Hello Set 3 Response 1
+Message_10_Pages 1
+Message_10_Conditions 3
+//Text Set 2
+Message_10_Condition_0_Type Flag_Short
+Message_10_Condition_0_ID 3002
+Message_10_Condition_0_Value 2
+Message_10_Condition_0_Logic Equal
+Message_10_Condition_0_Allow_Unset
+//Text Responses >=10
+Message_10_Condition_1_Type Flag_Short
+Message_10_Condition_1_ID 3004
+Message_10_Condition_1_Value 10
+Message_10_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_10_Condition_1_Allow_Unset
+//Neutral Faction
+Message_10_Condition_2_Type Flag_Short
+Message_10_Condition_2_ID 3000
+Message_10_Condition_2_Value 0
+Message_10_Condition_2_Logic Equal
+Message_10_Condition_2_Allow_Unset
+Message_10_Rewards 1
+//Randomize Text Responses
+Message_10_Reward_0_Type Flag_Short_Random
+Message_10_Reward_0_ID 3002
+Message_10_Reward_0_Min_Value 0
+Message_10_Reward_0_Max_Value 2
+Message_10_Reward_0_Modification Assign
+
+//Hostile Responses
+//Hostile Hello Set 0 Response 0
+Message_11_Pages 1
+Message_11_Conditions 3
+//Text Response Set 0
+Message_11_Condition_0_Type Flag_Short
+Message_11_Condition_0_ID 3002
+Message_11_Condition_0_Value 0
+Message_11_Condition_0_Logic Less_Than_Or_Equal_To
+Message_11_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_11_Condition_1_Type Flag_Short
+Message_11_Condition_1_ID 3004
+Message_11_Condition_1_Value 3
+Message_11_Condition_1_Logic Less_Than_Or_Equal_To
+Message_11_Condition_1_Allow_Unset
+//Hostile Faction
+Message_11_Condition_2_Type Flag_Short
+Message_11_Condition_2_ID 3000
+Message_11_Condition_2_Value 2
+Message_11_Condition_2_Logic Equal
+Message_11_Condition_2_Allow_Unset
+Message_11_Rewards 2
+//Randomize Text Responses
+Message_11_Reward_0_Type Flag_Short_Random
+Message_11_Reward_0_ID 3002
+Message_11_Reward_0_Min_Value 0
+Message_11_Reward_0_Max_Value 2
+Message_11_Reward_0_Modification Assign
+//Increase Responses
+Message_11_Reward_1_Type Flag_Short
+Message_11_Reward_1_ID 3004
+Message_11_Reward_1_Value 1
+Message_11_Reward_1_Modification Increment
+
+//Hostile Hello Set 0 Response 1
+Message_12_Pages 1
+Message_12_Conditions 3
+//Text Set 1
+Message_12_Condition_0_Type Flag_Short
+Message_12_Condition_0_ID 3002
+Message_12_Condition_0_Value 1
+Message_12_Condition_0_Logic Equal
+Message_12_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_12_Condition_1_Type Flag_Short
+Message_12_Condition_1_ID 3004
+Message_12_Condition_1_Value 3
+Message_12_Condition_1_Logic Less_Than_Or_Equal_To
+Message_12_Condition_1_Allow_Unset
+//Hostile Faction
+Message_12_Condition_2_Type Flag_Short
+Message_12_Condition_2_ID 3000
+Message_12_Condition_2_Value 2
+Message_12_Condition_2_Logic Equal
+Message_12_Condition_2_Allow_Unset
+Message_12_Rewards 2
+//Randomize Text Responses
+Message_12_Reward_0_Type Flag_Short_Random
+Message_12_Reward_0_ID 3002
+Message_12_Reward_0_Min_Value 0
+Message_12_Reward_0_Max_Value 2
+Message_12_Reward_0_Modification Assign
+//Increase Responses
+Message_12_Reward_1_Type Flag_Short
+Message_12_Reward_1_ID 3004
+Message_12_Reward_1_Value 1
+Message_12_Reward_1_Modification Increment
+
+//Hostile Hello Set 0 Response 2
+Message_13_Pages 1
+Message_13_Conditions 3
+//Text Set 2
+Message_13_Condition_0_Type Flag_Short
+Message_13_Condition_0_ID 3002
+Message_13_Condition_0_Value 2
+Message_13_Condition_0_Logic Equal
+Message_13_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_13_Condition_1_Type Flag_Short
+Message_13_Condition_1_ID 3004
+Message_13_Condition_1_Value 3
+Message_13_Condition_1_Logic Less_Than_Or_Equal_To
+Message_13_Condition_1_Allow_Unset
+//Hostile Faction
+Message_13_Condition_2_Type Flag_Short
+Message_13_Condition_2_ID 3000
+Message_13_Condition_2_Value 2
+Message_13_Condition_2_Logic Equal
+Message_13_Condition_2_Allow_Unset
+Message_13_Rewards 2
+//Randomize Text Responses
+Message_13_Reward_0_Type Flag_Short_Random
+Message_13_Reward_0_ID 3002
+Message_13_Reward_0_Min_Value 0
+Message_13_Reward_0_Max_Value 2
+Message_13_Reward_0_Modification Assign
+//Increase Responses
+Message_13_Reward_1_Type Flag_Short
+Message_13_Reward_1_ID 3004
+Message_13_Reward_1_Value 1
+Message_13_Reward_1_Modification Increment
+
+//Hostile Hello Set 1 Response 0
+Message_14_Pages 1
+Message_14_Conditions 4
+//Text Set 0
+Message_14_Condition_0_Type Flag_Short
+Message_14_Condition_0_ID 3002
+Message_14_Condition_0_Value 0
+Message_14_Condition_0_Logic Equal
+Message_14_Condition_0_Allow_Unset
+//Text Responses <=8
+Message_14_Condition_1_Type Flag_Short
+Message_14_Condition_1_ID 3004
+Message_14_Condition_1_Value 8
+Message_14_Condition_1_Logic Less_Than_Or_Equal_To
+Message_14_Condition_1_Allow_Unset
+//Hostile Faction
+Message_14_Condition_2_Type Flag_Short
+Message_14_Condition_2_ID 3000
+Message_14_Condition_2_Value 2
+Message_14_Condition_2_Logic Equal
+Message_14_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_14_Condition_3_Type Flag_Short
+Message_14_Condition_3_ID 3004
+Message_14_Condition_3_Value 4
+Message_14_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_14_Condition_3_Allow_Unset
+Message_14_Rewards 2
+//Randomize Text Responses
+Message_14_Reward_0_Type Flag_Short_Random
+Message_14_Reward_0_ID 3002
+Message_14_Reward_0_Min_Value 0
+Message_14_Reward_0_Max_Value 2
+Message_14_Reward_0_Modification Assign
+//Increase Responses
+Message_14_Reward_1_Type Flag_Short
+Message_14_Reward_1_ID 3004
+Message_14_Reward_1_Value 1
+Message_14_Reward_1_Modification Increment
+
+//Hostile Hello Set 1 Response 1
+Message_15_Pages 1
+Message_15_Conditions 4
+//Text Set 1
+Message_15_Condition_0_Type Flag_Short
+Message_15_Condition_0_ID 3002
+Message_15_Condition_0_Value 1
+Message_15_Condition_0_Logic Equal
+Message_15_Condition_0_Allow_Unset
+//Text Responses <=8
+Message_15_Condition_1_Type Flag_Short
+Message_15_Condition_1_ID 3004
+Message_15_Condition_1_Value 8
+Message_15_Condition_1_Logic Less_Than_Or_Equal_To
+Message_15_Condition_1_Allow_Unset
+//Hostile Faction
+Message_15_Condition_2_Type Flag_Short
+Message_15_Condition_2_ID 3000
+Message_15_Condition_2_Value 2
+Message_15_Condition_2_Logic Equal
+Message_15_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_15_Condition_3_Type Flag_Short
+Message_15_Condition_3_ID 3004
+Message_15_Condition_3_Value 4
+Message_15_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_15_Condition_3_Allow_Unset
+Message_15_Rewards 2
+//Randomize Text Responses
+Message_15_Reward_0_Type Flag_Short_Random
+Message_15_Reward_0_ID 3002
+Message_15_Reward_0_Min_Value 0
+Message_15_Reward_0_Max_Value 2
+Message_15_Reward_0_Modification Assign
+//Increase Responses
+Message_15_Reward_1_Type Flag_Short
+Message_15_Reward_1_ID 3004
+Message_15_Reward_1_Value 1
+Message_15_Reward_1_Modification Increment
+
+//Hostile Hello Set 1 Response 2
+Message_16_Pages 1
+Message_16_Conditions 4
+//Text Set 2
+Message_16_Condition_0_Type Flag_Short
+Message_16_Condition_0_ID 3002
+Message_16_Condition_0_Value 2
+Message_16_Condition_0_Logic Equal
+Message_16_Condition_0_Allow_Unset
+//Text Responses <=8
+Message_16_Condition_1_Type Flag_Short
+Message_16_Condition_1_ID 3004
+Message_16_Condition_1_Value 8
+Message_16_Condition_1_Logic Less_Than_Or_Equal_To
+Message_16_Condition_1_Allow_Unset
+//Hostile Faction
+Message_16_Condition_2_Type Flag_Short
+Message_16_Condition_2_ID 3000
+Message_16_Condition_2_Value 2
+Message_16_Condition_2_Logic Equal
+Message_16_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_16_Condition_3_Type Flag_Short
+Message_16_Condition_3_ID 3004
+Message_16_Condition_3_Value 4
+Message_16_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_16_Condition_3_Allow_Unset
+Message_16_Rewards 2
+//Randomize Text Responses
+Message_16_Reward_0_Type Flag_Short_Random
+Message_16_Reward_0_ID 3002
+Message_16_Reward_0_Min_Value 0
+Message_16_Reward_0_Max_Value 2
+Message_16_Reward_0_Modification Assign
+//Increase Responses
+Message_16_Reward_1_Type Flag_Short
+Message_16_Reward_1_ID 3004
+Message_16_Reward_1_Value 1
+Message_16_Reward_1_Modification Increment
+
+//Hostile Hello Set 2 Response 0
+Message_17_Pages 1
+Message_17_Conditions 3
+//Text Set 0
+Message_17_Condition_0_Type Flag_Short
+Message_17_Condition_0_ID 3002
+Message_17_Condition_0_Value 0
+Message_17_Condition_0_Logic Equal
+Message_17_Condition_0_Allow_Unset
+//Text Responses >= 9
+Message_17_Condition_1_Type Flag_Short
+Message_17_Condition_1_ID 3004
+Message_17_Condition_1_Value 9
+Message_17_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_17_Condition_1_Allow_Unset
+//Hostile Faction
+Message_17_Condition_2_Type Flag_Short
+Message_17_Condition_2_ID 3000
+Message_17_Condition_2_Value 2
+Message_17_Condition_2_Logic Equal
+Message_17_Condition_2_Allow_Unset
+Message_17_Rewards 1
+//Randomize Text Responses
+Message_17_Reward_0_Type Flag_Short_Random
+Message_17_Reward_0_ID 3002
+Message_17_Reward_0_Min_Value 0
+Message_17_Reward_0_Max_Value 2
+Message_17_Reward_0_Modification Assign
+
+//Hostile Hello Set 2 Response 1
+Message_18_Pages 1
+Message_18_Conditions 3
+//Text Set 1
+Message_18_Condition_0_Type Flag_Short
+Message_18_Condition_0_ID 3002
+Message_18_Condition_0_Value 1
+Message_18_Condition_0_Logic Equal
+Message_18_Condition_0_Allow_Unset
+//Text Responses >=9
+Message_18_Condition_1_Type Flag_Short
+Message_18_Condition_1_ID 3004
+Message_18_Condition_1_Value 9
+Message_18_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_18_Condition_1_Allow_Unset
+//Hostile Faction
+Message_18_Condition_2_Type Flag_Short
+Message_18_Condition_2_ID 3000
+Message_18_Condition_2_Value 2
+Message_18_Condition_2_Logic Equal
+Message_18_Condition_2_Allow_Unset
+Message_18_Rewards 1
+//Randomize Text Responses
+Message_18_Reward_0_Type Flag_Short_Random
+Message_18_Reward_0_ID 3002
+Message_18_Reward_0_Min_Value 0
+Message_18_Reward_0_Max_Value 2
+Message_18_Reward_0_Modification Assign
+
+//Hostile Hello Set 2 Response 2
+Message_19_Pages 1
+Message_19_Conditions 3
+//Text Set 2
+Message_19_Condition_0_Type Flag_Short
+Message_19_Condition_0_ID 3002
+Message_19_Condition_0_Value 2
+Message_19_Condition_0_Logic Equal
+Message_19_Condition_0_Allow_Unset
+//Text Responses >=9
+Message_19_Condition_1_Type Flag_Short
+Message_19_Condition_1_ID 3004
+Message_19_Condition_1_Value 9
+Message_19_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_19_Condition_1_Allow_Unset
+//Hostile Faction
+Message_19_Condition_2_Type Flag_Short
+Message_19_Condition_2_ID 3000
+Message_19_Condition_2_Value 2
+Message_19_Condition_2_Logic Equal
+Message_19_Condition_2_Allow_Unset
+Message_19_Rewards 1
+//Randomize Text Responses
+Message_19_Reward_0_Type Flag_Short_Random
+Message_19_Reward_0_ID 3002
+Message_19_Reward_0_Min_Value 0
+Message_19_Reward_0_Max_Value 2
+Message_19_Reward_0_Modification Assign
+
+//Friendly Responses
+//Friendly Hello Set 0 Response 0
+Message_20_Pages 1
+Message_20_Conditions 3
+//Text Response Set 0
+Message_20_Condition_0_Type Flag_Short
+Message_20_Condition_0_ID 3002
+Message_20_Condition_0_Value 0
+Message_20_Condition_0_Logic Less_Than_Or_Equal_To
+Message_20_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_20_Condition_1_Type Flag_Short
+Message_20_Condition_1_ID 3004
+Message_20_Condition_1_Value 3
+Message_20_Condition_1_Logic Less_Than_Or_Equal_To
+Message_20_Condition_1_Allow_Unset
+//Friendly Faction
+Message_20_Condition_2_Type Flag_Short
+Message_20_Condition_2_ID 3000
+Message_20_Condition_2_Value 1
+Message_20_Condition_2_Logic Equal
+Message_20_Condition_2_Allow_Unset
+Message_20_Rewards 2
+//Randomize Text Responses
+Message_20_Reward_0_Type Flag_Short_Random
+Message_20_Reward_0_ID 3002
+Message_20_Reward_0_Min_Value 0
+Message_20_Reward_0_Max_Value 2
+Message_20_Reward_0_Modification Assign
+//Increase Responses
+Message_20_Reward_1_Type Flag_Short
+Message_20_Reward_1_ID 3004
+Message_20_Reward_1_Value 1
+Message_20_Reward_1_Modification Increment
+
+//Friendly Hello Set 0 Response 1
+Message_21_Pages 1
+Message_21_Conditions 3
+//Text Set 1
+Message_21_Condition_0_Type Flag_Short
+Message_21_Condition_0_ID 3002
+Message_21_Condition_0_Value 1
+Message_21_Condition_0_Logic Equal
+Message_21_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_21_Condition_1_Type Flag_Short
+Message_21_Condition_1_ID 3004
+Message_21_Condition_1_Value 3
+Message_21_Condition_1_Logic Less_Than_Or_Equal_To
+Message_21_Condition_1_Allow_Unset
+//Friendly Faction
+Message_21_Condition_2_Type Flag_Short
+Message_21_Condition_2_ID 3000
+Message_21_Condition_2_Value 1
+Message_21_Condition_2_Logic Equal
+Message_21_Condition_2_Allow_Unset
+Message_21_Rewards 2
+//Randomize Text Responses
+Message_21_Reward_0_Type Flag_Short_Random
+Message_21_Reward_0_ID 3002
+Message_21_Reward_0_Min_Value 0
+Message_21_Reward_0_Max_Value 2
+Message_21_Reward_0_Modification Assign
+//Increase Responses
+Message_21_Reward_1_Type Flag_Short
+Message_21_Reward_1_ID 3004
+Message_21_Reward_1_Value 1
+Message_21_Reward_1_Modification Increment
+
+//Friendly Hello Set 0 Response 2
+Message_22_Pages 1
+Message_22_Conditions 3
+//Text Set 2
+Message_22_Condition_0_Type Flag_Short
+Message_22_Condition_0_ID 3002
+Message_22_Condition_0_Value 2
+Message_22_Condition_0_Logic Equal
+Message_22_Condition_0_Allow_Unset
+//Text Responses <=3
+Message_22_Condition_1_Type Flag_Short
+Message_22_Condition_1_ID 3004
+Message_22_Condition_1_Value 3
+Message_22_Condition_1_Logic Less_Than_Or_Equal_To
+Message_22_Condition_1_Allow_Unset
+//Friendly Faction
+Message_22_Condition_2_Type Flag_Short
+Message_22_Condition_2_ID 3000
+Message_22_Condition_2_Value 1
+Message_22_Condition_2_Logic Equal
+Message_22_Condition_2_Allow_Unset
+Message_22_Rewards 2
+//Randomize Text Responses
+Message_22_Reward_0_Type Flag_Short_Random
+Message_22_Reward_0_ID 3002
+Message_22_Reward_0_Min_Value 0
+Message_22_Reward_0_Max_Value 2
+Message_22_Reward_0_Modification Assign
+//Increase Responses
+Message_22_Reward_1_Type Flag_Short
+Message_22_Reward_1_ID 3004
+Message_22_Reward_1_Value 1
+Message_22_Reward_1_Modification Increment
+
+//Friendly Hello Set 1 Response 0
+Message_23_Pages 1
+Message_23_Conditions 4
+//Text Set 0
+Message_23_Condition_0_Type Flag_Short
+Message_23_Condition_0_ID 3002
+Message_23_Condition_0_Value 0
+Message_23_Condition_0_Logic Equal
+Message_23_Condition_0_Allow_Unset
+//Text Responses <=8
+Message_23_Condition_1_Type Flag_Short
+Message_23_Condition_1_ID 3004
+Message_23_Condition_1_Value 8
+Message_23_Condition_1_Logic Less_Than_Or_Equal_To
+Message_23_Condition_1_Allow_Unset
+//Friendly Faction
+Message_23_Condition_2_Type Flag_Short
+Message_23_Condition_2_ID 3000
+Message_23_Condition_2_Value 1
+Message_23_Condition_2_Logic Equal
+Message_23_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_23_Condition_3_Type Flag_Short
+Message_23_Condition_3_ID 3004
+Message_23_Condition_3_Value 4
+Message_23_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_23_Condition_3_Allow_Unset
+Message_23_Rewards 2
+//Randomize Text Responses
+Message_23_Reward_0_Type Flag_Short_Random
+Message_23_Reward_0_ID 3002
+Message_23_Reward_0_Min_Value 0
+Message_23_Reward_0_Max_Value 2
+Message_23_Reward_0_Modification Assign
+//Increase Responses
+Message_23_Reward_1_Type Flag_Short
+Message_23_Reward_1_ID 3004
+Message_23_Reward_1_Value 1
+Message_23_Reward_1_Modification Increment
+
+//Friendly Hello Set 1 Response 1
+Message_24_Pages 1
+Message_24_Conditions 4
+//Text Set 1
+Message_24_Condition_0_Type Flag_Short
+Message_24_Condition_0_ID 3002
+Message_24_Condition_0_Value 1
+Message_24_Condition_0_Logic Equal
+Message_24_Condition_0_Allow_Unset
+//Text Responses <=8
+Message_24_Condition_1_Type Flag_Short
+Message_24_Condition_1_ID 3004
+Message_24_Condition_1_Value 8
+Message_24_Condition_1_Logic Less_Than_Or_Equal_To
+Message_24_Condition_1_Allow_Unset
+//Friendly Faction
+Message_24_Condition_2_Type Flag_Short
+Message_24_Condition_2_ID 3000
+Message_24_Condition_2_Value 1
+Message_24_Condition_2_Logic Equal
+Message_24_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_24_Condition_3_Type Flag_Short
+Message_24_Condition_3_ID 3004
+Message_24_Condition_3_Value 4
+Message_24_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_24_Condition_3_Allow_Unset
+Message_24_Rewards 2
+//Randomize Text Responses
+Message_24_Reward_0_Type Flag_Short_Random
+Message_24_Reward_0_ID 3002
+Message_24_Reward_0_Min_Value 0
+Message_24_Reward_0_Max_Value 2
+Message_24_Reward_0_Modification Assign
+//Increase Responses
+Message_24_Reward_1_Type Flag_Short
+Message_24_Reward_1_ID 3004
+Message_24_Reward_1_Value 1
+Message_24_Reward_1_Modification Increment
+
+//Friendly Hello Set 1 Response 2
+Message_25_Pages 1
+Message_25_Conditions 4
+//Text Set 2
+Message_25_Condition_0_Type Flag_Short
+Message_25_Condition_0_ID 3002
+Message_25_Condition_0_Value 2
+Message_25_Condition_0_Logic Equal
+Message_25_Condition_0_Allow_Unset
+//Text Responses <=8
+Message_25_Condition_1_Type Flag_Short
+Message_25_Condition_1_ID 3004
+Message_25_Condition_1_Value 8
+Message_25_Condition_1_Logic Less_Than_Or_Equal_To
+Message_25_Condition_1_Allow_Unset
+//Friendly Faction
+Message_25_Condition_2_Type Flag_Short
+Message_25_Condition_2_ID 3000
+Message_25_Condition_2_Value 1
+Message_25_Condition_2_Logic Equal
+Message_25_Condition_2_Allow_Unset
+//Text Responses >=4
+Message_25_Condition_3_Type Flag_Short
+Message_25_Condition_3_ID 3004
+Message_25_Condition_3_Value 4
+Message_25_Condition_3_Logic Greater_Than_Or_Equal_To
+Message_25_Condition_3_Allow_Unset
+Message_25_Rewards 2
+//Randomize Text Responses
+Message_25_Reward_0_Type Flag_Short_Random
+Message_25_Reward_0_ID 3002
+Message_25_Reward_0_Min_Value 0
+Message_25_Reward_0_Max_Value 2
+Message_25_Reward_0_Modification Assign
+//Increase Responses
+Message_25_Reward_1_Type Flag_Short
+Message_25_Reward_1_ID 3004
+Message_25_Reward_1_Value 1
+Message_25_Reward_1_Modification Increment
+
+//Friendly Hello Set 2 Response 0
+Message_26_Pages 1
+Message_26_Conditions 3
+//Text Set 0
+Message_26_Condition_0_Type Flag_Short
+Message_26_Condition_0_ID 3002
+Message_26_Condition_0_Value 0
+Message_26_Condition_0_Logic Equal
+Message_26_Condition_0_Allow_Unset
+//Text Responses >= 9
+Message_26_Condition_1_Type Flag_Short
+Message_26_Condition_1_ID 3004
+Message_26_Condition_1_Value 9
+Message_26_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_26_Condition_1_Allow_Unset
+//Friendly Faction
+Message_26_Condition_2_Type Flag_Short
+Message_26_Condition_2_ID 3000
+Message_26_Condition_2_Value 1
+Message_26_Condition_2_Logic Equal
+Message_26_Condition_2_Allow_Unset
+Message_26_Rewards 1
+//Randomize Text Responses
+Message_26_Reward_0_Type Flag_Short_Random
+Message_26_Reward_0_ID 3002
+Message_26_Reward_0_Min_Value 0
+Message_26_Reward_0_Max_Value 2
+Message_26_Reward_0_Modification Assign
+
+//Friendly Hello Set 2 Response 1
+Message_27_Pages 1
+Message_27_Conditions 3
+//Text Set 1
+Message_27_Condition_0_Type Flag_Short
+Message_27_Condition_0_ID 3002
+Message_27_Condition_0_Value 1
+Message_27_Condition_0_Logic Equal
+Message_27_Condition_0_Allow_Unset
+//Text Responses >=9
+Message_27_Condition_1_Type Flag_Short
+Message_27_Condition_1_ID 3004
+Message_27_Condition_1_Value 9
+Message_27_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_27_Condition_1_Allow_Unset
+//Friendly Faction
+Message_27_Condition_2_Type Flag_Short
+Message_27_Condition_2_ID 3000
+Message_27_Condition_2_Value 1
+Message_27_Condition_2_Logic Equal
+Message_27_Condition_2_Allow_Unset
+Message_27_Rewards 1
+//Randomize Text Responses
+Message_27_Reward_0_Type Flag_Short_Random
+Message_27_Reward_0_ID 3002
+Message_27_Reward_0_Min_Value 0
+Message_27_Reward_0_Max_Value 2
+Message_27_Reward_0_Modification Assign
+
+//Friendly Hello Set 2 Response 2
+Message_28_Pages 1
+Message_28_Conditions 3
+//Text Set 2
+Message_28_Condition_0_Type Flag_Short
+Message_28_Condition_0_ID 3002
+Message_28_Condition_0_Value 2
+Message_28_Condition_0_Logic Equal
+Message_28_Condition_0_Allow_Unset
+//Text Responses >=9
+Message_28_Condition_1_Type Flag_Short
+Message_28_Condition_1_ID 3004
+Message_28_Condition_1_Value 9
+Message_28_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_28_Condition_1_Allow_Unset
+//Friendly Faction
+Message_28_Condition_2_Type Flag_Short
+Message_28_Condition_2_ID 3000
+Message_28_Condition_2_Value 1
+Message_28_Condition_2_Logic Equal
+Message_28_Condition_2_Allow_Unset
+Message_28_Rewards 1
+//Randomize Text Responses
+Message_28_Reward_0_Type Flag_Short_Random
+Message_28_Reward_0_ID 3002
+Message_28_Reward_0_Min_Value 0
+Message_28_Reward_0_Max_Value 2
+Message_28_Reward_0_Modification Assign
+
+
+Responses 11
+//Inquiry
+Response_0_Dialogue 3005
+Response_0_Conditions 1
+//Neutral Faction
+Response_0_Condition_0_Type Flag_Short
+Response_0_Condition_0_ID 3000
+Response_0_Condition_0_Value 0
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_Allow_Unset
+
+//Right Of Passage Quest Complete
+Response_1_Dialogue 3015
+Response_1_Quest 3011
+Response_1_Conditions 2
+//Neutral Faction
+Response_1_Condition_0_Type Flag_Short
+Response_1_Condition_0_ID 3000
+Response_1_Condition_0_Value 0
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_Allow_Unset
+//Quest Complete
+Response_1_Condition_1_Type Quest
+Response_1_Condition_1_Logic Equal
+Response_1_Condition_1_ID 3011
+Response_1_Condition_1_Status Ready
+Response_1_Condition_1_Reset
+
+Response_2_Messages 3
+Response_2_Message_0 0
+Response_2_Message_1 1
+Response_2_Message_2 2
+
+Response_3_Messages 3
+Response_3_Message_0 3
+Response_3_Message_1 4
+Response_3_Message_2 5
+
+Response_4_Messages 5
+Response_4_Message_0 6
+Response_4_Message_1 7
+Response_4_Message_2 8
+Response_4_Message_3 9
+Response_4_Message_4 10
+
+Response_5_Messages 3
+Response_5_Message_0 11
+Response_5_Message_1 12
+Response_5_Message_2 13
+
+Response_6_Messages 3
+Response_6_Message_0 14
+Response_6_Message_1 15
+Response_6_Message_2 16
+
+Response_7_Messages 3
+Response_7_Message_0 17
+Response_7_Message_1 18
+Response_7_Message_2 19
+
+Response_8_Messages 3
+Response_8_Message_0 20
+Response_8_Message_1 21
+Response_8_Message_2 22
+
+Response_9_Messages 3
+Response_9_Message_0 23
+Response_9_Message_1 24
+Response_9_Message_2 25
+
+Response_10_Messages 3
+Response_10_Message_0 26
+Response_10_Message_1 27
+Response_10_Message_2 28

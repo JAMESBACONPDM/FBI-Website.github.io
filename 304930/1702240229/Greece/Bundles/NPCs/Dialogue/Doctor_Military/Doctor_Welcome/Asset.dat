@@ -1,0 +1,299 @@
+GUID 0b872063c5f640eaa213cc3c5adc7d54
+Type Dialogue
+ID 3118
+
+Messages 3
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 2
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 2
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value 2
+Message_1_Condition_0_Logic Greater_Than_Or_Equal_To
+//Aren't a doctor
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3001
+Message_1_Condition_1_Value 10
+Message_1_Condition_1_Logic Not_Equal
+
+
+Message_2_Pages 1
+Message_2_Conditions 2
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value 2
+Message_2_Condition_0_Logic Greater_Than_Or_Equal_To
+//Are a Doctor
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3001
+Message_2_Condition_1_Value 10
+Message_2_Condition_1_Logic Equal
+
+Responses 13
+
+Response_0_Messages 1
+Response_0_Message_0 2
+Response_0_Dialogue 3119
+Response_0_Quest 3123
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 3123
+Response_0_Condition_0_Status None
+Response_0_Rewards 10
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3123
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 3105
+Response_0_Reward_1_Value False
+Response_0_Reward_2_Type Flag_Bool
+Response_0_Reward_2_ID 3106
+Response_0_Reward_2_Value False
+Response_0_Reward_3_Type Flag_Bool
+Response_0_Reward_3_ID 3107
+Response_0_Reward_3_Value False
+Response_0_Reward_4_Type Flag_Bool
+Response_0_Reward_4_ID 3108
+Response_0_Reward_4_Value False
+Response_0_Reward_5_Type Flag_Bool
+Response_0_Reward_5_ID 3109
+Response_0_Reward_5_Value False
+Response_0_Reward_6_Type Flag_Bool
+Response_0_Reward_6_ID 3110
+Response_0_Reward_6_Value False
+Response_0_Reward_7_Type Flag_Bool
+Response_0_Reward_7_ID 3111
+Response_0_Reward_7_Value False
+Response_0_Reward_8_Type Flag_Bool
+Response_0_Reward_8_ID 3112
+Response_0_Reward_8_Value False
+Response_0_Reward_9_Type Flag_Bool
+Response_0_Reward_9_ID 3113
+Response_0_Reward_9_Value False
+
+Response_1_Messages 1
+Response_1_Message_0 2
+Response_1_Dialogue 3120
+Response_1_Quest 3123
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 3123
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+
+Response_2_Messages 1
+Response_2_Message_0 2
+Response_2_Dialogue 3121
+Response_2_Quest 3124
+Response_2_Conditions 2
+Response_2_Condition_0_Type Quest
+Response_2_Condition_0_Logic Equal
+Response_2_Condition_0_ID 3123
+Response_2_Condition_0_Status Completed
+Response_2_Condition_1_Type Quest
+Response_2_Condition_1_Logic Equal
+Response_2_Condition_1_ID 3124
+Response_2_Condition_1_Status None
+Response_2_Rewards 5
+Response_2_Reward_0_Type Quest
+Response_2_Reward_0_ID 3124
+Response_2_Reward_1_Type Flag_Bool
+Response_2_Reward_1_ID 3132
+Response_2_Reward_1_Value False
+Response_2_Reward_2_Type Flag_Bool
+Response_2_Reward_2_ID 3133
+Response_2_Reward_2_Value False
+Response_2_Reward_3_Type Flag_Bool
+Response_2_Reward_3_ID 3134
+Response_2_Reward_3_Value False
+Response_2_Reward_4_Type Flag_Bool
+Response_2_Reward_4_ID 3135
+Response_2_Reward_4_Value False
+
+Response_3_Messages 1
+Response_3_Message_0 2
+Response_3_Dialogue 3122
+Response_3_Quest 3124
+Response_3_Conditions 1
+Response_3_Condition_0_Type Quest
+Response_3_Condition_0_Logic Equal
+Response_3_Condition_0_ID 3124
+Response_3_Condition_0_Status Ready
+Response_3_Condition_0_Reset
+
+Response_4_Messages 1
+Response_4_Message_0 2
+Response_4_Dialogue 3308
+Response_4_Quest 3527
+Response_4_Conditions 2
+Response_4_Condition_0_Type Quest
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_0_ID 3124
+Response_4_Condition_0_Status Completed
+Response_4_Condition_1_Type Quest
+Response_4_Condition_1_Logic Equal
+Response_4_Condition_1_ID 3527
+Response_4_Condition_1_Status None
+Response_4_Condition_1_Allow_Unset
+Response_4_Rewards 3
+Response_4_Reward_0_Type Quest
+Response_4_Reward_0_ID 3527
+Response_4_Reward_1_Type Flag_Short
+Response_4_Reward_1_ID 3300
+Response_4_Reward_1_Value 0
+Response_4_Reward_1_Modification Assign
+Response_4_Reward_2_Type Flag_Short
+Response_4_Reward_2_ID 3306
+Response_4_Reward_2_Value 0
+Response_4_Reward_2_Modification Assign
+
+//Emergency quest
+Response_5_Messages 1
+Response_5_Message_0 2
+Response_5_Dialogue 3533
+Response_5_Quest 3528
+Response_5_Conditions 2
+Response_5_Condition_0_Type Quest
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_0_ID 3527
+Response_5_Condition_0_Status Completed
+Response_5_Condition_1_Type Quest
+Response_5_Condition_1_Logic Equal
+Response_5_Condition_1_ID 3528
+Response_5_Condition_1_Status None
+
+Response_5_Rewards 14
+
+Response_5_Reward_0_Type Quest
+Response_5_Reward_0_ID 3528
+//Set Injury Location
+Response_5_Reward_1_Type Flag_Short_Random
+Response_5_Reward_1_ID 3406
+Response_5_Reward_1_Min_Value 1
+Response_5_Reward_1_Max_Value 3
+Response_5_Reward_1_Modification Assign
+//Set Injury Severity
+Response_5_Reward_2_Type Flag_Short_Random
+Response_5_Reward_2_ID 3402
+Response_5_Reward_2_Min_Value 1
+Response_5_Reward_2_Max_Value 3
+Response_5_Reward_2_Modification Assign
+//Set Blood Amount
+Response_5_Reward_3_Type Flag_Short
+Response_5_Reward_3_ID 3403
+Response_5_Reward_3_Value 186
+Response_5_Reward_3_Modification Assign
+//Set Blood Loss Multiplier to 1
+Response_5_Reward_4_Type Flag_Short
+Response_5_Reward_4_ID 3404
+Response_5_Reward_4_Value 1
+Response_5_Reward_4_Modification Assign
+//Set Bullet Retrieval Chance
+Response_5_Reward_5_Type Flag_Short_Random
+Response_5_Reward_5_ID 3409
+Response_5_Reward_5_Min_Value 20
+Response_5_Reward_5_Max_Value 39
+Response_5_Reward_5_Modification Assign
+//Set Disinfecting Modifier
+Response_5_Reward_6_Type Flag_Short
+Response_5_Reward_6_ID 3410
+Response_5_Reward_6_Value 2
+Response_5_Reward_6_Modification Assign
+//Set Bullet Retrieval Outcome
+Response_5_Reward_7_Type Flag_Short
+Response_5_Reward_7_ID 3408
+Response_5_Reward_7_Value 1
+Response_5_Reward_7_Modification Assign
+//Set Wound Condition
+Response_5_Reward_8_Type Flag_Short
+Response_5_Reward_8_ID 3411
+Response_5_Reward_8_Value 1
+Response_5_Reward_8_Modification Assign
+//Selected Operators Tool
+Response_5_Reward_9_Type Flag_Short
+Response_5_Reward_9_ID 3407
+Response_5_Reward_9_Value 0
+Response_5_Reward_9_Modification Assign
+//Set Base Blood Loss Amount
+Response_5_Reward_10_Type Flag_Short
+Response_5_Reward_10_ID 3405
+Response_5_Reward_10_Value 4
+Response_5_Reward_10_Modification Assign
+//Do Blood Loss Amount Math, Adding Location
+Response_5_Reward_11_Type Flag_Math
+Response_5_Reward_11_A_ID 3405
+Response_5_Reward_11_B_ID 3406
+Response_5_Reward_11_Operation Addition
+//Do Blood Loss Amount Math, Multiply by Severity
+Response_5_Reward_12_Type Flag_Math
+Response_5_Reward_12_A_ID 3405
+Response_5_Reward_12_B_ID 3402
+Response_5_Reward_12_Operation Multiplication
+//Do Disinfecting Modifier Math, Modifier * Severity
+Response_5_Reward_13_Type Flag_Math
+Response_5_Reward_13_A_ID 3410
+Response_5_Reward_13_B_ID 3402
+Response_5_Reward_13_Operation Multiplication
+
+Response_6_Messages 1
+Response_6_Message_0 2
+Response_6_Dialogue 3534
+Response_6_Quest 3528
+Response_6_Conditions 1
+Response_6_Condition_0_Type Quest
+Response_6_Condition_0_Logic Equal
+Response_6_Condition_0_ID 3528
+Response_6_Condition_0_Status Ready
+Response_6_Condition_0_Reset
+
+//Life Drop
+Response_7_Messages 1
+Response_7_Message_0 2
+Response_7_Dialogue 3535
+Response_7_Quest 3529
+Response_7_Conditions 2
+Response_7_Condition_0_Type Quest
+Response_7_Condition_0_Logic Equal
+Response_7_Condition_0_ID 3528
+Response_7_Condition_0_Status Completed
+Response_7_Condition_1_Type Quest
+Response_7_Condition_1_Logic Equal
+Response_7_Condition_1_ID 3529
+Response_7_Condition_1_Status None
+Response_7_Rewards 1
+Response_7_Reward_0_Type Quest
+Response_7_Reward_0_ID 3529
+
+Response_8_Messages 1
+Response_8_Message_0 2
+Response_8_Dialogue 3536
+Response_8_Quest 3529
+Response_8_Conditions 1
+Response_8_Condition_0_Type Quest
+Response_8_Condition_0_Logic Equal
+Response_8_Condition_0_ID 3529
+Response_8_Condition_0_Status Ready
+Response_8_Condition_0_Reset
+
+Response_9_Messages 1
+Response_9_Message_0 2
+
+//I'd Like to Trade
+Response_10_Messages 1
+Response_10_Message_0 1
+Response_10_Dialogue 3537
+Response_10_Vendor 3550
+
+Response_11_Messages 1
+Response_11_Message_0 1
+
+Response_12_Messages 1
+Response_12_Message_0 0

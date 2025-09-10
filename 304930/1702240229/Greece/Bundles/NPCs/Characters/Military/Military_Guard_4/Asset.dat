@@ -1,0 +1,24 @@
+GUID bef3f417f3b0437cb700d08ecfaf9378
+Type NPC
+ID 3551
+
+Shirt 3503
+Pants 3504
+//Vest 3510
+Mask 185
+Hat 3511
+Glasses 334
+
+Face 22
+Hair 0
+Beard 0
+Color_Skin #706049
+Color_Hair #383D37
+
+Pose crouch
+
+Primary 3512
+Secondary 3515
+Equipped Primary
+
+Dialogue 3003

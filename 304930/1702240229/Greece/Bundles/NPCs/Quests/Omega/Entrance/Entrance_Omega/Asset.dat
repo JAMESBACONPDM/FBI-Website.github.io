@@ -1,0 +1,43 @@
+GUID 7f941ffc26b946cf8ba00041c7e1750a
+Type Quest
+ID 3014
+
+Conditions 4
+Condition_0_Type Item
+Condition_0_ID 66
+Condition_0_Amount 15
+Condition_0_Reset
+Condition_1_Type Item
+Condition_1_ID 67
+Condition_1_Amount 2
+Condition_1_Reset
+Condition_2_Type Experience
+Condition_2_ID 3012
+Condition_2_Value 150
+Condition_2_Logic Greater_Than_Or_Equal_To
+Condition_3_Type Flag_Short
+Condition_3_ID 3000
+Condition_3_Value 0
+Condition_3_Logic Equal
+Condition_3_Allow_Unset
+
+Rewards 5
+Reward_0_Type Reputation
+Reward_0_Value 5
+// Omega Faction Assigned
+Reward_1_Type Flag_Short
+Reward_1_ID 3000
+Reward_1_Value 2
+Reward_1_Modification Assign
+// Omega Clearance Unassigned
+Reward_2_Type Flag_Short
+Reward_2_ID 3017
+Reward_2_Value -1
+Reward_2_Modification Assign
+//Uniform
+Reward_3_Type Item
+Reward_3_ID 3533
+Reward_3_Amount 1
+Reward_4_Type Item
+Reward_4_ID 3525
+Reward_4_Amount 1

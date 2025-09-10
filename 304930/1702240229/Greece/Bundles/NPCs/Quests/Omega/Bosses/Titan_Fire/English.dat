@@ -1,0 +1,4 @@
+Name <color=mythical>Wrath of the Titans II</color>
+Description <color=uncommon>Cadet Iskander</color> saw a mythical creature; a Titan that lives in Farsala's very own Tartarus. The destruction this beast could cause if left alive is too threatening; You need to slay it once and for all.
+
+Condition_0 Defeat {0}/{1} <color=mythical>Fire Breathing Titan</color>

@@ -1,0 +1,5 @@
+Name Plot Expansion
+Description <color=rare>Botanist Fauna</color> needs some more planters and plots so she can expand the Agriculture Department's possible harvest output.
+
+Condition_0 Craft Planters {0}/{1}
+Condition_1 Craft Farming Plot {0}/{1}

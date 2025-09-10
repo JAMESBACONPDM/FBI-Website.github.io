@@ -1,0 +1,25 @@
+Message_0_Page_0 A fresh face! Welcome! fill out these papers please.
+Message_1_Page_0 Hey! You can't be in here!
+Message_2_Page_0 <color=epic>Colonel Nicole</color> requires your aid on a mission.
+Message_3_Page_0 Looks like you've been impressing <color=epic>Colonel Nicole</color>, as she has put you up for a promotion! Good work, <color=uncommon>Hoplite <name_char></color>. Here are your new fatigues.
+Message_4_Page_0 Well well, just the person I wanted to see! I've got a new rank and fatigues for you, <color=rare>Captain <name_char></color>.
+Message_5_Page_0 Ha, and to think you were a Cadet not too long ago! Well, I'll admit: <color=epic>Battalion Leader</color> fits you better. Do you accept?
+Message_6_Page_0 Looks like you've caught the council's eye and respect. They've sent you a new rank, <color=epic>Colonel <name_char></color>. Here's your fatigues!
+Message_7_Page_0 <i>*Salutes*</i> The council has spoken. You are now <color=legendary>Brigadier <name_char></color>. Not many get this far, well done.
+Message_8_Page_0 How can I help you?
+
+
+Response_0 <i>*Fill out papers*</i>
+Response_1 <i>*Fill out papers incorrectly*</i>
+Response_2 Oops, I lost my pen.
+Response_3 How do the ranks work?
+Response_4 What is it?
+Response_5 Mission Complete.
+Response_6 It is an honor.
+Response_7 Thank you, It is an honor.
+Response_8 It is an honor.
+Response_9 I'm honored.
+Response_10 I tried my hardest.
+Response_11 Any Special Missions?
+Response_12 I'd like to check out some items from the Armory.
+Response_13 Goodbye!

@@ -1,0 +1,6 @@
+Name Omega Right of Passage
+Description To join the Omega's you'll have to prove your worth. A simple task, but seperates the strong from the weak. Find the supplies to make a uniform and gain some field experience.
+
+Condition_0 Find Cloth {0}/{1}
+Condition_1 Find Scrap Metal {0}/{1}
+Condition_2 Gain Experience {0}/{1}

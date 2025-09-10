@@ -1,0 +1,29 @@
+GUID fe42e58df4394d38af9228dfd690616b
+Type NPC
+ID 3765
+
+Conditions 1
+Condition_0_Type Flag_Short
+Condition_0_ID 3000
+Condition_0_Value 2
+Condition_0_Logic Equal
+
+Shirt 3526
+Pants 3525
+Vest 816
+//Mask 185
+//Hat 3511
+Glasses 1199
+Backpack 245
+
+Face 26
+Hair 18
+Beard 1
+Color_Skin #967D64
+Color_Hair #373737
+
+Primary 1143
+Secondary 1445
+Equipped Primary
+
+Dialogue 3240

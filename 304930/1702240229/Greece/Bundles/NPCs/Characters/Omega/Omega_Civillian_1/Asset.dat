@@ -1,0 +1,25 @@
+GUID 80d1a31b9b1142529612f81734227e70
+Type NPC
+ID 3631
+
+Shirt 211
+Pants 213
+//Vest 10
+//Mask 185
+//Hat 240
+//Backpack 247
+//Glasses 568
+
+Face 5
+Hair 1
+Beard 6
+Color_Skin #867A64
+Color_Hair #473928
+
+//Primary 122
+//Secondary 76
+//Equipped Primary
+
+//Pose Rest
+
+Dialogue 3671

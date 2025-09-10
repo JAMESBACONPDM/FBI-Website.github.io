@@ -1,0 +1,6 @@
+Name Pots and Pans
+Description <color=epic>Head Chef Pekka</color> needs you to gather an assortment of pots and pans from the local town of Volos.
+
+Condition_0 Retrieve Cooking Pot
+Condition_1 Retrieve Sauce Pan
+Condition_2 Retrieve Large Pan

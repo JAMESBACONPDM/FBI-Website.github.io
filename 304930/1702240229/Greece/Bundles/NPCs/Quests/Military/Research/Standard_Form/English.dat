@@ -1,0 +1,6 @@
+Name <color=rare>Standard Form</color>
+Description <color=epic>Doctor Pluto</color> is sending you to Trikala to gather data samples of some of the standard forms of zombies.
+
+Condition_0 Kill Zombies {0}/{1}
+Condition_1 Kill Crawlers {0}/{1}
+Condition_2 Kill Sprinters {0}/{1}

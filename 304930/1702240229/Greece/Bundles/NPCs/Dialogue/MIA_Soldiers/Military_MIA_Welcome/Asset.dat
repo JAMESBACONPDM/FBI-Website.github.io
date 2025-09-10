@@ -1,0 +1,35 @@
+GUID c0dccd616a5646979dd5a1296ecd8aa7
+Type Dialogue
+ID 3239
+
+Messages 2
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Bool
+Message_0_Condition_0_ID 3238
+Message_0_Condition_0_Value False
+Message_0_Condition_0_Logic Equal
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Flag_Bool
+Message_1_Condition_0_ID 3238
+Message_1_Condition_0_Value True
+Message_1_Condition_0_Logic Equal
+
+Responses 2
+
+Response_0_Dialogue 3243
+Response_0_Conditions 1
+Response_0_Condition_0_Type Flag_Bool
+Response_0_Condition_0_ID 3238
+Response_0_Condition_0_Value False
+Response_0_Condition_0_Logic Equal
+Response_0_Rewards 2
+Response_0_Reward_0_Type Flag_Bool
+Response_0_Reward_0_ID 3238
+Response_0_Reward_0_Value True
+Response_0_Reward_1_Type Item
+Response_0_Reward_1_ID 152
+Response_0_Reward_1_Amount 1

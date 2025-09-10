@@ -1,0 +1,5 @@
+Name Door Development
+Description <color=epic>Workshop Manager Hyperion</color> needs you to design some secure door prototypes. Resources are limited so make the most structurally sound design possible.
+
+Condition_0 Must be Structurally Sound {0}/{1}
+Condition_1 Must cost less than {0}/{1}

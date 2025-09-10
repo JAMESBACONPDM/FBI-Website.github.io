@@ -1,0 +1,25 @@
+GUID 2d1c2d7f2b744f0c87764d9ed515a12f
+Type NPC
+ID 3586
+
+Shirt 311
+Pants 312
+//Vest 552
+//Mask 1446
+//Hat 240
+//Glasses 568
+
+Face 24
+Hair 15
+Beard 0
+Color_Skin #BEA582
+Color_Hair #BAA48C
+
+//Primary 3512
+//Secondary 139
+//Tertiary 1328
+//Equipped Tertiary
+
+//Pose Crouch
+
+Dialogue 3526

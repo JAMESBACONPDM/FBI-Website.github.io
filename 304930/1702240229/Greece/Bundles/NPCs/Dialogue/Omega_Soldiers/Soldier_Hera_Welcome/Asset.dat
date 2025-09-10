@@ -1,0 +1,20 @@
+GUID bc497b62c70345cab078c313682091fe
+Type Dialogue
+ID 3390
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+Response_0_Dialogue 3392
+Response_0_Conditions 1
+Response_0_Condition_0_Type Flag_Short
+Response_0_Condition_0_ID 3389
+Response_0_Condition_0_Value 1
+Response_0_Condition_0_Logic Equal
+Response_0_Rewards 1
+Response_0_Reward_0_Type Flag_Short
+Response_0_Reward_0_ID 3389
+Response_0_Reward_0_Value 2
+Response_0_Reward_0_Modification Assign

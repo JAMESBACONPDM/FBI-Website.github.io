@@ -1,0 +1,6 @@
+Name Grub and Gruel
+Description Your help is needed to prepare food for the upcoming meals. You're cooking for the entire compound, so it is a lot of food.
+
+Condition_0 Make Grilled Cheeses {0}/{1}
+Condition_1 Make Pizzas {0}/{1}
+Condition_2 Bake Bread {0}/{1}

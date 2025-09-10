@@ -1,0 +1,20 @@
+GUID fac83c4539b341d5976ef4266098f859
+Type Quest
+ID 3484
+
+Conditions 1
+Condition_0_Type Flag_Bool
+Condition_0_ID 3257
+Condition_0_Value False
+Condition_0_Logic Equal
+
+Rewards 3
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 50
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value 2
+Reward_2_Modification Increment

@@ -1,0 +1,17 @@
+GUID 0e21a1921c0045e9803a92f7e19b9946
+Type Supply
+ID 20007
+
+Size_X 2
+Size_Y 2
+Size_Z 0.25
+
+Blueprints 1
+Blueprint_0_Type Gear
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 20006
+Blueprint_0_Supply_0_Amount 2
+Blueprint_0_Products 1
+Blueprint_0_Build 27
+Blueprint_0_Skill Cook
+Blueprint_0_Level 2

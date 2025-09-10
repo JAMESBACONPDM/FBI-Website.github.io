@@ -1,0 +1,105 @@
+GUID 08205a3af5db45bc8686062da77ebb7c
+Type Dialogue
+ID 3499
+
+Messages 4
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 2
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Quest
+Message_1_Condition_0_ID 3483
+Message_1_Condition_0_Status Ready
+Message_1_Condition_0_Logic Equal
+
+Message_2_Pages 1
+Message_2_Conditions 1
+Message_2_Condition_0_Type Quest
+Message_2_Condition_0_ID 3483
+Message_2_Condition_0_Status Active
+Message_2_Condition_0_Logic Equal
+
+Message_3_Pages 1
+Message_3_Conditions 1
+Message_3_Condition_0_Type Flag_Short
+Message_3_Condition_0_ID 3017
+Message_3_Condition_0_Value 2
+Message_3_Condition_0_Logic Greater_Than_Or_Equal_To
+
+Responses 6
+
+Response_0_Messages 1
+Response_0_Message_0 2
+Response_0_Dialogue 3502
+Response_0_Rewards 12
+//Reset Parts
+Response_0_Reward_0_Type Flag_Short
+Response_0_Reward_0_ID 3261
+Response_0_Reward_0_Value 0
+Response_0_Reward_0_Modification Assign
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 3490
+Response_0_Reward_1_Value False
+Response_0_Reward_2_Type Flag_Bool
+Response_0_Reward_2_ID 3491
+Response_0_Reward_2_Value False
+Response_0_Reward_3_Type Flag_Bool
+Response_0_Reward_3_ID 3492
+Response_0_Reward_3_Value False
+Response_0_Reward_4_Type Flag_Bool
+Response_0_Reward_4_ID 3493
+Response_0_Reward_4_Value False
+Response_0_Reward_5_Type Flag_Bool
+Response_0_Reward_5_ID 3494
+Response_0_Reward_5_Value False
+Response_0_Reward_6_Type Flag_Bool
+Response_0_Reward_6_ID 3495
+Response_0_Reward_6_Value False
+Response_0_Reward_7_Type Flag_Bool
+Response_0_Reward_7_ID 3496
+Response_0_Reward_7_Value False
+Response_0_Reward_8_Type Flag_Bool
+Response_0_Reward_8_ID 3497
+Response_0_Reward_8_Value False
+Response_0_Reward_9_Type Flag_Bool
+Response_0_Reward_9_ID 3498
+Response_0_Reward_9_Value False
+Response_0_Reward_10_Type Flag_Short
+Response_0_Reward_10_ID 3489
+Response_0_Reward_10_Value 0
+Response_0_Reward_10_Modification Assign
+Response_0_Reward_11_Type Flag_Short
+Response_0_Reward_11_ID 3488
+Response_0_Reward_11_Value 0
+Response_0_Reward_11_Modification Assign
+
+Response_1_Messages 1
+Response_1_Message_0 2
+Response_1_Dialogue 3501
+
+Response_2_Messages 1
+Response_2_Message_0 1
+Response_2_Dialogue 3503
+Response_2_Quest 3483
+Response_2_Conditions 1
+Response_2_Condition_0_Type Quest
+Response_2_Condition_0_Logic Equal
+Response_2_Condition_0_ID 3483
+Response_2_Condition_0_Status Ready
+Response_2_Condition_0_Reset
+
+Response_3_Messages 2
+Response_3_Message_0 1
+Response_3_Message_1 2
+
+Response_4_Messages 1
+Response_4_Message_0 3
+
+Response_5_Messages 1
+Response_5_Message_0 0

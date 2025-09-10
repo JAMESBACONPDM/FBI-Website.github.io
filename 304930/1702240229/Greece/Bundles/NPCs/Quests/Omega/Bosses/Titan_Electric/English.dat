@@ -1,0 +1,4 @@
+Name <color=mythical>Wrath of the Titans III</color>
+Description <color=rare>Hoplite Dionite</color> knows of a mythical creature; a Titan that lives in Farsala's very own Tartarus and bends light at will. A monster with this power could be the end for us all, if left alive we might all perish.
+
+Condition_0 Defeat {0}/{1} <color=mythical>Titan of Light</color>

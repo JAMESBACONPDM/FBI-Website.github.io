@@ -1,0 +1,4 @@
+Name <color=mythical>Wrath of the Titans I</color>
+Description <color=rare>Corporal Ondrej</color> tells tales of a fearsome zombie, one which stands as tall as a titan. Gifted with powers of Poseidon himself, he can create earthquakes on demand. Such a creature must be hunted down before it can cause any more trouble, it was last seen in the Farsala Sewers.
+
+Condition_0 Defeat {0}/{1} <color=mythical>Earthquake Titan</color>

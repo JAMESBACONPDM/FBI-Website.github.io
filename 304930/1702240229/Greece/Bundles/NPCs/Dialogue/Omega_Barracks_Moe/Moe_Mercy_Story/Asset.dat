@@ -1,0 +1,14 @@
+GUID d799bfb9bf0a478283e3a3ded9d1c191
+Type Dialogue
+ID 3316
+
+Messages 1
+Message_0_Pages 5
+
+Responses 2
+
+Response_0_Dialogue 3317
+Response_0_Quest 3319
+Response_0_Rewards 1
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3319

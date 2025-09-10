@@ -1,0 +1,56 @@
+GUID 100d61cd0d4b4279b5eaab71fbf73c69
+Type Dialogue
+ID 3369
+
+Messages 3
+
+//Neutral Hello Set 0 Response 0
+Message_0_Pages 1
+Message_0_Conditions 1
+//Text Response Set 0
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3002
+Message_0_Condition_0_Value 0
+Message_0_Condition_0_Logic Less_Than_Or_Equal_To
+Message_0_Condition_0_Allow_Unset
+Message_0_Rewards 1
+//Randomize Text Responses
+Message_0_Reward_0_Type Flag_Short_Random
+Message_0_Reward_0_ID 3002
+Message_0_Reward_0_Min_Value 0
+Message_0_Reward_0_Max_Value 2
+Message_0_Reward_0_Modification Assign
+
+//Neutral Hello Set 0 Response 1
+Message_1_Pages 1
+Message_1_Conditions 1
+//Text Set 1
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3002
+Message_1_Condition_0_Value 1
+Message_1_Condition_0_Logic Equal
+Message_1_Condition_0_Allow_Unset
+Message_1_Rewards 1
+//Randomize Text Responses
+Message_1_Reward_0_Type Flag_Short_Random
+Message_1_Reward_0_ID 3002
+Message_1_Reward_0_Min_Value 0
+Message_1_Reward_0_Max_Value 2
+Message_1_Reward_0_Modification Assign
+
+//Neutral Hello Set 0 Response 2
+Message_2_Pages 1
+Message_2_Conditions 1
+//Text Set 2
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3002
+Message_2_Condition_0_Value 2
+Message_2_Condition_0_Logic Equal
+Message_2_Condition_0_Allow_Unset
+Message_2_Rewards 1
+//Randomize Text Responses
+Message_2_Reward_0_Type Flag_Short_Random
+Message_2_Reward_0_ID 3002
+Message_2_Reward_0_Min_Value 0
+Message_2_Reward_0_Max_Value 2
+Message_2_Reward_0_Modification Assign

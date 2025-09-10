@@ -1,0 +1,9 @@
+GUID dbb6560ecd3c404fa85a9ecd1a85ea2d
+Type Quest
+ID 3352
+
+Conditions 1
+Condition_0_Type Flag_Short
+Condition_0_ID 3351
+Condition_0_Value -1
+Condition_0_Logic Equal

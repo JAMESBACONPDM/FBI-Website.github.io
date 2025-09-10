@@ -1,0 +1,72 @@
+GUID def3cd3b08c6401c8d81d379f975f6d7
+Type Dialogue
+ID 6205
+
+Messages 3
+Message_0_Pages 3
+Message_0_Conditions 2
+Message_0_Condition_0_Type Flag_Bool
+Message_0_Condition_0_ID 6206
+Message_0_Condition_0_Value False
+Message_0_Condition_0_Logic Equal
+Message_0_Condition_0_Allow_Unset
+Message_0_Condition_1_Type Flag_Short
+Message_0_Condition_1_ID 3017
+Message_0_Condition_1_Value -2
+Message_0_Condition_1_Logic Less_Than_Or_Equal_To
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Flag_Bool
+Message_1_Condition_0_ID 6206
+Message_1_Condition_0_Value True
+Message_1_Condition_0_Logic Equal
+Message_2_Pages 1
+Message_2_Conditions 1
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value -2
+Message_2_Condition_0_Logic Greater_Than
+Message_2_Condition_0_Allow_Unset
+
+
+Responses 4
+
+// anything I can do?
+// Tools_Accepted
+Response_0_Dialogue 6207
+Response_0_Quest 6209
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 6209
+Response_0_Condition_0_Status None
+Response_0_Rewards 2
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 6209
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 6206
+Response_0_Reward_1_Value True
+Response_0_Messages 1
+Response_0_Message_0 0
+
+
+// I found those tools you needed!
+// Tools_Completed
+Response_1_Dialogue 6208
+Response_1_Quest 6209
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 6209
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+Response_1_Messages 1
+Response_1_Message_0 1
+
+
+Response_2_Messages 2
+Response_2_Message_0 0
+Response_2_Message_1 1
+
+Response_3_Messages 1
+Response_3_Message_0 2

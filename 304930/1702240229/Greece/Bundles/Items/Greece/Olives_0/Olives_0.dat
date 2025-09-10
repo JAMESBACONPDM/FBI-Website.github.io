@@ -1,0 +1,12 @@
+GUID 23b66968cb5540d1a55d720b80239b4b
+Type Food
+Useable Consumeable
+ID 6000
+
+Size_X 1
+Size_Y 1
+Size_Z 0.25
+
+Food 5
+
+Asset_Bundle_Version 2

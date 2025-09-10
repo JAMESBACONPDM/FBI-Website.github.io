@@ -1,0 +1,4 @@
+Name Resupplier II
+Description The Cafeteria is in drastic need of some olive oil, you've been sent to find it at the nearby farms.
+
+Condition_0 Retrieve Olive Oil {0}/{1}

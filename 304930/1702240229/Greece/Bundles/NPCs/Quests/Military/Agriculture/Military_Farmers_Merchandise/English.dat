@@ -1,0 +1,4 @@
+Name Farmer's Merchandise
+Description <color=rare>Botanist Goldie</color> has given you some foreign seeds to attempt to grow. Simply just bring back a good harvest.
+
+Condition_0 Grow Berries {0}/{1}

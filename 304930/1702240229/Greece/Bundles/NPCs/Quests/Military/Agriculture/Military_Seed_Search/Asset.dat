@@ -1,0 +1,36 @@
+GUID 694a2c7182a947739d28ddd6bc904e09
+Type Quest
+ID 3148
+
+Conditions 4
+Condition_0_Type Item
+Condition_0_ID 345
+Condition_0_Amount 3
+Condition_0_Reset
+
+Condition_1_Type Item
+Condition_1_ID 343
+Condition_1_Amount 3
+Condition_1_Reset
+
+Condition_2_Type Item
+Condition_2_ID 336
+Condition_2_Amount 3
+Condition_2_Reset
+
+Condition_3_Type Item
+Condition_3_ID 341
+Condition_3_Amount 3
+Condition_3_Reset
+
+
+Rewards 3
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value 2
+Reward_2_Modification Increment

@@ -1,0 +1,10 @@
+Name Back In Fashion
+Description <color=epic>Supply Manager Milos</color> has a given you your first real scavenging run list. Looks like this one is full of clothing items.
+
+Condition_0 Get Construction Helmets {0}/{1}
+Condition_1 Get Police Helmets {0}/{1}
+Condition_2 Get Black Daypacks {0}/{1}
+Condition_3 Get Green Daypacks {0}/{1}
+Condition_4 Get Black Duffelbags {0}/{1}
+Condition_5 Get Green Travelpacks {0}/{1}
+Condition_6 Get Cargo Pants {0}/{1}

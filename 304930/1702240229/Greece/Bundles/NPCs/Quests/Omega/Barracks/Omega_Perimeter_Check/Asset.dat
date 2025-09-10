@@ -1,0 +1,39 @@
+GUID 3b110e869f254690ad45683c602d3521
+Type Quest
+ID 3080
+
+Conditions 4
+Condition_0_Type Flag_Bool
+Condition_0_ID 3072
+Condition_0_Value True
+Condition_0_Logic Equal
+
+Condition_1_Type Flag_Bool
+Condition_1_ID 3073
+Condition_1_Value True
+Condition_1_Logic Equal
+
+Condition_2_Type Flag_Bool
+Condition_2_ID 3074
+Condition_2_Value True
+Condition_2_Logic Equal
+
+Condition_3_Type Flag_Bool
+Condition_3_ID 3075
+Condition_3_Value True
+Condition_3_Logic Equal
+
+Rewards 4
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value -2
+Reward_2_Modification Increment
+//Radio for your hard work
+Reward_3_Type Item
+Reward_3_ID 1445
+Reward_3_Amount 1

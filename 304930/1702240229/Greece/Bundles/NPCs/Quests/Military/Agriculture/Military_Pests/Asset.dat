@@ -1,0 +1,46 @@
+GUID 540047c81b07493b8b2a15c6e62dfe72
+Type Quest
+ID 3511
+
+Conditions 3
+Condition_0_Type Flag_Short
+Condition_0_ID 3215
+Condition_0_Value 1
+Condition_0_Logic Equal
+Condition_1_Type Flag_Short
+Condition_1_ID 3216
+Condition_1_Value 2
+Condition_1_Logic Equal
+Condition_2_Type Flag_Short
+Condition_2_ID 3217
+Condition_2_Value 3
+Condition_2_Logic Equal
+
+
+Rewards 7
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value 2
+Reward_2_Modification Increment
+
+Reward_3_Type Flag_Short
+Reward_3_ID 3214
+Reward_3_Value 4
+Reward_3_Modification Assign
+Reward_4_Type Flag_Short
+Reward_4_ID 3215
+Reward_4_Value -1
+Reward_4_Modification Assign
+Reward_5_Type Flag_Short
+Reward_5_ID 3216
+Reward_5_Value -1
+Reward_5_Modification Assign
+Reward_6_Type Flag_Short
+Reward_6_ID 3217
+Reward_6_Value -1
+Reward_6_Modification Assign

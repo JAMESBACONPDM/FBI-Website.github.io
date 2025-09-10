@@ -1,0 +1,27 @@
+GUID b9ed1fc7fd764a448a1dba55856307d5
+Type Quest
+ID 6202
+
+Conditions 3
+Condition_0_Type Item
+Condition_0_ID 1507
+Condition_0_Amount 1
+Condition_0_Reset
+Condition_1_Type Item
+Condition_1_ID 1450
+Condition_1_Amount 1
+Condition_1_Reset
+Condition_2_Type Item
+Condition_2_ID 28
+Condition_2_Amount 1
+Condition_2_Reset
+
+Rewards 2
+Reward_0_Type Experience
+Reward_0_Value 75
+// Military Missions Complete
+Reward_1_Type Flag_Short
+Reward_1_ID 3030
+Reward_1_Value 1
+Reward_1_Modification Increment
+

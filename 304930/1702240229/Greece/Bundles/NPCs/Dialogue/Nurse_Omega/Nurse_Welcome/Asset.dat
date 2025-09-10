@@ -1,0 +1,278 @@
+GUID 6cd711d8aeeb4f55a392bbf7e9235ab6
+Type Dialogue
+ID 3310
+
+Messages 3
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value -2
+Message_0_Condition_0_Logic Greater_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 2
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value -2
+Message_1_Condition_0_Logic Less_Than_Or_Equal_To
+//Aren't a doctor
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3001
+Message_1_Condition_1_Value 10
+Message_1_Condition_1_Logic Not_Equal
+
+
+Message_2_Pages 1
+Message_2_Conditions 2
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value -2
+Message_2_Condition_0_Logic Less_Than_Or_Equal_To
+//Are a Doctor
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3001
+Message_2_Condition_1_Value 10
+Message_2_Condition_1_Logic Equal
+
+
+Responses 14
+
+//Patient #1 Incorrect
+Response_0_Messages 1
+Response_0_Message_0 2
+Response_0_Dialogue 3312
+Response_0_Conditions 3
+Response_0_Condition_0_Type Flag_Short
+Response_0_Condition_0_ID 3306
+Response_0_Condition_0_Value 0
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_1_Type Flag_Short
+Response_0_Condition_1_ID 3301
+Response_0_Condition_1_Value 4
+Response_0_Condition_1_Logic Not_Equal
+Response_0_Condition_2_Type Flag_Short
+Response_0_Condition_2_ID 3301
+Response_0_Condition_2_Value -1
+Response_0_Condition_2_Logic Greater_Than
+Response_0_Rewards 1
+Response_0_Reward_0_Type Flag_Short
+Response_0_Reward_0_ID 3301
+Response_0_Reward_0_Value -1
+Response_0_Reward_0_Modification Assign
+
+//Patient #1 Correct (Flu)
+Response_1_Messages 1
+Response_1_Message_0 2
+Response_1_Dialogue 3311
+Response_1_Conditions 2
+Response_1_Condition_0_Type Flag_Short
+Response_1_Condition_0_ID 3306
+Response_1_Condition_0_Value 0
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_1_Type Flag_Short
+Response_1_Condition_1_ID 3301
+Response_1_Condition_1_Value 4
+Response_1_Condition_1_Logic Equal
+Response_1_Rewards 1
+Response_1_Reward_0_Type Flag_Short
+Response_1_Reward_0_ID 3306
+Response_1_Reward_0_Value 1
+Response_1_Reward_0_Modification Assign
+
+//Patient #2 Incorrect
+Response_2_Messages 1
+Response_2_Message_0 2
+Response_2_Dialogue 3312
+Response_2_Conditions 3
+Response_2_Condition_0_Type Flag_Short
+Response_2_Condition_0_ID 3306
+Response_2_Condition_0_Value 1
+Response_2_Condition_0_Logic Equal
+Response_2_Condition_1_Type Flag_Short
+Response_2_Condition_1_ID 3302
+Response_2_Condition_1_Value 0
+Response_2_Condition_1_Logic Not_Equal
+Response_2_Condition_2_Type Flag_Short
+Response_2_Condition_2_ID 3302
+Response_2_Condition_2_Value -1
+Response_2_Condition_2_Logic Greater_Than
+Response_2_Rewards 1
+Response_2_Reward_0_Type Flag_Short
+Response_2_Reward_0_ID 3302
+Response_2_Reward_0_Value -1
+Response_2_Reward_0_Modification Assign
+
+//Patient #2 Correct (Bird Flu)
+Response_3_Messages 1
+Response_3_Message_0 2
+Response_3_Dialogue 3311
+Response_3_Conditions 2
+Response_3_Condition_0_Type Flag_Short
+Response_3_Condition_0_ID 3306
+Response_3_Condition_0_Value 1
+Response_3_Condition_0_Logic Equal
+Response_3_Condition_1_Type Flag_Short
+Response_3_Condition_1_ID 3302
+Response_3_Condition_1_Value 0
+Response_3_Condition_1_Logic Equal
+Response_3_Rewards 1
+Response_3_Reward_0_Type Flag_Short
+Response_3_Reward_0_ID 3306
+Response_3_Reward_0_Value 2
+Response_3_Reward_0_Modification Assign
+
+//Patient #3 Incorrect
+Response_4_Messages 1
+Response_4_Message_0 2
+Response_4_Dialogue 3312
+Response_4_Conditions 3
+Response_4_Condition_0_Type Flag_Short
+Response_4_Condition_0_ID 3306
+Response_4_Condition_0_Value 2
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_1_Type Flag_Short
+Response_4_Condition_1_ID 3303
+Response_4_Condition_1_Value 2
+Response_4_Condition_1_Logic Not_Equal
+Response_4_Condition_2_Type Flag_Short
+Response_4_Condition_2_ID 3303
+Response_4_Condition_2_Value -1
+Response_4_Condition_2_Logic Greater_Than
+Response_4_Rewards 1
+Response_4_Reward_0_Type Flag_Short
+Response_4_Reward_0_ID 3303
+Response_4_Reward_0_Value -1
+Response_4_Reward_0_Modification Assign
+
+//Patient #3 Correct (Legionnaire's)
+Response_5_Messages 1
+Response_5_Message_0 2
+Response_5_Dialogue 3311
+Response_5_Conditions 2
+Response_5_Condition_0_Type Flag_Short
+Response_5_Condition_0_ID 3306
+Response_5_Condition_0_Value 2
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_1_Type Flag_Short
+Response_5_Condition_1_ID 3303
+Response_5_Condition_1_Value 2
+Response_5_Condition_1_Logic Equal
+Response_5_Rewards 1
+Response_5_Reward_0_Type Flag_Short
+Response_5_Reward_0_ID 3306
+Response_5_Reward_0_Value 3
+Response_5_Reward_0_Modification Assign
+
+//Patient #4 Incorrect
+Response_6_Messages 1
+Response_6_Message_0 2
+Response_6_Dialogue 3312
+Response_6_Conditions 3
+Response_6_Condition_0_Type Flag_Short
+Response_6_Condition_0_ID 3306
+Response_6_Condition_0_Value 3
+Response_6_Condition_0_Logic Equal
+Response_6_Condition_1_Type Flag_Short
+Response_6_Condition_1_ID 3304
+Response_6_Condition_1_Value 1
+Response_6_Condition_1_Logic Not_Equal
+Response_6_Condition_2_Type Flag_Short
+Response_6_Condition_2_ID 3304
+Response_6_Condition_2_Value -1
+Response_6_Condition_2_Logic Greater_Than
+Response_6_Rewards 1
+Response_6_Reward_0_Type Flag_Short
+Response_6_Reward_0_ID 3304
+Response_6_Reward_0_Value -1
+Response_6_Reward_0_Modification Assign
+
+//Patient #4 Correct (Malaria)
+Response_7_Messages 1
+Response_7_Message_0 2
+Response_7_Dialogue 3311
+Response_7_Conditions 2
+Response_7_Condition_0_Type Flag_Short
+Response_7_Condition_0_ID 3306
+Response_7_Condition_0_Value 3
+Response_7_Condition_0_Logic Equal
+Response_7_Condition_1_Type Flag_Short
+Response_7_Condition_1_ID 3304
+Response_7_Condition_1_Value 1
+Response_7_Condition_1_Logic Equal
+Response_7_Rewards 1
+Response_7_Reward_0_Type Flag_Short
+Response_7_Reward_0_ID 3306
+Response_7_Reward_0_Value 4
+Response_7_Reward_0_Modification Assign
+
+//Patient #5 Incorrect
+Response_8_Messages 1
+Response_8_Message_0 2
+Response_8_Dialogue 3312
+Response_8_Conditions 3
+Response_8_Condition_0_Type Flag_Short
+Response_8_Condition_0_ID 3306
+Response_8_Condition_0_Value 4
+Response_8_Condition_0_Logic Equal
+Response_8_Condition_1_Type Flag_Short
+Response_8_Condition_1_ID 3305
+Response_8_Condition_1_Value 3
+Response_8_Condition_1_Logic Not_Equal
+Response_8_Condition_2_Type Flag_Short
+Response_8_Condition_2_ID 3305
+Response_8_Condition_2_Value -1
+Response_8_Condition_2_Logic Greater_Than
+Response_8_Rewards 1
+Response_8_Reward_0_Type Flag_Short
+Response_8_Reward_0_ID 3305
+Response_8_Reward_0_Value -1
+Response_8_Reward_0_Modification Assign
+
+//Patient #5 Correct (West Nile Virus)
+Response_9_Messages 1
+Response_9_Message_0 2
+Response_9_Dialogue 3311
+Response_9_Conditions 2
+Response_9_Condition_0_Type Flag_Short
+Response_9_Condition_0_ID 3306
+Response_9_Condition_0_Value 4
+Response_9_Condition_0_Logic Equal
+Response_9_Condition_1_Type Flag_Short
+Response_9_Condition_1_ID 3305
+Response_9_Condition_1_Value 3
+Response_9_Condition_1_Logic Equal
+Response_9_Rewards 2
+Response_9_Reward_0_Type Flag_Short
+Response_9_Reward_0_ID 3306
+Response_9_Reward_0_Value 10
+Response_9_Reward_0_Modification Assign
+Response_9_Reward_1_Type Flag_Short
+Response_9_Reward_1_ID 3300
+Response_9_Reward_1_Value 10
+Response_9_Reward_1_Modification Assign
+
+Response_10_Messages 1
+Response_10_Message_0 2
+Response_10_Dialogue 3309
+Response_10_Quest 3307
+Response_10_Conditions 2
+Response_10_Condition_0_Type Flag_Short
+Response_10_Condition_0_ID 3306
+Response_10_Condition_0_Value 10
+Response_10_Condition_0_Logic Equal
+Response_10_Condition_1_Type Quest
+Response_10_Condition_1_Logic Equal
+Response_10_Condition_1_ID 3307
+Response_10_Condition_1_Status Ready
+Response_10_Condition_1_Reset
+
+Response_11_Messages 1
+Response_11_Message_0 2
+
+Response_12_Messages 1
+Response_12_Message_0 1
+
+Response_13_Messages 1
+Response_13_Message_0 0

@@ -1,0 +1,5 @@
+Name Guard Post
+Description <color=epic>Colonel Nicole</color> requires you to stand watch from 23:00 to 06:00. Find the radio at the surface gate and call in before beginning your watch.
+
+Condition_0 Take position on the surface
+Condition_1 Call in at each hour interval until O600 {0}/{1}

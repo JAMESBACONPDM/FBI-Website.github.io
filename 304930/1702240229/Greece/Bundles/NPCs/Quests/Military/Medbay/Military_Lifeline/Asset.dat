@@ -1,0 +1,25 @@
+GUID 327b61548c064012a993defe7b40769c
+Type Quest
+ID 3529
+
+Conditions 1
+Condition_0_Type Item
+Condition_0_ID 395
+Condition_0_Amount 6
+Condition_0_Reset
+
+Rewards 4
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value 2
+Reward_2_Modification Increment
+
+//Give Suturekit
+Reward_3_Type Item
+Reward_3_ID 403
+Reward_3_Amount 1

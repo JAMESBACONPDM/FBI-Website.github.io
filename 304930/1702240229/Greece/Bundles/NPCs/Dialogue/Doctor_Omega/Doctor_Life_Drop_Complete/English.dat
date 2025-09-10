@@ -1,0 +1,14 @@
+//Was already Dead
+Message_0_Page_0 These will do. Lets not lose another one any time soon.
+//Died due to infection
+Message_1_Page_0 We tried so hard... While you were gone, <color=legendary>Aleksy</color> died to symptoms of an infection.
+//Survived with infection, losing arm
+Message_2_Page_0 While you were gone, we had a look at his wound. It is most definitely infected and has developed gangrene; I fear for him to survive we'll have to take off his arm.
+//Wound reopened, bled out
+Message_3_Page_0 Had only you been a little sooner... While you were gone, the wound reopened and <color=legendary>Aleksy</color> bled out.
+//Wound reopened, Survived
+Message_4_Page_0 You're back! Quick, the blood bags! While you were gone, the wound reopened and <color=legendary>Aleksy</color> almost bled out!
+//Bullet wasn't removed from the shoulder.
+Message_5_Page_0 This one is just his blood type! I'll get him hooked up right away, although I don't think he'll be using that arm ever again.
+//Is NOT Dead
+Message_6_Page_0 Ah, this one is just his blood type! I'll get him hooked up right away, he may be able to make a full recovery!

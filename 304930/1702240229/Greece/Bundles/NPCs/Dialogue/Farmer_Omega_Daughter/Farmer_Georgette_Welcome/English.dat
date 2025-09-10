@@ -1,0 +1,18 @@
+Message_0_Page_0 Do I know you?
+Message_1_Page_0 ...Uh, Hey! Welcome to the Greenhouse... nothing to see here.
+Message_2_Page_0 <i>She quickly puts something behind her back</i> He...Hello! How're you doing <name_char>?
+Message_3_Page_0 Look, please don't tell my father. Please! I have a good reason.
+Message_4_Page_0 *She glances around quickly* Did you get the, uh, supplies?
+Message_5_Page_0 Hiya <name_char>! Thank you so much for all your help, I owe you one.
+Message_6_Page_0 Come on man! Why'd you have to tell him! I thought you'd understand, clearly I was wrong.
+
+Response_0 Hey <name_npc>, I'm doing well.
+Response_1 Whatcha got there?
+Response_2 Whatcha got there?
+Response_3 Goodbye.
+Response_4 Hey <name_npc>, I got you those, supplies.
+Response_5 I'm still working on that!
+Response_6 Hey <name_npc>! I was happy to help.
+Response_7 You were stealing! It was the right thing to do.
+Response_8 Hmm... I don't know, there are lot of plants to look at.
+Response_9 Probably not.

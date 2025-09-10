@@ -1,0 +1,4 @@
+Name Macario's Mercy
+Description <color=uncommon>Cadet Moe</color> left his friend Macario behind after getting attacked by a horde and hasn't been able to return to release him of his zombie state. The old camp is west of Kamena Vourla Beach. Macario was a tall man, it is hard to miss him.
+
+Condition_0 Mercy Kill Macario {0}/{1}

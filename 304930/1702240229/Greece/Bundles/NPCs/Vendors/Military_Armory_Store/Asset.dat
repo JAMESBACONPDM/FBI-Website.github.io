@@ -1,0 +1,200 @@
+GUID 777e5ef49db64d8c94a12ce2d2005842
+Type Vendor
+ID 3543
+
+Buying 16
+// Highcal military
+Buying_0_ID 1192
+Buying_0_Amount 20
+Buying_0_Cost 40
+// Lowcal military
+Buying_1_ID 43
+Buying_1_Amount 20
+Buying_1_Cost 30
+// Highcal ranger
+Buying_2_ID 1193
+Buying_2_Amount 20
+Buying_2_Cost 40
+// Lowcal ranger
+Buying_3_ID 119
+Buying_3_Amount 20
+Buying_3_Cost 30
+// Military magazine
+Buying_4_ID 6
+Buying_4_Amount 20
+Buying_4_Cost 30
+// Military drum
+Buying_5_ID 17
+Buying_5_Amount 20
+Buying_5_Cost 30
+// Ranger magazine
+Buying_6_ID 123
+Buying_6_Amount 20
+Buying_6_Cost 30
+// Ranger drum
+Buying_7_ID 125
+Buying_7_Amount 20
+Buying_7_Cost 30
+// Civ Ammo
+Buying_8_ID 44
+Buying_8_Amount 20
+Buying_8_Cost 15
+// Hoplite Top
+Buying_9_ID 3526
+Buying_9_Amount 1
+Buying_9_Cost 10
+Buying_9_Conditions 1
+Buying_9_Condition_0_Type Flag_Short
+Buying_9_Condition_0_ID 3017
+Buying_9_Condition_0_Value 2
+Buying_9_Condition_0_Logic Greater_Than
+// Captain Top
+Buying_10_ID 3527
+Buying_10_Amount 1
+Buying_10_Cost 10
+Buying_10_Conditions 1
+Buying_10_Condition_0_Type Flag_Short
+Buying_10_Condition_0_ID 3017
+Buying_10_Condition_0_Value 2
+Buying_10_Condition_0_Logic Greater_Than
+// Battalion Leader Top
+Buying_11_ID 3528
+Buying_11_Amount 1
+Buying_11_Cost 15
+Buying_11_Conditions 1
+Buying_11_Condition_0_Type Flag_Short
+Buying_11_Condition_0_ID 3017
+Buying_11_Condition_0_Value 2
+Buying_11_Condition_0_Logic Greater_Than
+// Colonel Top
+Buying_12_ID 3529
+Buying_12_Amount 1
+Buying_12_Cost 15
+Buying_12_Conditions 1
+Buying_12_Condition_0_Type Flag_Short
+Buying_12_Condition_0_ID 3017
+Buying_12_Condition_0_Value 2
+Buying_12_Condition_0_Logic Greater_Than
+// Brigadier Top
+Buying_13_ID 3530
+Buying_13_Amount 1
+Buying_13_Cost 20
+Buying_13_Conditions 1
+Buying_13_Condition_0_Type Flag_Short
+Buying_13_Condition_0_ID 3017
+Buying_13_Condition_0_Value 2
+Buying_13_Condition_0_Logic Greater_Than
+// Cooked Salmon
+Buying_14_ID 513
+Buying_14_Amount 1
+Buying_14_Cost 20
+Buying_14_Conditions 1
+Buying_14_Condition_0_Type Item
+Buying_14_Condition_0_ID 513
+Buying_14_Condition_0_Amount 1
+Buying_14_Condition_0_Logic Greater_Than_Or_Equal_To
+// Raw Salmon
+Buying_15_ID 505
+Buying_15_Amount 1
+Buying_15_Cost 15
+Buying_15_Conditions 1
+Buying_15_Condition_0_Type Item
+Buying_15_Condition_0_ID 505
+Buying_15_Condition_0_Amount 1
+Buying_15_Condition_0_Logic Greater_Than_Or_Equal_To
+
+
+Selling 12
+// Military knife
+Selling_0_ID 121
+Selling_0_Amount 1
+Selling_0_Cost 50
+// Binocs
+Selling_1_ID 333
+Selling_1_Amount 1
+Selling_1_Cost 40
+// Rangefinder
+Selling_2_ID 1008
+Selling_2_Amount 1
+Selling_2_Cost 600
+// Kopis
+Selling_3_ID 3515
+Selling_3_Amount 1
+Selling_3_Cost 800
+Selling_3_Conditions 1
+Selling_3_Condition_0_Type Flag_Short
+Selling_3_Condition_0_ID 3017
+Selling_3_Condition_0_Value 4
+Selling_3_Condition_0_Logic Greater_Than
+// Viper
+Selling_4_ID 1027
+Selling_4_Amount 1
+Selling_4_Cost 1600
+Selling_4_Conditions 1
+Selling_4_Condition_0_Type Flag_Short
+Selling_4_Condition_0_ID 3017
+Selling_4_Condition_0_Value 6
+Selling_4_Condition_0_Logic Greater_Than_Or_Equal_To
+// Military Helmet
+Selling_5_ID 3522
+Selling_5_Amount 1
+Selling_5_Cost 1200
+Selling_5_Conditions 1
+Selling_5_Condition_0_Type Flag_Short
+Selling_5_Condition_0_ID 3017
+Selling_5_Condition_0_Value 7
+Selling_5_Condition_0_Logic Greater_Than_Or_Equal_To
+// Kopis Magazine
+Selling_6_ID 3516
+Selling_6_Amount 1
+Selling_6_Cost 700
+Selling_6_Conditions 1
+Selling_6_Condition_0_Type Flag_Short
+Selling_6_Condition_0_ID 3017
+Selling_6_Condition_0_Value 4
+Selling_6_Condition_0_Logic Greater_Than
+// Viper Magazine
+Selling_7_ID 1029
+Selling_7_Amount 1
+Selling_7_Cost 1300
+Selling_7_Conditions 1
+Selling_7_Condition_0_Type Flag_Short
+Selling_7_Condition_0_ID 3017
+Selling_7_Condition_0_Value 6
+Selling_7_Condition_0_Logic Greater_Than_Or_Equal_To
+// Military Vest
+Selling_8_ID 3523
+Selling_8_Amount 1
+Selling_8_Cost 1000
+Selling_8_Conditions 1
+Selling_8_Condition_0_Type Flag_Short
+Selling_8_Condition_0_ID 3017
+Selling_8_Condition_0_Value 5
+Selling_8_Condition_0_Logic Greater_Than_Or_Equal_To
+// GPS
+Selling_9_ID 1176
+Selling_9_Amount 1
+Selling_9_Cost 100
+Selling_9_Conditions 1
+Selling_9_Condition_0_Type Flag_Short
+Selling_9_Condition_0_ID 3017
+Selling_9_Condition_0_Value 3
+Selling_9_Condition_0_Logic Greater_Than_Or_Equal_To
+// Filter
+Selling_10_ID 1271
+Selling_10_Amount 1
+Selling_10_Cost 2000
+Selling_10_Conditions 1
+Selling_10_Condition_0_Type Flag_Short
+Selling_10_Condition_0_ID 3017
+Selling_10_Condition_0_Value 7
+Selling_10_Condition_0_Logic Greater_Than_Or_Equal_To
+// Gas Mask
+Selling_11_ID 1270
+Selling_11_Amount 1
+Selling_11_Cost 3000
+Selling_11_Conditions 1
+Selling_11_Condition_0_Type Flag_Short
+Selling_11_Condition_0_ID 3017
+Selling_11_Condition_0_Value 7
+Selling_11_Condition_0_Logic Greater_Than_Or_Equal_To

@@ -1,0 +1,6 @@
+Name Turret Techno
+Description <color=epic>Workshop Manager Hyperion</color> has given you another project. He'd like you to make some prototypes of the automated sentry turret.
+
+Condition_0 Craft Neutral Sentry {0}/{1}
+Condition_1 Craft Hostile Sentry {0}/{1}
+Condition_2 Craft Friendly Sentry {0}/{1}

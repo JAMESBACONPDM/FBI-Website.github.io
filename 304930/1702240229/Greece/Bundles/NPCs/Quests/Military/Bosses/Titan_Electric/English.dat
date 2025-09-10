@@ -1,0 +1,4 @@
+Name <color=mythical>Wrath of the Titans III</color>
+Description <color=rare>Corporal Ondrej</color> tells tales of a ferocious zombie, one which stands as tall as a titan. Weilding the powers of Zeus, it can create lightning from its very palms. Such a creature must be hunted down before it can cause any more destruction, it has been tracked to the Farsala Sewers.
+
+Condition_0 Defeat {0}/{1} <color=mythical>Titan of Energy</color>

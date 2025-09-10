@@ -1,0 +1,25 @@
+GUID f5341c9ba3144718b5ba4dcfad16f261
+Type NPC
+ID 3622
+
+Shirt 3526
+Pants 3525
+//Vest 10
+Mask 185
+//Hat 425
+//Backpack 247
+Glasses 568
+
+Face 25
+Hair 5
+Beard 9
+Color_Skin #9D886B
+Color_Hair #352C22
+
+Primary 122
+Secondary 3515
+//Equipped Primary
+
+//Pose Rest
+
+Dialogue 3364

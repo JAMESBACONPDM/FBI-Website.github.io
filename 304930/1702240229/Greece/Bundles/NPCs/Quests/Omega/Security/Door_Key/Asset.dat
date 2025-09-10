@@ -1,0 +1,31 @@
+GUID 88e896d2e2734974a9f742651c2a91ce
+Type Quest
+ID 3340
+
+Conditions 1
+Condition_0_Type Flag_Short
+Condition_0_ID 3347
+Condition_0_Value 3
+Condition_0_Logic Equal
+//Condition_3_Allow_Unset
+
+Rewards 5
+Reward_0_Type Reputation
+Reward_0_Value 5
+Reward_1_Type Experience
+Reward_1_Value 25
+// Skillset Rankup Bonus
+Reward_2_Type Flag_Short
+Reward_2_ID 3030
+Reward_2_Value -1
+Reward_2_Modification Increment
+// Increase dialogue point
+Reward_3_Type Flag_Short
+Reward_3_ID 3347
+Reward_3_Value 1
+Reward_3_Modification Increment
+// Give door charges
+Reward_4_Type Flag_Short
+Reward_4_ID 3351
+Reward_4_Value 2
+Reward_4_Modification Increment

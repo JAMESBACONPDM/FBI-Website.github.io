@@ -1,0 +1,129 @@
+GUID d1f141e5a3734d7daf29814ead992798
+Type Dialogue
+ID 3608
+
+Messages 5
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 2
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Quest
+Message_1_Condition_0_ID 3636
+Message_1_Condition_0_Status Completed
+Message_1_Condition_0_Logic Equal
+
+Message_2_Pages 1
+Message_2_Conditions 1
+Message_2_Condition_0_Type Quest
+Message_2_Condition_0_ID 3635
+Message_2_Condition_0_Status Completed
+Message_2_Condition_0_Logic Equal
+
+Message_3_Pages 1
+Message_3_Conditions 1
+Message_3_Condition_0_Type Quest
+Message_3_Condition_0_ID 3634
+Message_3_Condition_0_Status Completed
+Message_3_Condition_0_Logic Equal
+
+Message_4_Pages 1
+Message_4_Conditions 1
+Message_4_Condition_0_Type Flag_Short
+Message_4_Condition_0_ID 3017
+Message_4_Condition_0_Value 2
+Message_4_Condition_0_Logic Greater_Than_Or_Equal_To
+
+Responses 8
+
+// Standard Form Quest Accepted
+Response_0_Messages 1
+Response_0_Message_0 4
+Response_0_Dialogue 3640
+Response_0_Quest 3634
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 3634
+Response_0_Condition_0_Status None
+Response_0_Rewards 1
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3634
+
+// Standard Form Quest Completed
+Response_1_Messages 1
+Response_1_Message_0 4
+Response_1_Dialogue 3643
+Response_1_Quest 3634
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 3634
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+
+// Ideal Form Quest Accepted
+Response_2_Messages 1
+Response_2_Message_0 3
+Response_2_Dialogue 3641
+Response_2_Quest 3635
+Response_2_Conditions 1
+Response_2_Condition_0_Type Quest
+Response_2_Condition_0_Logic Equal
+Response_2_Condition_0_ID 3635
+Response_2_Condition_0_Status None
+Response_2_Rewards 1
+Response_2_Reward_0_Type Quest
+Response_2_Reward_0_ID 3635
+
+// Ideal Form Quest Completed
+Response_3_Messages 1
+Response_3_Message_0 3
+Response_3_Dialogue 3643
+Response_3_Quest 3635
+Response_3_Conditions 1
+Response_3_Condition_0_Type Quest
+Response_3_Condition_0_Logic Equal
+Response_3_Condition_0_ID 3635
+Response_3_Condition_0_Status Ready
+Response_3_Condition_0_Reset
+
+// Perfect Form Quest Completed
+Response_4_Messages 1
+Response_4_Message_0 2
+Response_4_Dialogue 3642
+Response_4_Quest 3636
+Response_4_Conditions 1
+Response_4_Condition_0_Type Quest
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_0_ID 3636
+Response_4_Condition_0_Status None
+Response_4_Rewards 1
+Response_4_Reward_0_Type Quest
+Response_4_Reward_0_ID 3636
+
+// Perfect Form Quest Completed
+Response_5_Messages 1
+Response_5_Message_0 2
+Response_5_Dialogue 3644
+Response_5_Quest 3636
+Response_5_Conditions 1
+Response_5_Condition_0_Type Quest
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_0_ID 3636
+Response_5_Condition_0_Status Ready
+Response_5_Condition_0_Reset
+
+Response_6_Messages 4
+Response_6_Message_0 1
+Response_6_Message_1 2
+Response_6_Message_2 3
+Response_6_Message_3 4
+
+Response_7_Messages 1
+Response_7_Message_0 0

@@ -1,0 +1,43 @@
+GUID 380055305d794c8c9b3eae2efa4f6e52
+Type Dialogue
+ID 3346
+
+Messages 2
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value -4
+Message_0_Condition_0_Logic Greater_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 1
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value -4
+Message_1_Condition_0_Logic Less_Than_Or_Equal_To
+Message_1_Condition_0_Allow_Unset
+
+Responses 3
+
+// Where's the Oil Can?
+// Door_Oil_Accepted & Omega Door_Key Quest
+Response_0_Dialogue 3348
+Response_0_Quest 3340
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 3340
+Response_0_Condition_0_Status None
+Response_0_Rewards 2
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3340
+Response_0_Reward_1_Type Flag_Short
+Response_0_Reward_1_ID 3347
+Response_0_Reward_1_Value 2
+Response_0_Reward_1_Modification Assign
+Response_0_Messages 1
+Response_0_Message_0 1
+
+Response_1_Dialogue 3350

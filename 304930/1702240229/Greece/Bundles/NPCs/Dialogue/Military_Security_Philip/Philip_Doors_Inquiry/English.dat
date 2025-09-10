@@ -1,0 +1,6 @@
+Message_0_Page_0 Does your identity card have door clearance? <pause> I didn't think so. Higher ranks typically have door access unless it gets revoked. However, even then, it costs you to open these doors.
+Message_1_Page_0 Does your identity card have door clearance? <pause> Oh, look at that, it does! Well, the doors have been acting up lately. My guess is the gears need some oil; if you can find me an oil can I will give you two free uses, but after that you'll need to bring me fuel to use it again.
+
+Response_0 Where's the Oil Can?
+Response_1 What's the price?
+Response_2 Understood.

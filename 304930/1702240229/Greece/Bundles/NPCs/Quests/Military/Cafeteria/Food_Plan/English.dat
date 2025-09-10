@@ -1,0 +1,6 @@
+Name Food Plan
+Description <color=uncommon>Chef Julian</color> needs help choosing next weeks menu. There are five meal choices to fill three meals. They must also meet the required nutrients, supplies, and morale.
+
+Condition_0 Use Less Than {1} Supplies, {0}
+Condition_1 Provide at least {1} Nutrients, {0}
+Condition_2 Provide more than {1} Morale, {0}

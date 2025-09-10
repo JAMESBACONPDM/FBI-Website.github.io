@@ -1,0 +1,36 @@
+GUID e3e3176425dd4beb9da6264f36ceefb1
+Type NPC
+ID 3867
+
+Conditions 2
+Condition_0_Type Flag_Short
+Condition_0_ID 3389
+Condition_0_Value 0
+Condition_0_Logic Greater_Than
+Condition_1_Type Flag_Short
+Condition_1_ID 3389
+Condition_1_Value 3
+Condition_1_Logic Less_Than
+
+Shirt 3526
+Pants 3525
+//Vest 10
+//Mask 765
+//Hat 763
+Backpack 1170
+Glasses 761
+
+Face 24
+Hair 16
+Beard 0
+Color_Skin #D9CAB4
+Color_Hair #352C22
+
+Primary 1366
+Secondary 1027
+Tertiary 1445
+Equipped Tertiary
+
+Pose Sit
+
+Dialogue 3391

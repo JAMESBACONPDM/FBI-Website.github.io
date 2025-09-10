@@ -1,0 +1,85 @@
+GUID de3c24c2189f4a4ba7ec5d5aa74e4713
+Type Dialogue
+ID 3645
+
+Messages 5
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 6
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 3
+Message_1_Condition_0_Type Reputation
+Message_1_Condition_0_Value 0
+Message_1_Condition_0_Logic Greater_Than
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3017
+Message_1_Condition_1_Value 6
+Message_1_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_1_Condition_2_Type Flag_Short
+Message_1_Condition_2_ID 3647
+Message_1_Condition_2_Value 1
+Message_1_Condition_2_Logic Equal
+
+Message_2_Pages 1
+Message_2_Conditions 3
+Message_2_Condition_0_Type Reputation
+Message_2_Condition_0_Value 0
+Message_2_Condition_0_Logic Less_Than
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3017
+Message_2_Condition_1_Value 6
+Message_2_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_2_Condition_2_Type Flag_Short
+Message_2_Condition_2_ID 3647
+Message_2_Condition_2_Value 1
+Message_2_Condition_2_Logic Equal
+
+Message_3_Pages 1
+Message_3_Conditions 3
+Message_3_Condition_0_Type Reputation
+Message_3_Condition_0_Value 0
+Message_3_Condition_0_Logic Equal
+Message_3_Condition_1_Type Flag_Short
+Message_3_Condition_1_ID 3017
+Message_3_Condition_1_Value 6
+Message_3_Condition_1_Logic Greater_Than_Or_Equal_To
+Message_3_Condition_2_Type Flag_Short
+Message_3_Condition_2_ID 3647
+Message_3_Condition_2_Value 1
+Message_3_Condition_2_Logic Equal
+
+Message_4_Pages 1
+Message_4_Conditions 1
+Message_4_Condition_0_Type Flag_Short
+Message_4_Condition_0_ID 3017
+Message_4_Condition_0_Value 6
+Message_4_Condition_0_Logic Greater_Than_Or_Equal_To
+
+Responses 3
+
+// You requested my presence?
+Response_0_Messages 3
+Response_0_Message_0 1
+Response_0_Message_1 2
+Response_0_Message_2 3
+Response_0_Dialogue 3648
+Response_0_Rewards 1
+//Move along dialogue
+Response_0_Reward_0_Type Flag_Short
+Response_0_Reward_0_ID 3647
+Response_0_Reward_0_Value 2
+Response_0_Reward_0_Modification Assign
+
+Response_1_Messages 4
+Response_1_Message_0 1
+Response_1_Message_1 2
+Response_1_Message_2 3
+Response_1_Message_3 4
+
+Response_2_Messages 1
+Response_2_Message_0 0

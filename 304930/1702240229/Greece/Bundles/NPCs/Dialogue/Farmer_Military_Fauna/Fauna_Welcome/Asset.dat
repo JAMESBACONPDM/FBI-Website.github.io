@@ -1,0 +1,87 @@
+GUID 3582b6ec093b4a52935dd314b25d72c5
+Type Dialogue
+ID 3520
+
+Messages 3
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 2
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 3
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value 2
+Message_1_Condition_0_Logic Greater_Than_Or_Equal_To
+//Aren't a Farmer
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3001
+Message_1_Condition_1_Value 4
+Message_1_Condition_1_Logic Not_Equal
+//Aren't a Fisher
+Message_1_Condition_2_Type Flag_Short
+Message_1_Condition_2_ID 3001
+Message_1_Condition_2_Value 5
+Message_1_Condition_2_Logic Not_Equal
+
+
+Message_2_Pages 1
+Message_2_Conditions 3
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value 2
+Message_2_Condition_0_Logic Greater_Than_Or_Equal_To
+//Are a Farmer
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3001
+Message_2_Condition_1_Value 4
+Message_2_Condition_1_Logic Greater_Than_Or_Equal_To
+//Are a Fisher
+Message_2_Condition_2_Type Flag_Short
+Message_2_Condition_2_ID 3001
+Message_2_Condition_2_Value 5
+Message_2_Condition_2_Logic Less_Than_Or_Equal_To
+
+Responses 5
+
+Response_0_Messages 1
+Response_0_Message_0 2
+Response_0_Dialogue 3518
+Response_0_Quest 3510
+Response_0_Conditions 2
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_ID 3510
+Response_0_Condition_0_Status None
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_Allow_Unset
+Response_0_Condition_1_Type Quest
+Response_0_Condition_1_Logic Equal
+Response_0_Condition_1_ID 3148
+Response_0_Condition_1_Status Completed
+Response_0_Rewards 1
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3510
+
+Response_1_Messages 1
+Response_1_Message_0 2
+Response_1_Dialogue 3519
+Response_1_Quest 3510
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 3510
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+
+Response_2_Messages 1
+Response_2_Message_0 2
+
+Response_3_Messages 1
+Response_3_Message_0 1
+
+Response_4_Messages 1
+Response_4_Message_0 0

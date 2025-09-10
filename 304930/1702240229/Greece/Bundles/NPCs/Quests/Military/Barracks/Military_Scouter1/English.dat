@@ -1,0 +1,4 @@
+Name Scouting Party I
+Description A scavenging party is ready to head out. <color=legendary>Sergeant First Class Damien</color> needs you to help eliminate the infected along their root.
+
+Condition_0 Eliminate Lamia Infected {0}/{1}

@@ -1,0 +1,25 @@
+GUID eb24231eae66490886cf95cc94442d58
+Type NPC
+ID 3629
+
+Shirt 232
+Pants 2
+//Vest 10
+//Mask 185
+//Hat 240
+//Backpack 247
+//Glasses 568
+
+Face 0
+Hair 1
+Beard 3
+Color_Skin #9D886B
+Color_Hair #CDC08C
+
+//Primary 122
+//Secondary 76
+//Equipped Primary
+
+Pose Rest
+
+Dialogue 3170

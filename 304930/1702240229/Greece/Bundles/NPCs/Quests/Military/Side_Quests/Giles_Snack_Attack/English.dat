@@ -1,0 +1,6 @@
+Name Snack Attack
+Description <color=uncommon>Private Giles</color> has offered you a deal, find him some high quality junk food and he'll give you some of his special gum.
+
+Condition_0 Get Candy Bars {0}/{1}
+Condition_1 Get Chocolate Bars {0}/{1}
+Condition_2 Get Chips {0}/{1}

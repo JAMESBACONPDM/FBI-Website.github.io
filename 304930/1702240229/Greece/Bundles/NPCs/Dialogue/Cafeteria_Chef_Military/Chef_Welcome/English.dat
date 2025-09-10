@@ -1,0 +1,14 @@
+Message_0_Page_0 You don't have a ration card, come back when you get yours.
+Message_1_Page_0 Hey, Chef <name_char>! You look like you need something to do.
+Message_2_Page_0 Evening soldier, I'll take it you're here for some fuel before continuing your adventures?
+
+
+Response_0 Yeah, how can I get started?
+Response_1 <color=uncommon>Chef Julian</color> is out of tasks for me to do.
+Response_2 I brought back the meat.
+Response_3 Anymore tasks?
+Response_4 The food is ready.
+Response_5 What's on the menu?
+Response_6 Oh, okay.
+Response_7 I'm not all too hungry.
+Response_8 I'm actually quite busy.

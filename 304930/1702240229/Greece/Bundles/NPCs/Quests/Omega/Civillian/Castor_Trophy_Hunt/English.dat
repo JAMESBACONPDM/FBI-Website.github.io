@@ -1,0 +1,4 @@
+Name Trophy Hunt
+Description Castor's trophies have gone missing somewhere in the bunker. Can you find them all?
+
+Condition_0 Find Trophies {0}/{1}

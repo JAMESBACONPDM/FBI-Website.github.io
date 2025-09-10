@@ -1,0 +1,25 @@
+GUID 298369df442949f1b99668eaa22cdd34
+Type NPC
+ID 3583
+
+Shirt 405
+Pants 406
+//Vest 722
+//Mask 570
+Hat 778
+//Glasses 568
+
+Face 4
+Hair 12
+Beard 0
+Color_Skin #BEA582
+Color_Hair #473928
+
+//Primary 3512
+Secondary 276
+//Tertiary 1328
+Equipped Secondary
+
+Pose Crouch
+
+Dialogue 3656

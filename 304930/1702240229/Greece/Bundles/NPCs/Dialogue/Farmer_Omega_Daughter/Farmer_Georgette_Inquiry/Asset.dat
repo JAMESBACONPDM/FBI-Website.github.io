@@ -1,0 +1,16 @@
+GUID 9126452750254913b78d3eb83060965f
+Type Dialogue
+ID 3208
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+//What're you hiding?
+Response_1_Dialogue 3209
+Response_1_Rewards 1
+Response_1_Reward_0_Type Flag_Short
+Response_1_Reward_0_ID 3207
+Response_1_Reward_0_Value 1
+Response_1_Reward_0_Modification Assign

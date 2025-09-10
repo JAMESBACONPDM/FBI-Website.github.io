@@ -1,0 +1,304 @@
+GUID b97587537ca5459d918e7049d7b24d13
+Type Dialogue
+ID 3198
+
+Messages 3
+Message_0_Pages 1
+Message_0_Conditions 1
+Message_0_Condition_0_Type Flag_Short
+Message_0_Condition_0_ID 3017
+Message_0_Condition_0_Value 2
+Message_0_Condition_0_Logic Less_Than
+Message_0_Condition_0_Allow_Unset
+
+Message_1_Pages 1
+Message_1_Conditions 3
+Message_1_Condition_0_Type Flag_Short
+Message_1_Condition_0_ID 3017
+Message_1_Condition_0_Value 2
+Message_1_Condition_0_Logic Greater_Than_Or_Equal_To
+//Aren't a Thief
+Message_1_Condition_1_Type Flag_Short
+Message_1_Condition_1_ID 3001
+Message_1_Condition_1_Value 9
+Message_1_Condition_1_Logic Not_Equal
+//Aren't a Civillian
+Message_1_Condition_2_Type Flag_Short
+Message_1_Condition_2_ID 3001
+Message_1_Condition_2_Value 255
+Message_1_Condition_2_Logic Not_Equal
+
+
+Message_2_Pages 1
+Message_2_Conditions 4
+Message_2_Condition_0_Type Flag_Short
+Message_2_Condition_0_ID 3017
+Message_2_Condition_0_Value 2
+Message_2_Condition_0_Logic Greater_Than_Or_Equal_To
+//Are a Thief
+Message_2_Condition_1_Type Flag_Short
+Message_2_Condition_1_ID 3001
+Message_2_Condition_1_Value 9
+Message_2_Condition_1_Logic Greater_Than_Or_Equal_To
+//Are a Civillian
+Message_2_Condition_2_Type Flag_Short
+Message_2_Condition_2_ID 3001
+Message_2_Condition_2_Value 255
+Message_2_Condition_2_Logic Less_Than_Or_Equal_To
+//Arent a Doctor
+Message_2_Condition_3_Type Flag_Short
+Message_2_Condition_3_ID 3001
+Message_2_Condition_3_Value 10
+Message_2_Condition_3_Logic Not_Equal
+
+Responses 14
+
+Response_0_Messages 1
+Response_0_Message_0 2
+Response_0_Dialogue 3199
+Response_0_Quest 3203
+Response_0_Conditions 1
+Response_0_Condition_0_Type Quest
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_0_ID 3203
+Response_0_Condition_0_Status None
+Response_0_Rewards 9
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3203
+Response_0_Reward_1_Type Flag_Bool
+Response_0_Reward_1_ID 3188
+Response_0_Reward_1_Value False
+Response_0_Reward_2_Type Flag_Bool
+Response_0_Reward_2_ID 3189
+Response_0_Reward_2_Value False
+Response_0_Reward_3_Type Flag_Bool
+Response_0_Reward_3_ID 3190
+Response_0_Reward_3_Value False
+Response_0_Reward_4_Type Flag_Bool
+Response_0_Reward_4_ID 3191
+Response_0_Reward_4_Value False
+Response_0_Reward_5_Type Flag_Bool
+Response_0_Reward_5_ID 3192
+Response_0_Reward_5_Value False
+Response_0_Reward_6_Type Flag_Bool
+Response_0_Reward_6_ID 3193
+Response_0_Reward_6_Value False
+Response_0_Reward_7_Type Flag_Bool
+Response_0_Reward_7_ID 3194
+Response_0_Reward_7_Value False
+Response_0_Reward_8_Type Flag_Bool
+Response_0_Reward_8_ID 3195
+Response_0_Reward_8_Value False
+
+Response_1_Messages 1
+Response_1_Message_0 2
+Response_1_Dialogue 3200
+Response_1_Quest 3203
+Response_1_Conditions 1
+Response_1_Condition_0_Type Quest
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_0_ID 3203
+Response_1_Condition_0_Status Ready
+Response_1_Condition_0_Reset
+
+Response_2_Messages 1
+Response_2_Message_0 2
+Response_2_Dialogue 3201
+Response_2_Quest 3204
+Response_2_Conditions 2
+Response_2_Condition_0_Type Quest
+Response_2_Condition_0_Logic Equal
+Response_2_Condition_0_ID 3203
+Response_2_Condition_0_Status Completed
+Response_2_Condition_1_Type Quest
+Response_2_Condition_1_Logic Equal
+Response_2_Condition_1_ID 3204
+Response_2_Condition_1_Status None
+Response_2_Rewards 1
+Response_2_Reward_0_Type Quest
+Response_2_Reward_0_ID 3204
+
+Response_3_Messages 1
+Response_3_Message_0 2
+Response_3_Dialogue 3202
+Response_3_Quest 3204
+Response_3_Conditions 1
+Response_3_Condition_0_Type Quest
+Response_3_Condition_0_Logic Equal
+Response_3_Condition_0_ID 3204
+Response_3_Condition_0_Status Ready
+Response_3_Condition_0_Reset
+
+//Radio Rush
+Response_4_Messages 1
+Response_4_Message_0 2
+Response_4_Dialogue 3558
+Response_4_Quest 3551
+Response_4_Conditions 2
+Response_4_Condition_0_Type Quest
+Response_4_Condition_0_Logic Equal
+Response_4_Condition_0_ID 3204
+Response_4_Condition_0_Status Completed
+Response_4_Condition_1_Type Quest
+Response_4_Condition_1_Logic Equal
+Response_4_Condition_1_ID 3551
+Response_4_Condition_1_Status None
+Response_4_Rewards 4
+Response_4_Reward_0_Type Quest
+Response_4_Reward_0_ID 3551
+Response_4_Reward_1_Type Flag_Bool
+Response_4_Reward_1_ID 3554
+Response_4_Reward_1_Value False
+Response_4_Reward_2_Type Flag_Bool
+Response_4_Reward_2_ID 3555
+Response_4_Reward_2_Value False
+Response_4_Reward_3_Type Flag_Bool
+Response_4_Reward_3_ID 3556
+Response_4_Reward_3_Value False
+
+Response_5_Messages 1
+Response_5_Message_0 2
+Response_5_Dialogue 3559
+Response_5_Quest 3551
+Response_5_Conditions 1
+Response_5_Condition_0_Type Quest
+Response_5_Condition_0_Logic Equal
+Response_5_Condition_0_ID 3551
+Response_5_Condition_0_Status Ready
+Response_5_Condition_0_Reset
+
+//Exterimantor Quest
+Response_6_Messages 1
+Response_6_Message_0 2
+Response_6_Dialogue 3569
+Response_6_Quest 3552
+Response_6_Conditions 2
+Response_6_Condition_0_Type Quest
+Response_6_Condition_0_Logic Equal
+Response_6_Condition_0_ID 3551
+Response_6_Condition_0_Status Completed
+Response_6_Condition_1_Type Quest
+Response_6_Condition_1_Logic Equal
+Response_6_Condition_1_ID 3552
+Response_6_Condition_1_Status None
+Response_6_Rewards 10
+Response_6_Reward_0_Type Quest
+Response_6_Reward_0_ID 3552
+Response_6_Reward_1_Type Flag_Bool
+Response_6_Reward_1_ID 3560
+Response_6_Reward_1_Value False
+Response_6_Reward_2_Type Flag_Bool
+Response_6_Reward_2_ID 3561
+Response_6_Reward_2_Value False
+Response_6_Reward_3_Type Flag_Bool
+Response_6_Reward_3_ID 3562
+Response_6_Reward_3_Value False
+Response_6_Reward_4_Type Flag_Bool
+Response_6_Reward_4_ID 3563
+Response_6_Reward_4_Value False
+Response_6_Reward_5_Type Flag_Bool
+Response_6_Reward_5_ID 3564
+Response_6_Reward_5_Value False
+Response_6_Reward_6_Type Flag_Bool
+Response_6_Reward_6_ID 3565
+Response_6_Reward_6_Value False
+Response_6_Reward_7_Type Flag_Bool
+Response_6_Reward_7_ID 3566
+Response_6_Reward_7_Value False
+Response_6_Reward_8_Type Flag_Bool
+Response_6_Reward_8_ID 3567
+Response_6_Reward_8_Value False
+Response_6_Reward_9_Type Flag_Short
+Response_6_Reward_9_ID 3568
+Response_6_Reward_9_Value 0
+Response_6_Reward_9_Modification Assign
+
+Response_7_Messages 1
+Response_7_Message_0 2
+Response_7_Dialogue 3570
+Response_7_Quest 3552
+Response_7_Conditions 1
+Response_7_Condition_0_Type Quest
+Response_7_Condition_0_Logic Equal
+Response_7_Condition_0_ID 3552
+Response_7_Condition_0_Status Ready
+Response_7_Condition_0_Reset
+
+//Rat Trap Quest Accepted
+Response_8_Messages 1
+Response_8_Message_0 2
+Response_8_Dialogue 3577
+Response_8_Quest 3553
+Response_8_Conditions 2
+Response_8_Condition_0_Type Quest
+Response_8_Condition_0_Logic Equal
+Response_8_Condition_0_ID 3552
+Response_8_Condition_0_Status Completed
+Response_8_Condition_1_Type Quest
+Response_8_Condition_1_Logic Equal
+Response_8_Condition_1_ID 3553
+Response_8_Condition_1_Status None
+Response_8_Rewards 2
+Response_8_Reward_0_Type Quest
+Response_8_Reward_0_ID 3553
+Response_8_Reward_1_Type Flag_Short
+Response_8_Reward_1_ID 3573
+Response_8_Reward_1_Value 1
+Response_8_Reward_1_Modification Assign
+
+//FAILED
+Response_9_Messages 1
+Response_9_Message_0 2
+Response_9_Dialogue 3578
+Response_9_Quest 3553
+Response_9_Conditions 4
+Response_9_Condition_0_Type Flag_Short
+Response_9_Condition_0_Logic Greater_Than_Or_Equal_To
+Response_9_Condition_0_ID 3573
+Response_9_Condition_0_Value 4
+Response_9_Condition_1_Type Flag_Short
+Response_9_Condition_1_Logic Not_Equal
+Response_9_Condition_1_ID 3573
+Response_9_Condition_1_Value 5
+Response_9_Condition_2_Type Flag_Short
+Response_9_Condition_2_Logic Less_Than
+Response_9_Condition_2_ID 3573
+Response_9_Condition_2_Value 7
+Response_9_Condition_3_Type Quest
+Response_9_Condition_3_Logic Equal
+Response_9_Condition_3_ID 3553
+Response_9_Condition_3_Status Ready
+Response_9_Condition_3_Reset
+
+//SUCCEEDED
+Response_10_Messages 1
+Response_10_Message_0 2
+Response_10_Dialogue 3579
+Response_10_Quest 3553
+Response_10_Conditions 4
+Response_10_Condition_0_Type Flag_Short
+Response_10_Condition_0_Logic Greater_Than_Or_Equal_To
+Response_10_Condition_0_ID 3573
+Response_10_Condition_0_Value 3
+Response_10_Condition_1_Type Flag_Short
+Response_10_Condition_1_Logic Not_Equal
+Response_10_Condition_1_ID 3573
+Response_10_Condition_1_Value 4
+Response_10_Condition_2_Type Flag_Short
+Response_10_Condition_2_Logic Less_Than
+Response_10_Condition_2_ID 3573
+Response_10_Condition_2_Value 6
+Response_10_Condition_3_Type Quest
+Response_10_Condition_3_Logic Equal
+Response_10_Condition_3_ID 3553
+Response_10_Condition_3_Status Ready
+Response_10_Condition_3_Reset
+
+Response_11_Messages 1
+Response_11_Message_0 2
+
+Response_12_Messages 1
+Response_12_Message_0 1
+
+Response_13_Messages 1
+Response_13_Message_0 0

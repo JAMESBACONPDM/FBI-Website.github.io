@@ -1,0 +1,15 @@
+Name <color=mythical>Emergency Procedures</color>
+Description <color=legendary>Master Sergeant Tennyson</color> has returned from a long excursion with a nasty wound. It is up to you to treat him. Remember, the human body will begin to fail after it has lost 40% of its blood.
+
+Condition_0 <color=mythical>Patients Blood Left {0} oz</color>
+Condition_1 Treat Gunshot Wound
+
+//Debug
+Condition_2 Severity {0}
+Condition_3 Loss Multiplier {0}
+Condition_4 Loss Amount {0}
+Condition_5 Location {0}
+Condition_6 Bullet Outcome {0}
+Condition_7 Bullet Chance {0}
+Condition_8 Subtracter {0}
+Condition_9 Condition {0}

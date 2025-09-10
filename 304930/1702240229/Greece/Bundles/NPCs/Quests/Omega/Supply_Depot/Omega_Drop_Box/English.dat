@@ -1,0 +1,7 @@
+Name Drop Box
+Description <color=epic>Supply Manager Milos</color> needs you to find the following supplies, which happen to be in a lot of airdrops.
+
+Condition_0 Get Canteens {0}/{1}
+Condition_1 Get MREs {0}/{1}
+Condition_2 Get Chart {0}/{1}
+Condition_3 Get Filters {0}/{1}

@@ -1,0 +1,5 @@
+Name Medicine Search
+Description <color=rare>Doctor Saunders</color> needs more antiseptic and bandages for the medbay. Unfortunately he barely knows what they look like. So, he is sending you to Volos to find some.
+
+Condition_0 Collect Antiseptic {0}/{1}
+Condition_1 Gather Bandages {0}/{1}

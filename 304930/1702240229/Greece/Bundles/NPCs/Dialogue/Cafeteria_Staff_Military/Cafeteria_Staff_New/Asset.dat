@@ -1,0 +1,18 @@
+GUID 45e9f6043cb9471691d4446d3842c953
+Type Dialogue
+ID 3041
+
+Messages 1
+Message_0_Pages 1
+
+Responses 1
+
+Response_0_Dialogue 3043
+Response_0_Quest 3032
+Response_0_Rewards 2
+Response_0_Reward_0_Type Quest
+Response_0_Reward_0_ID 3032
+Response_0_Reward_1_Type Flag_Short
+Response_0_Reward_1_ID 3050
+Response_0_Reward_1_Value 1
+Response_0_Reward_1_Modification Assign
