@@ -1,0 +1,27 @@
+GUID 856ef99e0801424f8325e55492f0dba3
+Type Vehicle
+Rarity Epic
+ID 29043
+
+Speed_Min -5
+Speed_Max 20
+
+Steer_Min 14
+Steer_Max 40
+
+Brake 24
+
+Fuel_Min 200
+Fuel_Max 400
+Fuel 1500
+
+Health_Min 300
+Health_Max 800
+Health 900
+
+Traction
+
+Trunk_Storage_X 5
+Trunk_Storage_Y 2
+
+Explosion 20

@@ -1,0 +1,27 @@
+GUID 21bb4b3624fa46b1b8bf83582dd8bae6
+Type Vehicle
+Rarity Uncommon
+ID 28999
+
+Speed_Min -6.5
+Speed_Max 12.5
+
+Steer_Min 17
+Steer_Max 30
+
+Brake 30
+
+Fuel_Min 300
+Fuel_Max 500
+Fuel 2250
+
+Health_Min 400
+Health_Max 500
+Health 700
+
+Cam_Follow_Distance 10
+
+Trunk_Storage_X 10
+Trunk_Storage_Y 10
+
+Explosion 20

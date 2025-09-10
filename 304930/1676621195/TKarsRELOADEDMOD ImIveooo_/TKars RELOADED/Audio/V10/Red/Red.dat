@@ -1,0 +1,29 @@
+GUID e7ce5309456a428ca26e12e3d218d24f
+Type Vehicle
+Rarity Epic
+ID 29009
+
+Speed_Min -5
+Speed_Max 23
+
+Steer_Min 14
+Steer_Max 45
+
+Brake 24
+
+Fuel_Min 200
+Fuel_Max 400
+Fuel 1250
+
+Health_Min 300
+Health_Max 800
+Health 800
+
+Traction
+
+Trunk_Storage_X 4
+Trunk_Storage_Y 2
+
+Explosion 20
+
+Pitch_Drive 0.01

@@ -1,0 +1,26 @@
+GUID 781225c3809a4e8b819a450731dff13c
+Type Vehicle
+Rarity Common
+ID 29041
+
+Speed_Min -6
+Speed_Max 16.5
+
+Steer_Min 14
+Steer_Max 28
+
+Brake 32
+
+Fuel_Min 200
+Fuel_Max 400
+Fuel 1500
+
+Health_Min 350
+Health_Max 450
+Health 600
+
+Trunk_Storage_X 5
+Trunk_Storage_Y 3
+
+Explosion 20
+BatteryMode_Sirens None

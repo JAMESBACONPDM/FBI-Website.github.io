@@ -1,0 +1,27 @@
+GUID a93cc41e79094af6b360b45475f39a9a
+Type Vehicle
+Rarity Uncommon
+ID 29000
+
+Speed_Min -6.5
+Speed_Max 12.5
+
+Steer_Min 17
+Steer_Max 30
+
+Brake 30
+
+Fuel_Min 300
+Fuel_Max 500
+Fuel 2250
+
+Health_Min 400
+Health_Max 500
+Health 700
+
+Cam_Follow_Distance 8
+
+Trunk_Storage_X 5
+Trunk_Storage_Y 4
+
+Explosion 20
