@@ -1,0 +1,11 @@
+GUID 5bd195f90de4478b885f9691a5c7689c
+Type Dialogue
+ID 5131
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+// Shop
+Response_0_Vendor 5133

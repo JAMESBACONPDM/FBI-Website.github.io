@@ -1,0 +1,52 @@
+GUID 0d8ead3d011d49e182f9deae74bc89e6
+Type Dialogue
+ID 5051
+
+Messages 1
+Message_0_Pages 1
+
+Responses 6
+
+// Shop
+Response_0_Vendor 5055
+Response_0_Conditions 1
+Response_0_Condition_0_Type Reputation
+Response_0_Condition_0_Value -24
+Response_0_Condition_0_Logic Greater_Than_Or_Equal_To
+
+// Shop A
+Response_1_Vendor 5052
+Response_1_Conditions 2
+Response_1_Condition_0_Type Item
+Response_1_Condition_0_ID 17103
+Response_1_Condition_0_Amount 1
+Response_1_Condition_1_Type Reputation
+Response_1_Condition_1_Value -24
+Response_1_Condition_1_Logic Greater_Than_Or_Equal_To
+
+// Shop B
+Response_2_Vendor 5053
+Response_2_Conditions 3
+Response_2_Condition_0_Type Item
+Response_2_Condition_0_ID 17103
+Response_2_Condition_0_Amount 1
+Response_2_Condition_1_Type Item
+Response_2_Condition_1_ID 17105
+Response_2_Condition_1_Amount 1
+Response_2_Condition_2_Type Reputation
+Response_2_Condition_2_Value -24
+Response_2_Condition_2_Logic Greater_Than_Or_Equal_To
+
+// Lizenz
+Response_3_Vendor 5054
+Response_3_Conditions 1
+Response_3_Condition_0_Type Reputation
+Response_3_Condition_0_Value -24
+Response_3_Condition_0_Logic Greater_Than_Or_Equal_To
+
+// Criminal
+Response_4_Dialogue 5799
+Response_4_Conditions 1
+Response_4_Condition_0_Type Reputation
+Response_4_Condition_0_Value -25
+Response_4_Condition_0_Logic Less_Than_Or_Equal_To

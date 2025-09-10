@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 2929526363
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0f658dc8665a9d0dac0e71315675c6bf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/CondorMasterBundle/Items/Condor_8/Magazine.prefab
+- Assets/CondorMasterBundle/Items/Condor/Reload.mp3
+- Assets/CondorMasterBundle/Items/Condor_8/Item.prefab
+- Assets/CondorMasterBundle/Items/Condor_Iron_Sights/Sight.prefab
+- Assets/CondorMasterBundle/Items/Condor/Shoot.mp3
+- Assets/CondorMasterBundle/Items/Condor/Hammer.mp3
+- Assets/CondorMasterBundle/Items/Condor/Item.prefab
+- Assets/CondorMasterBundle/Items/Condor_Iron_Sights/Item.prefab
+- Assets/CondorMasterBundle/Items/Condor/Animations.prefab
+Dependencies: []

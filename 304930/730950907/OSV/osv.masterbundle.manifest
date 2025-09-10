@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 1488959928
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 070703651991abae9c15696d16b2d47a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4696e5ab4555d54514e3decc40c3f198
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/OSVMasterBundle/Items/Vzlomshchik/Shoot.wav
+- Assets/OSVMasterBundle/Items/Vzlomshchik/Reload.mp3
+- Assets/OSVMasterBundle/Items/Vzlomshchik_Iron_Sights/Item.prefab
+- Assets/OSVMasterBundle/Items/Vzlomshchik_Iron_Sights/Sight.prefab
+- Assets/OSVMasterBundle/Items/Vzlomshchik_5/Magazine.prefab
+- Assets/OSVMasterBundle/Items/Vzlomshchik/Item.prefab
+- Assets/OSVMasterBundle/Items/Vzlomshchik/Hammer.mp3
+- Assets/OSVMasterBundle/Items/Vzlomshchik/Animations.prefab
+- Assets/OSVMasterBundle/Items/Vzlomshchik_5/Item.prefab
+Dependencies: []

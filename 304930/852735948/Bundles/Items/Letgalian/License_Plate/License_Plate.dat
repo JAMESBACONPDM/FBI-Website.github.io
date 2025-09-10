@@ -1,0 +1,33 @@
+GUID 107906264d004bd1909e503cb6d57c2e
+Type Barricade
+Rarity Uncommon
+Useable Barricade
+Build Note
+ID 17109
+
+Size_X 2
+Size_Y 1
+Size_Z 0.3
+
+Health 100
+Range 4
+Offset 0.025
+
+Locked
+Bypass_Claim
+
+Explosion 36
+
+Blueprints 1
+Blueprint_0_Type Utilities
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 68
+Blueprint_0_Supply_0_Amount 1
+Blueprint_0_Tool 76
+Blueprint_0_Conditions 1
+Blueprint_0_Condition_0_Type Flag_Bool
+Blueprint_0_Condition_0_ID 17109
+Blueprint_0_Condition_0_Value True
+Blueprint_0_Condition_0_Logic Equal
+Blueprint_0_Rewards
+Blueprint_0_Build 27

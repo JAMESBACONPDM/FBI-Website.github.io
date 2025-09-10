@@ -1,0 +1,9 @@
+GUID 3f2a283e9e4c4d99941c96d3fb487304
+Type Spawn
+ID 23811
+Roots 1
+Root_0_Spawn_ID 303
+Root_0_Weight 3
+Tables 1
+Table_0_Asset_ID 23801
+Table_0_Weight 10

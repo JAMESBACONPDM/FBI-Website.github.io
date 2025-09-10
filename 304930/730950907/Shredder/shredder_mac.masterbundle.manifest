@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 3440655533
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f8cb1fcad72412222ff68b1b124a3bf4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/ShredderMasterBundle/Items/Shredder/Shoot.wav
+- Assets/ShredderMasterBundle/Items/Shredder_150/Magazine.prefab
+- Assets/ShredderMasterBundle/Items/Shredder/Hammer.wav
+- Assets/ShredderMasterBundle/Items/Shredder/Animations.prefab
+- Assets/ShredderMasterBundle/Items/Shredder_Iron_Sights/Sight.prefab
+- Assets/ShredderMasterBundle/Items/Shredder/Item.prefab
+- Assets/ShredderMasterBundle/Items/Shredder_150/Item.prefab
+- Assets/ShredderMasterBundle/Items/Shredder/Reload.wav
+- Assets/ShredderMasterBundle/Items/Shredder_Iron_Sights/Item.prefab
+Dependencies: []

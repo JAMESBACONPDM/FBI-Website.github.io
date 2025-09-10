@@ -1,0 +1,12 @@
+GUID 4c494955ed4a41c39cd2c5ec17a2fb80
+Type Medium
+ID 30014
+
+Snowshoe
+
+Interactability Rubble
+Interactability_Reset 300
+Interactability_Health 100
+Interactability_Effect 72
+
+Asset_Bundle_Version 2

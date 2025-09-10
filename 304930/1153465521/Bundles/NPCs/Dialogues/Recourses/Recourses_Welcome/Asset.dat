@@ -1,0 +1,22 @@
+GUID fd19ac95678a4f62a31b1281b4e0ab68
+Type Dialogue
+ID 5181
+
+Messages 1
+Message_0_Pages 1
+
+Responses 3
+
+// Store
+Response_0_Vendor 5182
+Response_0_Conditions 1
+Response_0_Condition_0_Type Reputation
+Response_0_Condition_0_Value -24
+Response_0_Condition_0_Logic Greater_Than_Or_Equal_To
+
+// Criminal
+Response_1_Dialogue 5799
+Response_1_Conditions 1
+Response_1_Condition_0_Type Reputation
+Response_1_Condition_0_Value -25
+Response_1_Condition_0_Logic Less_Than_Or_Equal_To

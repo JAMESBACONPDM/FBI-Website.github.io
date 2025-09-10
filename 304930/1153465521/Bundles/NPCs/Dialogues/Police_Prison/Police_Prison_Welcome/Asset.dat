@@ -1,0 +1,27 @@
+GUID 431c413e6eba4c959b7313b42bfa56f6
+Type Dialogue
+ID 6101
+
+Messages 1
+Message_0_Pages 1
+
+Responses 3
+
+// Shop
+Response_0_Vendor 6102
+Response_0_Conditions 1
+Response_0_Condition_0_Type Flag_Short
+Response_0_Condition_0_ID 9802
+Response_0_Condition_0_Value 30
+Response_0_Condition_0_Logic Greater_Than_Or_Equal_To
+
+// Regret actions
+Response_1_Conditions 1
+Response_1_Condition_0_Type Reputation
+Response_1_Condition_0_Value -25
+Response_1_Condition_0_Logic Less_Than_Or_Equal_To
+Response_1_Condition_0_Reset
+Response_1_Rewards 1
+Response_1_Reward_0_Type Reputation
+Response_1_Reward_0_Value 5
+Response_1_Dialogue 6101

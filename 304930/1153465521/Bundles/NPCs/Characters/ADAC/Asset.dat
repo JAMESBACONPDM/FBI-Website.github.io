@@ -1,0 +1,15 @@
+GUID 02898776344543b59f9ad8df5cac9fb6
+Type NPC
+ID 30010
+
+Hat 432
+Shirt 405
+Pants 406
+
+Face 5
+Color_Skin #bea582
+Color_Hair #191919
+
+Secondary 76
+
+Dialogue 30011

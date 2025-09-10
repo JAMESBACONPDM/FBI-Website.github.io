@@ -1,0 +1,25 @@
+GUID 62c76a181a084d8b8fa07cda4b0b0c61
+Type Vehicle
+Rarity Uncommon
+ID 23860
+
+Speed_Min -7
+Speed_Max 13.5
+
+Steer_Min 12
+Steer_Max 24
+
+Brake 32
+
+Fuel_Min 200
+Fuel_Max 400
+Fuel 2000
+
+Health_Min 400
+Health_Max 500
+Health 600
+
+Trunk_Storage_X 4
+Trunk_Storage_Y 2
+
+Explosion 20

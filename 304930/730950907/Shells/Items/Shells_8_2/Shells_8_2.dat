@@ -1,0 +1,59 @@
+GUID fc7f02905e4d4ea289c075156e886722
+Type Magazine
+Rarity Rare
+ID 27653
+
+Size_X 1
+Size_Y 1
+Size_Z 0.25
+
+Amount 2
+Count_Min 1
+Count_Max 2
+
+Calibers 4
+Caliber_0 27453
+Caliber_1 16
+Caliber_2 8
+Caliber_3 27456
+
+Pellets 6
+
+Tracer 48
+
+Blueprints 7
+Blueprint_0_Type Ammo
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 113
+Blueprint_0_Build 30
+Blueprint_1_Type Ammo
+Blueprint_1_Supplies 1
+Blueprint_1_Supply_0_ID 27653
+Blueprint_1_Build 30
+Blueprint_2_Type Ammo
+Blueprint_2_Supplies 1
+Blueprint_2_Supply_0_ID 27656
+Blueprint_2_Build 30
+Blueprint_3_Type Ammo
+Blueprint_3_Supplies 1
+Blueprint_3_Supply_0_ID 27674
+Blueprint_3_Build 30
+Blueprint_4_Type Ammo
+Blueprint_4_Supplies 1
+Blueprint_4_Supply_0_ID 27774
+Blueprint_4_Build 30
+Blueprint_5_Type Ammo
+Blueprint_5_Supplies 1
+Blueprint_5_Supply_0_ID 27658
+Blueprint_5_Build 30
+Blueprint_6_Type Ammo
+Blueprint_6_Supplies 1
+Blueprint_6_Supply_0_ID 27654
+Blueprint_6_Build 30
+
+
+
+
+
+
+Delete_Empty

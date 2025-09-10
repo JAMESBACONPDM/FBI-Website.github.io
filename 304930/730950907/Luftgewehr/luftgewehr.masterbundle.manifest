@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 3083105445
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3b331e6b698b18ac06a596b72fdcee0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9d6a706a78ba8256471239b8246fd02
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr_20/Item.prefab
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr/Animation.fbx
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr_Scope/Sight.prefab
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr/Item.prefab
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr/Animations.prefab
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr/Hammer.mp3
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr_20/Magazine.prefab
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr_Scope/Item.prefab
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr/Reload.mp3
+- Assets/LuftgewehrMasterBundle/Items/Luftgewehr/Shoot.mp3
+Dependencies: []

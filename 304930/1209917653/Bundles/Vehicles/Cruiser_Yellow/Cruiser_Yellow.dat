@@ -1,0 +1,26 @@
+GUID c54bba72f5ed45869bde42c5a201f8d7
+Type Vehicle
+ID 23821
+
+Speed_Min -6
+Speed_Max 17
+
+Steer_Min 14
+Steer_Max 28
+
+Brake 32
+
+Fuel_Min 200
+Fuel_Max 400
+Fuel 1750
+
+Health_Min 400
+Health_Max 500
+Health 600
+
+Traction
+
+Trunk_Storage_X 5
+Trunk_Storage_Y 3
+
+Explosion 20

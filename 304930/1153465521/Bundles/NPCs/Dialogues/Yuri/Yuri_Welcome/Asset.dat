@@ -1,0 +1,19 @@
+GUID 55f3043ece3d44959749fdd43c887524
+Type Dialogue
+ID 5281
+
+Messages 1
+Message_0_Pages 1
+
+Responses 3
+
+// Vehicles
+Response_0_Vendor 5283
+Response_0_Conditions 1
+Response_0_Condition_0_Type Item
+Response_0_Condition_0_ID 17102
+Response_0_Condition_0_Amount 1
+
+
+// Tuning
+Response_1_Vendor 5282

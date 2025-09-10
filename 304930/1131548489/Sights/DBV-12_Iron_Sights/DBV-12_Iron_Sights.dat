@@ -1,0 +1,11 @@
+GUID 51dc721e0139424c9e1c181df7deb25d
+Type Sight
+ID 55070
+
+Size_X 1
+Size_Y 1
+Size_Z 0.1
+
+Paintable
+
+Exclude_From_Master_Bundle

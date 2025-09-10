@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 4207520163
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 981e570e78b0202d3f23b937ba951cb3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fdfe027632285b989b92837e9e1081d7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/ReaperMasterBundle/Items/Reaper/Hammer.mp3
+- Assets/ReaperMasterBundle/Items/Reaper/Reload.mp3
+- Assets/ReaperMasterBundle/Items/Reaper/Shoot.wav
+- Assets/ReaperMasterBundle/Items/Reaper_Iron_Sights/Item.prefab
+- Assets/ReaperMasterBundle/Items/Reaper_Iron_Sights/Sight.prefab
+- Assets/ReaperMasterBundle/Items/Reaper/Item.prefab
+- Assets/ReaperMasterBundle/Items/Reaper/Animations.prefab
+Dependencies: []

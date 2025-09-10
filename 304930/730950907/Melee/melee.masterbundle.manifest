@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 1743926962
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 060f5def38d3945206d18897679cc9f4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 193ed929b0049206659db3fc6baf3dff
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/MeleeMasterBundle/Items/Spike/Item.prefab
+- Assets/MeleeMasterBundle/Items/Saber/Use.mp3
+- Assets/MeleeMasterBundle/Items/Staff_Tactical/Animation.blend
+- Assets/MeleeMasterBundle/Items/Knife_Karambit/Animations.prefab
+- Assets/MeleeMasterBundle/Items/Staff_Tactical/Use.mp3
+- Assets/MeleeMasterBundle/Items/Knife_Bowie/Animations.prefab
+- Assets/MeleeMasterBundle/Items/Knife_Bowie/Item.prefab
+- Assets/MeleeMasterBundle/Items/Saber/Animation.blend
+- Assets/MeleeMasterBundle/Items/Knife_Karambit/Animation.blend
+- Assets/MeleeMasterBundle/Items/Knife_Bowie/Use.mp3
+- Assets/MeleeMasterBundle/Items/Spike/Use.mp3
+- Assets/MeleeMasterBundle/Items/Knife_Karambit/Item.prefab
+- Assets/MeleeMasterBundle/Items/Saber/Animations.prefab
+- Assets/MeleeMasterBundle/Items/Staff_Tactical/Animations.prefab
+- Assets/MeleeMasterBundle/Items/Knife_Karambit/Use.mp3
+- Assets/MeleeMasterBundle/Items/Spike/Animations.prefab
+- Assets/MeleeMasterBundle/Items/Spike/Animation.blend
+- Assets/MeleeMasterBundle/Items/Knife_Bowie/Animation.blend
+- Assets/MeleeMasterBundle/Items/Saber/Item.prefab
+- Assets/MeleeMasterBundle/Items/Staff_Tactical/Item.prefab
+Dependencies: []

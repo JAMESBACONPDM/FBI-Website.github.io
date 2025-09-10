@@ -1,0 +1,11 @@
+GUID 4f80310e01364393a4cba593fa87e208
+Type Dialogue
+ID 5101
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+// Shop
+Response_0_Vendor 5103

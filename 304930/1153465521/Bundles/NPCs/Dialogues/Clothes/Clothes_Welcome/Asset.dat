@@ -1,0 +1,20 @@
+GUID 495240e31cb043859a141e50d4c2a1a7
+Type Dialogue
+ID 5121
+
+Messages 1
+Message_0_Pages 1
+
+Responses 5
+
+// Hat
+Response_0_Vendor 5122
+
+// Top
+Response_1_Vendor 5123
+
+// Pants
+Response_2_Vendor 5124
+
+// Backpacks
+Response_3_Vendor 5125

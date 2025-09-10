@@ -1,0 +1,18 @@
+GUID 55f685232f1f446bad6592e043e3cb95
+Type Spawn
+ID 25020
+
+Roots 3
+Root_0_Spawn_ID 94
+Root_0_Weight 5
+Root_1_Spawn_ID 643
+Root_1_Weight 5
+Root_2_Spawn_ID 766
+Root_2_Weight 5
+
+
+Tables 2
+Table_0_Asset_ID 32588
+Table_0_Weight 30
+Table_1_Asset_ID 32589
+Table_1_Weight 5

@@ -1,0 +1,29 @@
+GUID 812b8f15eba1453ca95ebf8ecd7655f4
+Type Magazine
+Rarity Rare
+ID 55012
+
+Size_X 2
+Size_Y 1
+Size_Z 0.15
+
+Amount 30
+Count_Min 3
+Count_Max 30
+
+Calibers 1
+Caliber_0 55010
+
+Tracer 48
+
+Blueprints 2
+Blueprint_0_Type Ammo
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 43
+Blueprint_0_Build 30
+Blueprint_1_Type Ammo
+Blueprint_1_Supplies 1
+Blueprint_1_Supply_0_ID 55012
+Blueprint_1_Build 30
+
+Exclude_From_Master_Bundle

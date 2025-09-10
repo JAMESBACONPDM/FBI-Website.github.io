@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 3305621830
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8f45a8a79f7eced7cacf5b61f4e0923e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5b9ff8eb1d53c51863ddb7b7965bcacf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/RepeaterMasterBundle/Items/Repeater/Reload.wav
+- Assets/RepeaterMasterBundle/Items/Repeater/Animations.prefab
+- Assets/RepeaterMasterBundle/Items/Repeater/Animation.fbx
+- Assets/RepeaterMasterBundle/Items/Repeater/Hammer.wav
+- Assets/RepeaterMasterBundle/Items/Repeater_Iron_Sights/Item.prefab
+- Assets/RepeaterMasterBundle/Items/Repeater/Shoot.wav
+- Assets/RepeaterMasterBundle/Items/Repeater/Item.prefab
+- Assets/RepeaterMasterBundle/Items/Repeater_Iron_Sights/Sight.prefab
+Dependencies: []

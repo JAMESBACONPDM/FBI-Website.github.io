@@ -1,0 +1,12 @@
+GUID 4aed289645294f6b8f2e51412f6ff08a
+Type Spawn
+ID 17206
+
+Roots 1
+Root_0_Spawn_ID 238
+Root_0_Weight 5
+
+Tables 1
+// Thief Hood
+Table_0_Asset_ID 17209
+Table_0_Weight 10

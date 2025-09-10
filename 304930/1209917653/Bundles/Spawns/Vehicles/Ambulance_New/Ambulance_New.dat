@@ -1,0 +1,11 @@
+GUID e80911a1973b4edbb49c6af580cb4d00
+Type Spawn
+ID 23816
+Roots 2
+Root_0_Spawn_ID 313
+Root_0_Weight 11
+Root_1_Spawn_ID 952
+Root_1_Weight 8
+Tables 1
+Table_0_Asset_ID 23864
+Table_0_Weight 10

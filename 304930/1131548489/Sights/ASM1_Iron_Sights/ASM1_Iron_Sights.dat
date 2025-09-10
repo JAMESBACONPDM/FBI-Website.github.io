@@ -1,0 +1,11 @@
+GUID b44cf0defefb4c3991e5b70ab37386e6
+Type Sight
+ID 55001
+
+Size_X 1
+Size_Y 1
+Size_Z 0.1
+
+Paintable
+
+Exclude_From_Master_Bundle

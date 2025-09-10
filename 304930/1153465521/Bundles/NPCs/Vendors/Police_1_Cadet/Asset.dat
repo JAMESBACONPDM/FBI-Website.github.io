@@ -1,0 +1,43 @@
+GUID b6f1c490f5d3417dafed242254649eb4
+Type Vendor
+ID 6003
+
+Disable_Sorting
+
+Selling 16
+Selling_0_ID 225
+Selling_0_Cost 25
+Selling_1_ID 179
+Selling_1_Cost 20
+Selling_2_ID 224
+Selling_2_Cost 30
+Selling_3_ID 1170
+Selling_3_Cost 80
+Selling_4_ID 3537
+Selling_4_Cost 100
+Selling_5_ID 10
+Selling_5_Cost 150
+Selling_6_ID 1027
+Selling_6_Cost 800
+Selling_7_ID 1029
+Selling_7_Cost 100
+Selling_8_ID 3039
+Selling_8_Cost 300
+Selling_9_ID 3040
+Selling_9_Cost 80
+Selling_10_ID 146
+Selling_10_Cost 200
+Selling_11_ID 147
+Selling_11_Cost 200
+Selling_12_ID 152
+Selling_12_Cost 50
+Selling_13_ID 151
+Selling_13_Cost 80
+Selling_14_Type Vehicle
+Selling_14_ID 23860
+Selling_14_Spawnpoint Police
+Selling_14_Cost 800
+Selling_15_Type Vehicle
+Selling_15_ID 188
+Selling_15_Spawnpoint Police
+Selling_15_Cost 500

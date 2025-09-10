@@ -1,0 +1,21 @@
+GUID 390f51e3e5aa41fab9a5418a615a0fcc
+Type Spawn
+ID 17207
+
+Roots 4
+Root_0_Spawn_ID 228
+Root_0_Weight 10
+Root_1_Spawn_ID 570
+Root_1_Weight 10
+Root_2_Spawn_ID 690
+Root_2_Weight 10
+Root_3_Spawn_ID 2151
+Root_3_Weight 20
+
+Tables 2
+// Ballistic Mask
+Table_0_Asset_ID 17210
+Table_0_Weight 10
+// Combat Pants
+Table_1_Asset_ID 17213
+Table_1_Weight 10

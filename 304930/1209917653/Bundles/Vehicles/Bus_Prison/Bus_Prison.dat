@@ -1,0 +1,29 @@
+GUID 473000448aae4d83ab036cebb997812b
+Type Vehicle
+Rarity Rare
+ID 23801
+
+Speed_Min -8
+Speed_Max 14
+
+Steer_Min 12
+Steer_Max 24
+
+Brake 24
+
+Fuel_Min 300
+Fuel_Max 500
+Fuel 2250
+
+Health_Min 400
+Health_Max 500
+Health 700
+
+Traction
+
+Cam_Follow_Distance 7.5
+
+Trunk_Storage_X 5
+Trunk_Storage_Y 4
+
+Explosion 20

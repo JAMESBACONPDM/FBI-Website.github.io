@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 1233191977
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f886d2ddaf312507014e0985ce97795f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 404d393a56bc6b30cfdaa95b23d204d6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/JudgeMasterBundle/Items/Jury_Iron_Sights/Item.prefab
+- Assets/JudgeMasterBundle/Items/Judge/Animation.fbx
+- Assets/JudgeMasterBundle/Items/Judge_5/Magazine.prefab
+- Assets/JudgeMasterBundle/Items/Judge/Animations.prefab
+- Assets/JudgeMasterBundle/Items/Jury/Reload.ogg
+- Assets/JudgeMasterBundle/Items/Jury/Shoot.wav
+- Assets/JudgeMasterBundle/Items/Jury/Item.prefab
+- Assets/JudgeMasterBundle/Items/Judge/Item.prefab
+- Assets/JudgeMasterBundle/Items/Jury_Iron_Sights/Sight.prefab
+- Assets/JudgeMasterBundle/Items/Judge/Reload.ogg
+- Assets/JudgeMasterBundle/Items/Judge_5/Item.prefab
+- Assets/JudgeMasterBundle/Items/Jury/Animations.prefab
+- Assets/JudgeMasterBundle/Items/Judge/Shoot.wav
+Dependencies: []

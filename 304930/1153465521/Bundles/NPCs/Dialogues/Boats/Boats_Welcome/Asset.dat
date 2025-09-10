@@ -1,0 +1,29 @@
+GUID ffd8c083bec94ffe9e4bbec99cce6592
+Type Dialogue
+ID 5091
+
+Messages 1
+Message_0_Pages 1
+
+Responses 4
+
+// Shop
+Response_0_Vendor 5093
+Response_0_Conditions 1
+Response_0_Condition_0_Type Reputation
+Response_0_Condition_0_Value -24
+Response_0_Condition_0_Logic Greater_Than_Or_Equal_To
+
+// Equip
+Response_1_Vendor 5094
+Response_1_Conditions 1
+Response_1_Condition_0_Type Reputation
+Response_1_Condition_0_Value -24
+Response_1_Condition_0_Logic Greater_Than_Or_Equal_To
+
+// Criminal
+Response_2_Dialogue 5799
+Response_2_Conditions 1
+Response_2_Condition_0_Type Reputation
+Response_2_Condition_0_Value -25
+Response_2_Condition_0_Logic Less_Than_Or_Equal_To

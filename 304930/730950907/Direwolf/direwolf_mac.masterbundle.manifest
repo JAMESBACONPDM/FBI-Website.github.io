@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 871275962
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 15eab3af74b51dc8c82825ad580eff47
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/DirewolfMasterBundle/Items/Direwolf/Shoot.wav
+- Assets/DirewolfMasterBundle/Items/Direwolf_Iron_Sights/Sight.prefab
+- Assets/DirewolfMasterBundle/Items/Direwolf_Iron_Sights/Item.prefab
+- Assets/DirewolfMasterBundle/Items/Direwolf/Hammer.wav
+- Assets/DirewolfMasterBundle/Items/Direwolf/Animations.prefab
+- Assets/DirewolfMasterBundle/Items/Direwolf_10/Item.prefab
+- Assets/DirewolfMasterBundle/Items/Direwolf_10/Magazine.prefab
+- Assets/DirewolfMasterBundle/Items/Direwolf/Item.prefab
+- Assets/DirewolfMasterBundle/Items/Direwolf/Reload.wav
+Dependencies: []

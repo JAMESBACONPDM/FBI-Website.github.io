@@ -1,0 +1,21 @@
+GUID 910cef40e2e3420a9be06df159b341da
+Type Spawn
+ID 17204
+
+Roots 1
+Root_0_Spawn_ID 97
+Root_0_Weight 10
+
+Tables 4
+// Riot Helmet
+Table_0_Asset_ID 17204
+Table_0_Weight 10
+// Sheriff Hat
+Table_1_Asset_ID 17218
+Table_1_Weight 10
+// Police Helmet
+Table_2_Asset_ID 17220
+Table_2_Weight 10
+// SWAT Helmet
+Table_3_Asset_ID 17225
+Table_3_Weight 10

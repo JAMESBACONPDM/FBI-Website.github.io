@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 47945948
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 198d8cc12865bdc761f4c42c6807cfca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7d6b599998804671ed1a8b0c530bd501
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/LynxMasterBundle/Items/Lynx/Hammer.mp3
+- Assets/LynxMasterBundle/Items/Lynx_5/Item.prefab
+- Assets/LynxMasterBundle/Items/Lynx/Shoot.wav
+- Assets/LynxMasterBundle/Items/Lynx_5/Magazine.prefab
+- Assets/LynxMasterBundle/Items/Lynx/Item.prefab
+- Assets/LynxMasterBundle/Items/20x_Scope/Sight.prefab
+- Assets/LynxMasterBundle/Items/Lynx/Animations.prefab
+- Assets/LynxMasterBundle/Items/20x_Scope/Item.prefab
+- Assets/LynxMasterBundle/Items/Lynx/Reload.mp3
+Dependencies: []

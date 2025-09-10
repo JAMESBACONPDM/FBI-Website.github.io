@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 2678296104
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 79aa605663f4811b56cf8b6a0c974405
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4696e5ab4555d54514e3decc40c3f198
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/CougarMasterBundle/Items/Cougar/Reload.mp3
+- Assets/CougarMasterBundle/Items/Cougar/Hammer.mp3
+- Assets/CougarMasterBundle/Items/Cougar_Iron_Sights/Sight.prefab
+- Assets/CougarMasterBundle/Items/Cougar/Item.prefab
+- Assets/CougarMasterBundle/Items/Cougar/Shoot.wav
+- Assets/CougarMasterBundle/Items/Cougar_Iron_Sights/Item.prefab
+- Assets/CougarMasterBundle/Items/Cougar/Animations.prefab
+Dependencies: []

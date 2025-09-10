@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 4095568207
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 20cfd479b680c9877c629cbe75f48119
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/DefenderMasterBundle/Items/Defender/Reload.mp3
+- Assets/DefenderMasterBundle/Items/Marauder/Reload.mp3
+- Assets/DefenderMasterBundle/Items/Defender/Shoot.mp3
+- Assets/DefenderMasterBundle/Items/Defender/Animations.prefab
+- Assets/DefenderMasterBundle/Items/Marauder/Animations.prefab
+- Assets/DefenderMasterBundle/Items/Marauder/Shoot.mp3
+- Assets/DefenderMasterBundle/Items/Marauder/Item.prefab
+- Assets/DefenderMasterBundle/Items/Defender/Item.prefab
+- Assets/DefenderMasterBundle/Items/Marauder/Hammer.mp3
+- Assets/DefenderMasterBundle/Items/Defender/Hammer.mp3
+Dependencies: []

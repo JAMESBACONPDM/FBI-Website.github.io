@@ -1,0 +1,177 @@
+ManifestFileVersion: 0
+CRC: 2795073349
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 112676cdc5f56da9c3157fa1d5c33416
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2b792694f9eecbf1fe08675c95c1b287
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Coastguard_Vest/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Thief_Hood/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Russia/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Fed_Top/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Combat_Pants/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Thief_Hood/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Spec_Ops/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Sheriff_Bottom/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/SWAT_Top/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Paramedic_Top/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Spec_Ops/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Riot_Top/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Desert/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Black/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Coalition/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Green/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Russia/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Biker_Bottom/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Forest/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Sheriff_Hat/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/SWAT_Top/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Coalition/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Sheriff_Bottom/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Sheriff_Bottom/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Masks/Headset/Mask.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Paramedic_Bottom/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Blue/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Coastguard_Vest/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Combat_Pants/Pants.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Blue/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Coastguard/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Sheriff_Top/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Desert/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Coastguard/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/SWAT_Bottom/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Riot_Vest/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Orange/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Fed_Top/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Coalition/Backpack.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Russia/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Arctic/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/SWAT_Top/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Forest/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_SWAT/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Arctic/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Biker_Bottom/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Sheriff_Top/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Priest_Top/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Police/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Paramedic_Bottom/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/SWAT_Bottom/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Fed_Top/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Orange/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Purple/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Combat_Pants/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Fed_Top/Shirt.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Red/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Desert/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Arctic/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/SWAT_Top/Shirt.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/SWAT_Vest/Vest.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Yellow/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Riot_Vest/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Riot_Bottom/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_White/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Stethoscope/Vest.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Masks/Headset/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Russia/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Purple/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Riot/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Riot_Bottom/Pants.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Black/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Masks/Headset/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Thief_Hood/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Green/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Combat_Pants/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Riot_Bottom/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Sheriff_Top/Shirt.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/SWAT_Vest/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Desert/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Russia/Backpack.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Biker_Bottom/Pants.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Stethoscope/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_SWAT/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Priest_Top/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Priest_Top/Shirt.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_White/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Blue/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Desert/Backpack.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/SWAT_Bottom/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Paramedic_Top/Shirt.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Riot_Top/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_White/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Red/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Arctic/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Orange/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Riot_Vest/Vest.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Sheriff_Top/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Riot_Top/Shirt.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Forest/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Forest/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Paramedic_Bottom/Pants.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Masks/Mask_Ballistic/Mask.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_SWAT/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Yellow/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/SWAT_Bottom/Pants.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Police/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Sheriff_Hat/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Forest/Backpack.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Desert/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Paramedic_Top/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Sheriff_Bottom/Pants.png
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Coastguard_Vest/Vest.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Biker_Bottom/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Paramedic_Bottom/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Riot_Top/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Spec_Ops/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Coastguard/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Russia/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Arctic/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Purple/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/SWAT_Vest/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Masks/Mask_Ballistic/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Sheriff_Hat/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Black/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Green/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Backpacks/Coyotepack_Arctic/Backpack.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Paramedic_Top/Material.mat
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Riot/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Riot/Hat.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Yellow/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Cap_Military_Forest/Item.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Masks/Mask_Ballistic/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Helmet_Police/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Hats/Crash_Helmet_Red/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Shirts/Priest_Top/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Vests/Stethoscope/Animations.prefab
+- Assets/LetgalianCMasterBundle/Items/Letgalian/Pants/Riot_Bottom/Animations.prefab
+Dependencies: []

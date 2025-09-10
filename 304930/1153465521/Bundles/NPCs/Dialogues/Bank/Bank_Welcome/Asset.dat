@@ -1,0 +1,11 @@
+GUID d0d17c3f54ab454e8fbe93895d922297
+Type Dialogue
+ID 5071
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+// Shop
+Response_0_Vendor 5072

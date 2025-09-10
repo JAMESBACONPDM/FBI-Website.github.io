@@ -1,0 +1,44 @@
+GUID f04f0be0a4e64a61beca90b6dd622b46
+Type Dialogue
+ID 30011
+
+Messages 1
+Message_0_Pages 1
+
+Responses 5
+
+// Shop
+Response_0_Vendor 30012
+Response_0_Conditions 2
+Response_0_Condition_0_Type Flag_Short
+Response_0_Condition_0_ID 9802
+Response_0_Condition_0_Value 10
+Response_0_Condition_0_Logic Equal
+Response_0_Condition_1_Type Reputation
+Response_0_Condition_1_Value -24
+Response_0_Condition_1_Logic Greater_Than_Or_Equal_To
+
+// Shop
+Response_1_Vendor 30013
+Response_1_Conditions 2
+Response_1_Condition_0_Type Flag_Short
+Response_1_Condition_0_ID 9802
+Response_1_Condition_0_Value 11
+Response_1_Condition_0_Logic Equal
+Response_1_Condition_1_Type Reputation
+Response_1_Condition_1_Value -24
+Response_1_Condition_1_Logic Greater_Than_Or_Equal_To
+
+// Shop
+Response_2_Vendor 5153
+Response_2_Conditions 1
+Response_2_Condition_0_Type Reputation
+Response_2_Condition_0_Value -24
+Response_2_Condition_0_Logic Greater_Than_Or_Equal_To
+
+// Criminal
+Response_3_Dialogue 5799
+Response_3_Conditions 1
+Response_3_Condition_0_Type Reputation
+Response_3_Condition_0_Value -25
+Response_3_Condition_0_Logic Less_Than_Or_Equal_To

@@ -1,0 +1,21 @@
+GUID 8df7ad4d06894528892bf404f9a9871b
+Type Spawn
+ID 17201
+
+Roots 1
+Root_0_Spawn_ID 98
+Root_0_Weight 10
+
+Tables 4
+// Riot Top
+Table_0_Asset_ID 17201
+Table_0_Weight 20
+// Sheriff Top
+Table_1_Asset_ID 17215
+Table_1_Weight 20
+// SWAT Top
+Table_2_Asset_ID 17223
+Table_2_Weight 20
+// Fed Top
+Table_3_Asset_ID 17235
+Table_3_Weight 10

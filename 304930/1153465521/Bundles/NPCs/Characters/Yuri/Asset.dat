@@ -1,0 +1,16 @@
+GUID 1cd5de210d8f41e398cb34de6ba60167
+Type NPC
+ID 5280
+
+Shirt 1391
+Pants 1392
+Vest 722
+Glasses 491
+Hat 602
+
+Face 3
+Beard 6
+Color_Skin #bea582
+Color_Hair #8b5742
+
+Dialogue 5281

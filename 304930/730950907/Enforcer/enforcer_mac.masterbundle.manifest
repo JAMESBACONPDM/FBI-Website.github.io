@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 3599094101
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 163927d2ae6cad7c528f49eabf5b15df
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/EnforcerMasterBundle/Items/Enforcer/Shoot.wav
+- Assets/EnforcerMasterBundle/Items/Enforcer/Hammer.wav
+- Assets/EnforcerMasterBundle/Items/Enforcer_Iron_Sights/Sight.prefab
+- Assets/EnforcerMasterBundle/Items/Enforcer/Animations.prefab
+- Assets/EnforcerMasterBundle/Items/Enforcer_Iron_Sights/Item.prefab
+- Assets/EnforcerMasterBundle/Items/Enforcer/Reload.wav
+- Assets/EnforcerMasterBundle/Items/Enforcer/Item.prefab
+Dependencies: []

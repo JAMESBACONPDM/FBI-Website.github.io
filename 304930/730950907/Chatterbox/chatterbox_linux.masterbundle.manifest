@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 2200555707
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b67ccc79b2bcbcd7dfd8db6162b6a8b7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_30/Magazine.prefab
+- Assets/ChatterboxMasterBundle/Items/Chatterbox/Hammer.wav
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_Folded/Item.prefab
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_Folded/Hammer.wav
+- Assets/ChatterboxMasterBundle/Items/Chatterbox/Shoot.wav
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_Suppressor/Shoot.mp3
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_Folded/Reload.wav
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_Folded/Shoot.wav
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_Folded/Animations.prefab
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_30/Item.prefab
+- Assets/ChatterboxMasterBundle/Items/Chatterbox/Item.prefab
+- Assets/ChatterboxMasterBundle/Items/Chatterbox/Reload.wav
+- Assets/ChatterboxMasterBundle/Items/Chatterbox/Animations.prefab
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_Suppressor/Item.prefab
+- Assets/ChatterboxMasterBundle/Items/Chatterbox_Suppressor/Barrel.prefab
+Dependencies: []

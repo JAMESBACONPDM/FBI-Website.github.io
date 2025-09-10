@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 526677752
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5e0d61528d699de1e6e8ef31a05ab66e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 19770116eb7c86add569afbf2ddc2b42
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CryptidMasterBundle/Items/Cryptid/Animations.prefab
+- Assets/CryptidMasterBundle/Items/Cryptid/Item.prefab
+- Assets/CryptidMasterBundle/Items/Cryptid/Shoot.mp3
+- Assets/CryptidMasterBundle/Items/Cryptid/Hammer.wav
+- Assets/CryptidMasterBundle/Items/Cryptid/Reload.wav
+Dependencies: []

@@ -1,0 +1,97 @@
+ManifestFileVersion: 0
+CRC: 2569534381
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1d4e2aaf000ac56ded8ecbe33c183b22
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fdfe027632285b989b92837e9e1081d7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/XtremeAmmoMasterBundle/Items/Slugs_8_5_Loop/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Slugs_8_2_Loop/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Bluntforce2/Animations.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Determinator2/Metallic_Base.png
+- Assets/XtremeAmmoMasterBundle/Items/Masterkey2/Albedo_Base.png
+- Assets/XtremeAmmoMasterBundle/Items/Shells_8_5_Loop/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Shells_20/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Determinator2/Reload.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Sawed_Off2/Reload.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Slugs_8_5_Loop/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Slugs_8_2_Loop/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Bluntforce2/Albedo_Base.png
+- Assets/XtremeAmmoMasterBundle/Items/Masterkey2/Reload.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Bluntforce2/Metallic_Base.png
+- Assets/XtremeAmmoMasterBundle/Items/Bluntforce2/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Quadbarrel2/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Determinator2/Albedo_Base.png
+- Assets/XtremeAmmoMasterBundle/Items/Henry_5_Loop/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Masterkey2/Metallic_Base.png
+- Assets/XtremeAmmoMasterBundle/Items/Determinator2/Animations.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Slugs_20/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Shells_8_5_Loop/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Shells_8_2_Loop/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Sawed_Off2/Shoot.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Slugs_8_Loop/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Sawed_Off2/Animations.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Henry_5_Loop/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Vonya2/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Masterkey2/Animations.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Bluntforce2/Hammer.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Quadbarrel2/Shoot.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Vonya2/Animations.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Quadbarrel2/Animations.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Sawed_Off2/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Vonya2/Albedo_Base.png
+- Assets/XtremeAmmoMasterBundle/Items/Reaper_20/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Slugs_8_Loop/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Shells_8_Loop/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Bluntforce2/Reload.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Determinator2/Shoot.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Shells_8_2_Loop/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Peacekeeper_6_Loop/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Shells_8_Loop/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Civilian_20/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Peacekeeper_6_Loop/Magazine.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Vonya2/Reload.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Reaper_20/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Quadbarrel2/Reload.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Bluntforce2/Shoot.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Determinator2/Item.prefab
+- Assets/XtremeAmmoMasterBundle/Items/Determinator2/Hammer.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Masterkey2/Shoot.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Vonya2/Hammer.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Vonya2/Shoot.mp3
+- Assets/XtremeAmmoMasterBundle/Items/Vonya2/Metallic_Base.png
+- Assets/XtremeAmmoMasterBundle/Items/Masterkey2/Item.prefab
+Dependencies: []

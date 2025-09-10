@@ -1,0 +1,349 @@
+ManifestFileVersion: 0
+CRC: 686157346
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f850ccda6a51ac4cc8540e729a72eaa8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af606e17a32c6b60bde29b633e20e052
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 146
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Orange/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Red/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Yellow/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_White/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Purple/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Green/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Hummer/Siren.wav
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Orange/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Green/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Blue/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Purple/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Blue/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Polizia_VW/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Yellow/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Flatbed/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Green/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cruiser/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Green/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Green/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Green/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Orange/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_White/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Blue/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Blue/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Black/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Purple/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Orange/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_Prison/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_White/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Blue/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Red/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_White/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Short/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Red/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Purple/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Orange/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Green/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Red/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Red/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Purple/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Red/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Smart_Car/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Black/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_White/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Orange/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Blue/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Purple/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bank_Truck/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Blue/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Orange/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cherry_Picker/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Orange/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Blue/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Yellow/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Yellow/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Flatbed/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Black/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_White/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Yellow/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Black/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Purple/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Green/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cruiser/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Black/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Red/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Ambulance_New/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Black/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_White/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Pizza_Car/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cooper/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Purple/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Red/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Black/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_White/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_White/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cruiser/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Red/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Blue/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Blue/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Black/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Orange/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Blue/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_White/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Blue/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Medium/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_White/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Flatbed/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cherry_Picker/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Yellow/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cooper/Siren.wav
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Red/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Flatbed/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Black/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Blue/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Yellow/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Black/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_White/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Red/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Yellow/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Yellow/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_White/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Purple/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Green/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Green/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Polizia_VW/Siren.wav
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Black/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Short/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_White/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Green/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_White/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Pizza_Van/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Supra/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Polizia_VW/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cooper/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Yellow/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_White/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Yellow/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cooper/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Blue/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Orange/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_White/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_Prison/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Hummer/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Yellow/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Orange/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Black/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Black/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cherry_Picker/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_White/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Yellow/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Blue/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Orange/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Orange/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Yellow/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Red/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Green/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Red/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_White/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Black/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Green/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Orange/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_Prison/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Purple/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_White/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Ambulance_New/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Purple/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Yellow/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Polizia_VW/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Blue/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Purple/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Purple/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Yellow/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Blue/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Medium/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Green/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cruiser/Siren.wav
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Black/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Green/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Red/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Pizza_Van/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Green/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cruiser/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Long/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Green/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Red/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Black/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Blue/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bank_Truck/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Hummer/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Orange/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Orange/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Green/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Purple/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_White/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Orange/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_White/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Purple/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Green/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Orange/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Supra/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Cooper/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Green/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Hummer/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Pizza_Van/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Green/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Orange/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Red/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Black/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Purple/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_White/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Yellow/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Yellow/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Purple/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Red/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Green/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Smart_Car/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Green/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Blue/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Blue/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Black/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Blue/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Yellow/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Ambulance_New/Siren.wav
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Supra/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Green/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Backhoe/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Pizza_Van/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Polizia_VW/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Green/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_White/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Green/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Purple/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Pizza_Car/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Yellow/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Orange/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Purple/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Red/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Orange/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Orange/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_White/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Orange/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Purple/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Yellow/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Purple/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Purple/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Red/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_White/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Backhoe/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Backhoe/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Blue/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cherry_Picker/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Ambulance_New/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Red/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Red/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Purple/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Pizza_Car/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Black/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Red/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Engine_Medium/Engine_Medium.ogg
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Red/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Yellow/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Pizza_Car/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Yellow/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Purple/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Short/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Green/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_White/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Medium/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Black/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Purple/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Backhoe/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Black/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Supra/Siren.wav
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Black/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Smart_Car/Siren.wav
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Yellow/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Black/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Orange/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Blue/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Purple/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Red/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Black/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Red/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Long/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Red/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Ambulance_New/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Long/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_Prison/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Orange/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Black/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bank_Truck/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Yellow/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Yellow/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Yellow/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Black/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_White/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Orange/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Smart_Car/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Green/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Blue/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Short/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Volkswagen_Blue/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Red/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Hummer/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Medium/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bank_Truck/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Purple/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Blue/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Blue/Clip.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cruiser_Black/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Supra_Yellow/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Smart_Car/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Smart_Car_Red/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Hummer_Blue/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Cooper_Purple/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Bus_School_Long/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Police_Supra/Horn.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Black/Ignition.mp3
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Orange/Vehicle.prefab
+- Assets/VanillaVehiclesMasterBundle/Vehicles/Audi_Orange/Horn.mp3
+Dependencies: []

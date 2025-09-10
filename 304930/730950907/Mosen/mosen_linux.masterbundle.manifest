@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 4014685760
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 679a117e620ebf008bb90c9c7d1908ec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7d60bae6fcbc820f96724038d2a7503
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/MosenMasterBundle/Items/Mosen/Hammer.mp3
+- Assets/MosenMasterBundle/Items/Obrez/Animations.prefab
+- Assets/MosenMasterBundle/Items/Mosen/Shoot.mp3
+- Assets/MosenMasterBundle/Items/Mosen/Animations.prefab
+- Assets/MosenMasterBundle/Items/4x_Scope/Sight.prefab
+- Assets/MosenMasterBundle/Items/Mosen_5/Magazine.prefab
+- Assets/MosenMasterBundle/Items/Mosen/Reload.mp3
+- Assets/MosenMasterBundle/Items/Obrez/Hammer.mp3
+- Assets/MosenMasterBundle/Items/Mosen/Item.prefab
+- Assets/MosenMasterBundle/Items/4x_Scope/Item.prefab
+- Assets/MosenMasterBundle/Items/Mosen_5/Item.prefab
+- Assets/MosenMasterBundle/Items/Obrez/Item.prefab
+- Assets/MosenMasterBundle/Items/Obrez/Reload.mp3
+- Assets/MosenMasterBundle/Items/Obrez/Shoot.mp3
+Dependencies: []

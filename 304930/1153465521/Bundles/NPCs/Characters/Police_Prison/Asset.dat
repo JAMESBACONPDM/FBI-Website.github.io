@@ -1,0 +1,17 @@
+GUID 0dff147355c848b09308442ed1405738
+Type NPC
+ID 6100
+
+Shirt 223
+Pants 224
+Hat 3098
+
+Face 5
+Hair 19
+Beard 2
+Color_Skin #bea582
+Color_Hair #483329
+
+Secondary 1023
+
+Dialogue 6101

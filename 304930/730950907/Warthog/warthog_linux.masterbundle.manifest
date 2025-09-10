@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 1111712422
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1df839bb28f936a7345f6f89aeefa39
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/WarthogMasterBundle/Items/Warthog/Animations.prefab
+- Assets/WarthogMasterBundle/Items/Warthog_Iron_Sights/Sight.prefab
+- Assets/WarthogMasterBundle/Items/Warthog/Hammer.mp3
+- Assets/WarthogMasterBundle/Items/Warthog_50/Magazine.prefab
+- Assets/WarthogMasterBundle/Items/Warthog_50/Item.prefab
+- Assets/WarthogMasterBundle/Items/Warthog_Iron_Sights/Item.prefab
+- Assets/WarthogMasterBundle/Items/Warthog/Reload.mp3
+- Assets/WarthogMasterBundle/Items/Warthog/Item.prefab
+- Assets/WarthogMasterBundle/Items/Warthog/Shoot.mp3
+Dependencies: []

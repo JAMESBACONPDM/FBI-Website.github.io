@@ -1,0 +1,17 @@
+GUID d6eaa6330ed2410592ba2569c4e4ac38
+Type NPC
+ID 5030
+
+Shirt 182
+Pants 209
+Hat 425
+
+Beard 8
+Face 5
+Hair 1
+Color_Skin #AA916E
+Color_Hair #464646
+
+Primary 41602
+
+Dialogue 5031

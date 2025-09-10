@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 4025096605
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6aba205bc6bd46a7f4e55ee3064a0c36
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 193ed929b0049206659db3fc6baf3dff
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/WindrunnerMasterBundle/Items/Windrunner_5/Magazine.prefab
+- Assets/WindrunnerMasterBundle/Items/Windrunner/Hammer.wav
+- Assets/WindrunnerMasterBundle/Items/Windrunner/Shoot.wav
+- Assets/WindrunnerMasterBundle/Items/Windrunner/Reload.wav
+- Assets/WindrunnerMasterBundle/Items/Windrunner_5/Item.prefab
+- Assets/WindrunnerMasterBundle/Items/Windrunner/Item.prefab
+- Assets/WindrunnerMasterBundle/Items/Windrunner/Animations.prefab
+- Assets/WindrunnerMasterBundle/Items/Windrunner/Animation_Windrunner.blend
+Dependencies: []

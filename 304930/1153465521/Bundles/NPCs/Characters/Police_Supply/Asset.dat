@@ -1,0 +1,16 @@
+GUID 5c3dfadd126940cdbea3a7cdb24b9763
+Type NPC
+ID 5210
+
+Shirt 223
+Pants 224
+Hat 1502
+
+Face 5
+Hair 19
+Color_Skin #bea582
+Color_Hair #191919
+
+Secondary 1021
+
+Dialogue 5211

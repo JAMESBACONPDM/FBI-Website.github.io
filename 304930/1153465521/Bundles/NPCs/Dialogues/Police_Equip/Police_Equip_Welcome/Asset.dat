@@ -1,0 +1,120 @@
+GUID c1369c4168934970b99687a814377006
+Type Dialogue
+ID 6001
+
+Messages 1
+Message_0_Pages 1
+
+Responses 15
+
+// Shop Rang 1
+Response_0_Vendor 6003
+Response_0_Conditions 1
+Response_0_Condition_0_Type Flag_Short
+Response_0_Condition_0_ID 9802
+Response_0_Condition_0_Value 30
+Response_0_Condition_0_Logic Equal
+
+// Shop Rang 2
+Response_1_Vendor 6004
+Response_1_Conditions 1
+Response_1_Condition_0_Type Flag_Short
+Response_1_Condition_0_ID 9802
+Response_1_Condition_0_Value 31
+Response_1_Condition_0_Logic Equal
+
+// Shop Rang 3
+Response_2_Vendor 6005
+Response_2_Conditions 1
+Response_2_Condition_0_Type Flag_Short
+Response_2_Condition_0_ID 9802
+Response_2_Condition_0_Value 32
+Response_2_Condition_0_Logic Equal
+
+// Shop Sheriff
+Response_3_Vendor 6006
+Response_3_Conditions 1
+Response_3_Condition_0_Type Flag_Short
+Response_3_Condition_0_ID 9802
+Response_3_Condition_0_Value 33
+Response_3_Condition_0_Logic Equal
+
+// Shop FBI
+Response_4_Vendor 6013
+Response_4_Conditions 1
+Response_4_Condition_0_Type Flag_Short
+Response_4_Condition_0_ID 9802
+Response_4_Condition_0_Value 34
+Response_4_Condition_0_Logic Equal
+
+// Shop SWAT
+Response_5_Vendor 6007
+Response_5_Conditions 1
+Response_5_Condition_0_Type Flag_Short
+Response_5_Condition_0_ID 9802
+Response_5_Condition_0_Value 35
+Response_5_Condition_0_Logic Equal
+
+// Shop Chief
+Response_6_Vendor 6008
+Response_6_Conditions 1
+Response_6_Condition_0_Type Flag_Short
+Response_6_Condition_0_ID 9802
+Response_6_Condition_0_Value 36
+Response_6_Condition_0_Logic Equal
+
+// Shop Rang 1 Chief
+Response_7_Vendor 6003
+Response_7_Conditions 1
+Response_7_Condition_0_Type Flag_Short
+Response_7_Condition_0_ID 9802
+Response_7_Condition_0_Value 36
+Response_7_Condition_0_Logic Equal
+
+// Shop Rang 2 Chief
+Response_8_Vendor 6004
+Response_8_Conditions 1
+Response_8_Condition_0_Type Flag_Short
+Response_8_Condition_0_ID 9802
+Response_8_Condition_0_Value 36
+Response_8_Condition_0_Logic Equal
+
+// Shop Rang 3 Chief
+Response_9_Vendor 6005
+Response_9_Conditions 1
+Response_9_Condition_0_Type Flag_Short
+Response_9_Condition_0_ID 9802
+Response_9_Condition_0_Value 36
+Response_9_Condition_0_Logic Equal
+
+// Shop Sheriff Chief
+Response_10_Vendor 6006
+Response_10_Conditions 1
+Response_10_Condition_0_Type Flag_Short
+Response_10_Condition_0_ID 9802
+Response_10_Condition_0_Value 36
+Response_10_Condition_0_Logic Equal
+
+// Shop FBI Chief
+Response_11_Vendor 6013
+Response_11_Conditions 1
+Response_11_Condition_0_Type Flag_Short
+Response_11_Condition_0_ID 9802
+Response_11_Condition_0_Value 36
+Response_11_Condition_0_Logic Equal
+
+// Shop SWAT Chief
+Response_12_Vendor 6007
+Response_12_Conditions 1
+Response_12_Condition_0_Type Flag_Short
+Response_12_Condition_0_ID 9802
+Response_12_Condition_0_Value 36
+Response_12_Condition_0_Logic Equal
+
+// Shop General
+Response_13_Vendor 6002
+Response_13_Conditions 1
+Response_13_Condition_0_Type Flag_Short
+Response_13_Condition_0_ID 9802
+Response_13_Condition_0_Value 30
+Response_13_Condition_0_Logic Greater_Than_Or_Equal_To

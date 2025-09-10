@@ -1,0 +1,32 @@
+GUID 4d8b2001482e47f48729f9b8080c6934
+Type Spawn
+ID 55004
+Roots 4
+Root_0_Spawn_ID 653
+Root_0_Weight 10
+Root_1_Spawn_ID 777
+Root_1_Weight 10
+Root_2_Spawn_ID 341
+Root_2_Weight 2
+Root_3_Spawn_ID 121
+Root_3_Weight 2
+
+Tables 4
+Table_0_Asset_ID 55015
+Table_0_Weight 10
+Table_1_Asset_ID 55022
+Table_1_Weight 10
+Table_2_Asset_ID 55028
+Table_2_Weight 10
+Table_3_Asset_ID 55043
+Table_3_Weight 10
+Table_4_Asset_ID 55044
+Table_4_Weight 5
+Table_5_Asset_ID 55076
+Table_5_Weight 10
+Table_6_Asset_ID 55068
+Table_6_Weight 10
+Table_7_Asset_ID 55071
+Table_7_Weight 10
+
+Exclude_From_Master_Bundle

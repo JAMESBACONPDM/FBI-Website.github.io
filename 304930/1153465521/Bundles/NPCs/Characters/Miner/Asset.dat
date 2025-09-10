@@ -1,0 +1,17 @@
+GUID d9fb508c528a41f0a78c63f3b1984d2c
+Type NPC
+ID 5290
+
+Shirt 154
+Pants 213
+Hat 428
+
+Beard 8
+Face 5
+Hair 3
+Color_Skin #bea582
+Color_Hair #8b5742
+
+Primary 16
+
+Dialogue 5291

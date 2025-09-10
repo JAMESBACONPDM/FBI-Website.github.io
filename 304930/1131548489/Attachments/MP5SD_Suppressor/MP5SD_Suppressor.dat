@@ -1,0 +1,34 @@
+GUID 96d251727165434990f779c60f902f0e
+Type Barrel
+Rarity Epic
+ID 55039
+
+Size_X 2
+Size_Y 1
+Size_Z 0.125
+
+Calibers 1
+Caliber_0 55035
+
+Silenced 
+Volume 0.7
+Durability 0
+
+Quality_Min 80
+Quality_Max 100
+
+Ballistic_Drop 1.1
+
+Paintable
+
+Blueprints 1
+Blueprint_0_Type Repair
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 67
+Blueprint_0_Supply_0_Amount 4
+Blueprint_0_Tool 76
+Blueprint_0_Level 2
+Blueprint_0_Skill Repair
+Blueprint_0_Build 27
+
+Exclude_From_Master_Bundle

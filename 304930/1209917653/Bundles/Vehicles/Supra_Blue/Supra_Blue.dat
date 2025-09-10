@@ -1,0 +1,28 @@
+GUID 96633b41add5419ca0d39fd4bd03cae6
+Type Vehicle
+Rarity Epic
+ID 23850
+
+Speed_Min -6
+Speed_Max 23
+
+Steer_Min 18
+Steer_Max 32
+
+Brake 24
+
+Fuel_Min 200
+Fuel_Max 400
+Fuel 1750
+
+Health_Min 400
+Health_Max 500
+Health 650
+
+Traction
+
+Explosion 20
+
+Bypass_ID_Limit
+
+Asset_Bundle_Version 2

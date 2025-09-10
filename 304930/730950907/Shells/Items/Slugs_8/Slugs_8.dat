@@ -1,0 +1,59 @@
+GUID d2b68fbb582a48cbaa0bbbc0669399f1
+Type Magazine
+Rarity Legendary
+ID 27678
+
+Size_X 1
+Size_Y 1
+Size_Z 0.25
+
+Amount 8
+Count_Min 2
+Count_Max 8
+
+Calibers 1
+Caliber_0 8
+
+Ballistic_Damage_Multiplier 3.5
+Ballistic_Drop 3
+Tracer 48
+Spread 0.25
+Recoil_X 1.333
+Recoil_y 1.333
+
+Range 3
+Player_Damage 0
+Zombie_Damage 0
+Animal_Damage 0
+Barricade_Damage 100
+Structure_Damage 100
+Vehicle_Damage 200
+Resource_Damage 100
+Object_Damage 100
+Explosive
+
+Player_Damage_Bones Always
+Invulnerable
+
+Blueprints 4
+Blueprint_0_Type Ammo
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 27678
+Blueprint_0_Build 30
+Blueprint_1_Type Ammo
+Blueprint_1_Supplies 1
+Blueprint_1_Supply_0_ID 27676
+Blueprint_1_Build 30
+Blueprint_2_Type Ammo
+Blueprint_2_Supplies 1
+Blueprint_2_Supply_0_ID 27677
+Blueprint_2_Build 30
+Blueprint_3_Type Ammo
+Blueprint_3_Supplies 1
+Blueprint_3_Supply_0_ID 27775
+Blueprint_3_Build 30
+
+
+
+Delete_Empty
+

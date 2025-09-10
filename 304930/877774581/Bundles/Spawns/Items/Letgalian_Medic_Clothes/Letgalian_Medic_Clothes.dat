@@ -1,0 +1,18 @@
+GUID c5d88972dcd54b73a440d400fc7adba3
+Type Spawn
+ID 17205
+
+Roots 1
+Root_0_Spawn_ID 131
+Root_0_Weight 10
+
+Tables 3
+// Stethoscope
+Table_0_Asset_ID 17205
+Table_0_Weight 10
+// Paramedic Top
+Table_1_Asset_ID 17207
+Table_1_Weight 10
+// Paramedic Bottom
+Table_2_Asset_ID 17208
+Table_2_Weight 10

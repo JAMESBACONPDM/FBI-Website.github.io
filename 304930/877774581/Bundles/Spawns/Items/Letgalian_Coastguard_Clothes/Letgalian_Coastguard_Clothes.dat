@@ -1,0 +1,15 @@
+GUID 402c02947a5c46e58a9fc0fea1f2633f
+Type Spawn
+ID 17210
+
+Roots 1
+Root_0_Spawn_ID 800
+Root_0_Weight 10
+
+Tables 2
+// Coastguard Vest
+Table_0_Asset_ID 17221
+Table_0_Weight 10
+// Coastguard Helmet
+Table_1_Asset_ID 17222
+Table_1_Weight 10

@@ -1,0 +1,17 @@
+GUID 89c79c0021b146338cc5dda693378e29
+Type NPC
+ID 5160
+
+Shirt 311
+Pants 312
+Vest 17205
+Glasses 727
+
+Face 24
+Hair 7
+Color_Skin #bea582
+Color_Hair #191919
+
+Secondary 389
+
+Dialogue 5161

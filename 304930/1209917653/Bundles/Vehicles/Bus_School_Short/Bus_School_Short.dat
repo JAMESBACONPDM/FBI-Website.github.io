@@ -1,0 +1,29 @@
+GUID 5d21a3fb35d948169fd6b8239f0f25fc
+Type Vehicle
+Rarity Uncommon
+ID 23804
+
+Speed_Min -6
+Speed_Max 14
+
+Steer_Min 14
+Steer_Max 28
+
+Brake 24
+
+Fuel_Min 300
+Fuel_Max 500
+Fuel 2250
+
+Health_Min 400
+Health_Max 500
+Health 700
+
+Traction
+
+Cam_Follow_Distance 7.5
+
+Trunk_Storage_X 5
+Trunk_Storage_Y 4
+
+Explosion 20

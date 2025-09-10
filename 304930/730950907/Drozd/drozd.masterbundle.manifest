@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 4152738108
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 10a1087c97e9826ed8ef886c047b46f3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/DrozdMasterBundle/Items/Shells_4/Magazine.prefab
+- Assets/DrozdMasterBundle/Items/Shells_4/Item.prefab
+- Assets/DrozdMasterBundle/Items/Drozd/Hammer.mp3
+- Assets/DrozdMasterBundle/Items/Drozd/Animations.prefab
+- Assets/DrozdMasterBundle/Items/Drozd/Item.prefab
+- Assets/DrozdMasterBundle/Items/Drozd/Reload.mp3
+- Assets/DrozdMasterBundle/Items/Drozd/Shoot.mp3
+Dependencies: []

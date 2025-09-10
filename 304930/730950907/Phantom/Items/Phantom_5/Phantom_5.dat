@@ -1,0 +1,35 @@
+GUID 9dc376d9eff942a8a60cb45b2ba2ad2e
+
+Type Magazine
+Rarity Legendary
+ID 27667
+
+Size_X 1
+Size_Y 1
+Size_Z 0.15
+
+Amount 5
+Count_Min 2
+Count_Max 5
+
+Calibers 1
+Caliber_0 27467
+
+Tracer 51
+
+Speed 1.25 
+
+Blueprints 3
+Blueprint_0_Type Ammo
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 1192
+Blueprint_0_Build 30
+Blueprint_1_Type Ammo
+Blueprint_1_Supplies 1
+Blueprint_1_Supply_0_ID 27667
+Blueprint_1_Build 30
+Blueprint_2_Type Ammo
+Blueprint_2_Supplies 1
+Blueprint_2_Supply_0_ID 27657
+Blueprint_2_Build 30
+

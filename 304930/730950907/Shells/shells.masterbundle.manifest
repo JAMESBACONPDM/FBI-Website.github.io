@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 1366360959
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fab7b9927b682fd97383a39850d15060
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3021639e3a708834b6a82d43eb27fb02
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/ShellsMasterBundle/Items/Vonya_8/Magazine.prefab
+- Assets/ShellsMasterBundle/Items/Shells_8_2/Item.prefab
+- Assets/ShellsMasterBundle/Items/Vonya_8/Item.prefab
+- Assets/ShellsMasterBundle/Items/Shells_8_5/Magazine.prefab
+- Assets/ShellsMasterBundle/Items/Shells_8_2/Magazine.prefab
+- Assets/ShellsMasterBundle/Items/Slugs_8/Magazine.prefab
+- Assets/ShellsMasterBundle/Items/Slugs_8_2/Magazine.prefab
+- Assets/ShellsMasterBundle/Items/Shells_8x/Magazine.prefab
+- Assets/ShellsMasterBundle/Items/Slugs_8_2/Item.prefab
+- Assets/ShellsMasterBundle/Items/Vonya_Slugs/Item.prefab
+- Assets/ShellsMasterBundle/Items/Vonya_Slugs/Magazine.prefab
+- Assets/ShellsMasterBundle/Items/Slugs_8_5/Magazine.prefab
+- Assets/ShellsMasterBundle/Items/Slugs_8/Item.prefab
+- Assets/ShellsMasterBundle/Items/Shells_8_5/Item.prefab
+- Assets/ShellsMasterBundle/Items/Slugs_8_5/Item.prefab
+- Assets/ShellsMasterBundle/Items/Shells_8x/Item.prefab
+Dependencies: []

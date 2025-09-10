@@ -1,0 +1,13 @@
+GUID 18697040ba1f4134bed303196d90f2b3
+Type NPC
+ID 5050
+
+Shirt 165
+Pants 212
+
+Face 5
+Beard 9
+Color_Skin #bea582
+Color_Hair #191919
+
+Dialogue 5051

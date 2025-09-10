@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 376306614
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b28278ce115f109e71b73e1ff68a58ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4696e5ab4555d54514e3decc40c3f198
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/ReconMasterBundle/Items/Recon/Item.prefab
+- Assets/ReconMasterBundle/Items/Recon/Reload.mp3
+- Assets/ReconMasterBundle/Items/Recon/Animations.prefab
+- Assets/ReconMasterBundle/Items/Recon/Hammer.mp3
+- Assets/ReconMasterBundle/Items/Recon/Shoot.wav
+- Assets/ReconMasterBundle/Items/Recon_5/Magazine.prefab
+- Assets/ReconMasterBundle/Items/Recon_5/Item.prefab
+Dependencies: []

@@ -1,0 +1,11 @@
+GUID 2a0893f4dde343c68fc2262fa7e2ca20
+Type Sight
+ID 55008
+
+Size_X 1
+Size_Y 1
+Size_Z 0.1
+
+Paintable
+
+Exclude_From_Master_Bundle

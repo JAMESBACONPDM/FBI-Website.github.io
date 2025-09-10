@@ -1,0 +1,98 @@
+GUID 20b0abfc4e3e46b698ede8bbb6f9f30c
+Type Gun
+Rarity Epic
+Useable Gun
+Slot Any
+ID 27478
+
+Size_X 3
+Size_Y 2
+Size_Z 0.4
+Size2_Z 0.8
+
+Magazine 27777
+
+Hook_Sight
+Hook_Tactical
+Hook_Barrel
+
+Ammo_Min 1
+Ammo_Max 5
+
+Safety
+Semi
+
+Magazine_Calibers 2
+Magazine_Caliber_0 5
+Magazine_Caliber_1 27477
+
+Attachment_Calibers 1
+Attachment_Caliber_0 9
+
+Range 150
+Firerate 25
+Action Bolt
+
+Player_Damage 80
+Player_Leg_Multiplier 0.6
+Player_Arm_Multiplier 0.6
+Player_Spine_Multiplier 0.6
+Player_Skull_Multiplier 1.5
+
+Zombie_Damage 99
+Zombie_Leg_Multiplier 0.3
+Zombie_Arm_Multiplier 0.3
+Zombie_Spine_Multiplier 0.6
+Zombie_Skull_Multiplier 1.5
+
+Animal_Damage 99
+Animal_Leg_Multiplier 0.6
+Animal_Spine_Multiplier 0.8
+Animal_Skull_Multiplier 1.5
+
+Barricade_Damage 25
+Structure_Damage 20
+Vehicle_Damage 30
+Resource_Damage 20
+Object_Damage 20
+
+Durability 0.1
+
+Spread_Aim 0.05
+Spread_Hip 0.5
+
+Recoil_Aim 0.5
+Recoil_Min_X -8
+Recoil_Min_Y 25
+Recoil_Max_X 8
+Recoil_Max_Y 35
+
+Recover_X 0.3
+Recover_Y 0.3
+
+Shake_Min_X -0.005
+Shake_Min_Y 0.005
+Shake_Min_Z -0.05
+Shake_Max_X 0.005
+Shake_Max_Y -0.005
+Shake_Max_Z -0.1
+
+Muzzle 4
+
+Blueprints 3
+Blueprint_0_Type Repair
+Blueprint_0_Supply_0_ID 67
+Blueprint_0_Supply_0_Amount 2
+Blueprint_0_Build 27
+Blueprint_1_Type Tool
+Blueprint_1_Supplies 1
+Blueprint_1_Supply_0_ID 27478
+Blueprint_1_Product 67
+Blueprint_1_Products 2
+Blueprint_1_Build 27
+Blueprint_2_Type Tool
+Blueprint_2_Supplies 1
+Blueprint_2_Supply_0_ID 27477
+Blueprint_2_Tool 141
+Blueprint_2_State_Transfer
+Blueprint_2_Build 27

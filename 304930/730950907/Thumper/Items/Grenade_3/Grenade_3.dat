@@ -1,0 +1,26 @@
+GUID e81620a85c96408db770e29d85de1acd
+Type Magazine
+Rarity Legendary
+ID 27776
+
+Size_X 2
+Size_Y 1
+Size_Z 0.075
+
+Amount 3
+Count_Min 1
+Count_Max 3
+
+Calibers 2
+Caliber_0 27655
+Caliber_1 27476
+
+Blueprints 2
+Blueprint_0_Type Ammo
+Blueprint_0_Supplies 1
+Blueprint_0_Supply_0_ID 27655
+Blueprint_0_Build 30
+Blueprint_1_Type Ammo
+Blueprint_1_Supplies 1
+Blueprint_1_Supply_0_ID 27776
+Blueprint_1_Build 30

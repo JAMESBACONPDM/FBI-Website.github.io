@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 2838946255
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3272a70aa497b90f5a8abc48d0b4d0d2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4696e5ab4555d54514e3decc40c3f198
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/VultureMasterBundle/Items/Vulture_Iron_Sights/Sight.prefab
+- Assets/VultureMasterBundle/Items/Vulture_Iron_Sights/Item.prefab
+- Assets/VultureMasterBundle/Items/Vulture/Shoot.wav
+- Assets/VultureMasterBundle/Items/Vulture/Item.prefab
+- Assets/VultureMasterBundle/Items/Vulture_5/Item.prefab
+- Assets/VultureMasterBundle/Items/Vulture/Animations.prefab
+- Assets/VultureMasterBundle/Items/Vulture/Reload.ogg
+- Assets/VultureMasterBundle/Items/Vulture_5/Magazine.prefab
+Dependencies: []

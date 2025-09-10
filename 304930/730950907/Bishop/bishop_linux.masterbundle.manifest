@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 1287347662
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 11c068a6bc642db061cfe6620c4a4957
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/BishopMasterBundle/Items/Bishop/Shoot.mp3
+- Assets/BishopMasterBundle/Items/Bishop_20/Item.prefab
+- Assets/BishopMasterBundle/Items/Bishop/Hammer.wav
+- Assets/BishopMasterBundle/Items/Bishop/Animations.prefab
+- Assets/BishopMasterBundle/Items/Bishop/Reload.wav
+- Assets/BishopMasterBundle/Items/Bishop_Iron_Sights/Sight.prefab
+- Assets/BishopMasterBundle/Items/Bishop/Item.prefab
+- Assets/BishopMasterBundle/Items/Bishop_20/Magazine.prefab
+- Assets/BishopMasterBundle/Items/Bishop_Iron_Sights/Item.prefab
+Dependencies: []

@@ -1,0 +1,12 @@
+GUID cafe957bc14a4174b07ed858f74bccb2
+Type Medium
+ID 30018
+
+Snowshoe
+
+Interactability Rubble
+Interactability_Reset 300
+Interactability_Health 100
+Interactability_Effect 72
+
+Asset_Bundle_Version 2

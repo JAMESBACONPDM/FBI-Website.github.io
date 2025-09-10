@@ -1,0 +1,11 @@
+GUID c6c4624b94954bb197e0d91f26e74b8b
+Type Dialogue
+ID 5271
+
+Messages 1
+Message_0_Pages 1
+
+Responses 2
+
+// Shop
+Response_0_Vendor 5272

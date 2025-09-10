@@ -1,0 +1,16 @@
+GUID 1002e71f5cad4e4dbcd174ca7131d482
+Type NPC
+ID 5040
+
+Shirt 419
+Pants 551
+Hat 1359
+Glasses 491
+Vest 1139
+
+Face 5
+Hair 4
+Color_Skin #bea582
+Color_Hair #5F4C0B
+
+Dialogue 5041

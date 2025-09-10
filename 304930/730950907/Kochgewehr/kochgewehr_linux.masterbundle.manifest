@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 150541448
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 82342c3a0f1de8ec7117ff3973d0845a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a25d1b3118d1bb9ec346dc5c2fb8a9ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr/Animations.prefab
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr_Iron_Sights/Item.prefab
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr/Item.prefab
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr_20/Magazine.prefab
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr_20/Item.prefab
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr_Iron_Sights/Sight.prefab
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr/Shoot.wav
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr/Reload.mp3
+- Assets/KochgewehrMasterBundle/Items/Kochgewehr/Hammer.wav
+Dependencies: []

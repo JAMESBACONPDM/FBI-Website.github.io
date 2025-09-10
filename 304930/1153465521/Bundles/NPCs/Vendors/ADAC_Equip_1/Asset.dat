@@ -1,0 +1,33 @@
+GUID 020c94ae62164ccdb22e230404e1b7e0
+Type Vendor
+ID 30012
+
+Disable_Sorting
+
+Selling 12
+Selling_0_ID 1451
+Selling_0_Cost 30
+Selling_1_ID 1450
+Selling_1_Cost 30
+Selling_2_ID 1440
+Selling_2_Cost 200
+Selling_3_ID 76
+Selling_3_Cost 40
+Selling_4_ID 277
+Selling_4_Cost 100
+Selling_5_ID 276
+Selling_5_Cost 20
+Selling_6_ID 1445
+Selling_6_Cost 20
+Selling_7_ID 1446
+Selling_7_Cost 10
+Selling_8_ID 432
+Selling_8_Cost 25
+Selling_9_ID 405
+Selling_9_Cost 30
+Selling_10_ID 406
+Selling_10_Cost 20
+Selling_11_Type Vehicle
+Selling_11_ID 805
+Selling_11_Spawnpoint ADAC
+Selling_11_Cost 3000

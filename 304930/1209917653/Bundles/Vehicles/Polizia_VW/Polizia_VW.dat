@@ -1,0 +1,27 @@
+GUID d621530f56f14756a67c3d733fc50006
+Type Vehicle
+Rarity Uncommon
+ID 23862
+
+Speed_Min -5
+Speed_Max 15
+
+Steer_Min 12
+Steer_Max 24
+
+Brake 35
+
+Fuel_Min 200
+Fuel_Max 400
+Fuel 1500
+
+Health_Min 450
+Health_Max 550
+Health 650
+
+Traction
+
+Trunk_Storage_X 5
+Trunk_Storage_Y 4
+
+Explosion 20

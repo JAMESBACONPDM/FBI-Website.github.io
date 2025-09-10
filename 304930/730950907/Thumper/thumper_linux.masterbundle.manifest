@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 2338775330
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5842a60f47a82cb95c4890c7e3cffb92
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2a19a4a883fef4396704403e336409cf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/ThumperMasterBundle/Items/Thumper/Shoot.wav
+- Assets/ThumperMasterBundle/Items/Thumper/Hammer.wav
+- Assets/ThumperMasterBundle/Items/Thumper/Reload.wav
+- Assets/ThumperMasterBundle/Items/Thumper/Animations.prefab
+- Assets/ThumperMasterBundle/Items/Thumper/Projectile.prefab
+- Assets/ThumperMasterBundle/Items/Thumper/Animations.fbx
+- Assets/ThumperMasterBundle/Items/Grenade_3/Magazine.prefab
+- Assets/ThumperMasterBundle/Items/Thumper/Item.prefab
+- Assets/ThumperMasterBundle/Items/Grenade_3/Item.prefab
+Dependencies: []

@@ -1,0 +1,15 @@
+GUID 25cccc3535844f89a2966f16ce15fcdb
+Type Spawn
+ID 17203
+
+Roots 1
+Root_0_Spawn_ID 99
+Root_0_Weight 10
+
+Tables 2
+// Riot Vest
+Table_0_Asset_ID 17203
+Table_0_Weight 10
+// SWAT Vest
+Table_1_Asset_ID 17226
+Table_1_Weight 10
